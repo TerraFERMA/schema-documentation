@@ -1,0 +1,145 @@
+[copyright]: # (Copyright (C) 2013 Columbia University in the City of New York and others.)
+[copyright]: # ( )
+[copyright]: # (Please see the AUTHORS file in the main source directory for a full list)
+[copyright]: # (of contributors.)
+[copyright]: # ( )
+[copyright]: # (This file is part of TerraFERMA.)
+[copyright]: # ( )
+[copyright]: # (TerraFERMA is free software: you can redistribute it and/or modify)
+[copyright]: # (it under the terms of the GNU Lesser General Public License as published by)
+[copyright]: # (the Free Software Foundation, either version 3 of the License, or)
+[copyright]: # ((at your option) any later version.)
+[copyright]: # ( )
+[copyright]: # (TerraFERMA is distributed in the hope that it will be useful,)
+[copyright]: # (but WITHOUT ANY WARRANTY; without even the implied warranty of)
+[copyright]: # (MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the)
+[copyright]: # (GNU Lesser General Public License for more details.)
+[copyright]: # ( )
+[copyright]: # (You should have received a copy of the GNU Lesser General Public License)
+[copyright]: # (along with TerraFERMA. If not, see <http://www.gnu.org/licenses/>.)
+
+[documentation home](Documentation)
+
+/ [terraferma_options](../../terraferma_options) / [geometry](../geometry) /
+
+#mesh (Mesh)
+
+MULTIPLE (1+) CHOICE 
+
+*/geometry/mesh::Mesh*
+
+Options for describing the mesh, automatically called "Mesh".  This name must be unique.
+
+* CHOICE:
+    * [source (File)](mesh__Mesh/source__File "child")
+
+        CHOICE 
+
+        */geometry/mesh::Mesh/source::File*
+
+        Choose the source of this mesh as an externally generated mesh file.
+
+    * [source (UnitInterval)](mesh__Mesh/source__UnitInterval "child")
+
+        CHOICE 
+
+        */geometry/mesh::Mesh/source::UnitInterval*
+
+        Choose the source of this mesh as an internally generated 1d interval of length 1.
+        
+        Boundary ids will be automatically assigned as:
+        
+            (left boundary) 1 ----- 2 (right boundary)
+        
+        No region ids will be assigned.   
+        
+
+    * [source (Interval)](mesh__Mesh/source__Interval "child")
+
+        CHOICE 
+
+        */geometry/mesh::Mesh/source::Interval*
+
+        Choose the source of this mesh as an internally generated 1d interval.
+        
+        Boundary ids will be automatically assigned as:
+        
+            (left boundary) 1 ----- 2 (right boundary)
+        
+        No region ids will be assigned.   
+        
+
+    * [source (UnitSquare)](mesh__Mesh/source__UnitSquare "child")
+
+        CHOICE 
+
+        */geometry/mesh::Mesh/source::UnitSquare*
+
+        Choose the source of this mesh as an internally generated 2d square of width and height 1.
+        
+        Boundary ids will be automatically assigned as:
+                                 4 (top boundary)
+                               ----- 
+            (left boundary) 1 |     | 2 (right boundary)
+                               ----- 
+                                 3 (bottom boundary)
+        
+        No region ids will be assigned.   
+        
+
+    * [source (Rectangle)](mesh__Mesh/source__Rectangle "child")
+
+        CHOICE 
+
+        */geometry/mesh::Mesh/source::Rectangle*
+
+        Choose the source of this mesh as an internally generated 2d rectangle.
+        
+        Boundary ids will be automatically assigned as:
+                                 4 (top boundary)
+                               ----- 
+            (left boundary) 1 |     | 2 (right boundary)
+                               ----- 
+                                 3 (bottom boundary)
+        
+        No region ids will be assigned.   
+        
+
+    * [source (UnitCube)](mesh__Mesh/source__UnitCube "child")
+
+        CHOICE 
+
+        */geometry/mesh::Mesh/source::UnitCube*
+
+        Choose the source of this mesh as an internally generated 3d cube of width, depth and height 1.
+        
+        Boundary ids will be automatically assigned as:
+                                  ______
+                                 /  4 (top boundary)
+                                /_____/ 2 (right boundary)
+                               |     |  | 6 (back boundary)
+            (left boundary) 1  |  5 (front boundary)
+                               |_____|/3 (bottom boundary)
+          
+        No region ids will be assigned.   
+
+    * [source (Box)](mesh__Mesh/source__Box "child")
+
+        CHOICE 
+
+        */geometry/mesh::Mesh/source::Box*
+
+        Choose the source of this mesh as an internally generated 3d box.
+        
+        Boundary ids will be automatically assigned as:
+                                  ______
+                                 /  4 (top boundary)
+                                /_____/ 2 (right boundary)
+                               |     |  | 6 (back boundary)
+            (left boundary) 1  |  5 (front boundary)
+                               |_____|/3 (bottom boundary)
+          
+        No region ids will be assigned.   
+
+[autogenerated]: # (This file was automatically generated from the schema file:/home/cwilson/repos/github/TerraFERMA/TerraFERMA/buckettools/schemas/geometry.rng.)
+
