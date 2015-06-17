@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../../terraferma_options) / [system](../../../../../../../system) / [nonlinear_solver](../../../../../../nonlinear_solver) / [type::SNES](../../../../../type__SNES) / [linear_solver](../../../../linear_solver) / [preconditioner::ksp](../../../preconditioner__ksp) / [linear_solver](../../linear_solver) / [iterative_method::gmres](../iterative_method__gmres) /
+/ [terraferma_options](../../../../../../../../terraferma_options.md) / [system](../../../../../../../system.md) / [nonlinear_solver](../../../../../../nonlinear_solver.md) / [type::SNES](../../../../../type__SNES.md) / [linear_solver](../../../../linear_solver.md) / [preconditioner::ksp](../../../preconditioner__ksp.md) / [linear_solver](../../linear_solver.md) / [iterative_method::gmres](../iterative_method__gmres.md) /
 
 #monitors
 
@@ -29,7 +29,7 @@
 Options to give extra information for each iteration of the
 the solve. Some of those may really slow down your computation!
 
-* [preconditioned_residual](monitors/preconditioned_residual "child")
+* [preconditioned_residual](monitors/preconditioned_residual.md "child")
 
     OPTIONAL 
 
@@ -38,7 +38,7 @@ the solve. Some of those may really slow down your computation!
     Prints the preconditioned residual for each iteration of the solve.
     This is the error estimation PETSc uses during the solve.
 
-* [true_residual](monitors/true_residual "child")
+* [true_residual](monitors/true_residual.md "child")
 
     OPTIONAL 
 
@@ -48,7 +48,7 @@ the solve. Some of those may really slow down your computation!
     i.e. PETSc computes the L2-norm of r=A-bx. This may mean
     PETSc has to do extra computations.
 
-* [preconditioned_residual_graph](monitors/preconditioned_residual_graph "child")
+* [preconditioned_residual_graph](monitors/preconditioned_residual_graph.md "child")
 
     OPTIONAL 
 
@@ -58,7 +58,7 @@ the solve. Some of those may really slow down your computation!
     during the solve. This option only works for systems where PETSc
     has been linked with the X library.
 
-* [test_null_space](monitors/test_null_space "child")
+* [test_null_space](monitors/test_null_space.md "child")
 
     OPTIONAL 
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [nonlinear_solver](../../../../nonlinear_solver) / [type::Picard](../../../type__Picard) / [linear_solver](../../linear_solver) / [preconditioner::bjacobi](../preconditioner__bjacobi) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [nonlinear_solver](../../../../nonlinear_solver.md) / [type::Picard](../../../type__Picard.md) / [linear_solver](../../linear_solver.md) / [preconditioner::bjacobi](../preconditioner__bjacobi.md) /
 
 #preconditioner (gamg)
 
@@ -32,7 +32,7 @@ The Geometric-Algrbraic MultiGrid Method
 
 NOTE: Only available with petsc > 3.2.
 
-* [near_null_space](preconditioner__gamg/near_null_space "child")
+* [near_null_space](preconditioner__gamg/near_null_space.md "child")
 
     OPTIONAL 
 

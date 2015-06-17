@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [nonlinear_solver](../../../nonlinear_solver) / [type::SNES](../../type__SNES) / [linear_solver](../linear_solver) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [nonlinear_solver](../../../nonlinear_solver.md) / [type::SNES](../../type__SNES.md) / [linear_solver](../linear_solver.md) /
 
 #preconditioner (fieldsplit)
 
@@ -31,7 +31,7 @@ CHOICE
 A fieldsplit preconditioner.
 
 * CHOICE:
-    * [composite_type (multiplicative)](preconditioner__fieldsplit/composite_type__multiplicative "child")
+    * [composite_type (multiplicative)](preconditioner__fieldsplit/composite_type__multiplicative.md "child")
 
         CHOICE 
 
@@ -39,7 +39,7 @@ A fieldsplit preconditioner.
 
         Composite type of the fieldsplit preconditioner - multiplicative - update off diagonal blocks.
 
-    * [composite_type (symmetric_multiplicative)](preconditioner__fieldsplit/composite_type__symmetric_multiplicative "child")
+    * [composite_type (symmetric_multiplicative)](preconditioner__fieldsplit/composite_type__symmetric_multiplicative.md "child")
 
         CHOICE 
 
@@ -47,7 +47,7 @@ A fieldsplit preconditioner.
 
         Composite type of the fieldsplit preconditioner - symmetric multiplicative - update off diagonal symmetric blocks.
 
-    * [composite_type (additive)](preconditioner__fieldsplit/composite_type__additive "child")
+    * [composite_type (additive)](preconditioner__fieldsplit/composite_type__additive.md "child")
 
         CHOICE 
 
@@ -55,7 +55,7 @@ A fieldsplit preconditioner.
 
         Composite type of the fieldsplit preconditioner - additive - do not update off diagonal blocks.
 
-    * [composite_type (schur)](preconditioner__fieldsplit/composite_type__schur "child")
+    * [composite_type (schur)](preconditioner__fieldsplit/composite_type__schur.md "child")
 
         CHOICE 
 
@@ -66,7 +66,7 @@ A fieldsplit preconditioner.
         NOTE: Only two fieldsplits may be specified.  The first is for the upper left diagonal block (A00),
         while the second must describe the lower right diagonal block (A11).
 
-* [fieldsplit](preconditioner__fieldsplit/fieldsplit "child")
+* [fieldsplit](preconditioner__fieldsplit/fieldsplit.md "child")
 
     MULTIPLE (1+) 
 

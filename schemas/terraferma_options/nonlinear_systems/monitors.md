@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [nonlinear_systems](../nonlinear_systems) /
+/ [terraferma_options](../../terraferma_options.md) / [nonlinear_systems](../nonlinear_systems.md) /
 
 #monitors
 
@@ -29,7 +29,7 @@
 Options to give extra information for each iteration of the
 timestep. Some of those may really slow down your computation!
 
-* [visualization](monitors/visualization "child")
+* [visualization](monitors/visualization.md "child")
 
     OPTIONAL 
 
@@ -39,7 +39,7 @@ timestep. Some of those may really slow down your computation!
     
     WARNING: This will produce a lot of output so should only be used for debugging purposes!
 
-* [convergence_file](monitors/convergence_file "child")
+* [convergence_file](monitors/convergence_file.md "child")
 
     OPTIONAL 
 

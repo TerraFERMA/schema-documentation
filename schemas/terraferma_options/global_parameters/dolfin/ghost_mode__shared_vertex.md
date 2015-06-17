@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [global_parameters](../../global_parameters) / [dolfin](../dolfin) /
+/ [terraferma_options](../../../terraferma_options.md) / [global_parameters](../../global_parameters.md) / [dolfin](../dolfin.md) /
 
 #ghost_mode (shared_vertex)
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [timestepping](../../timestepping) / [timestep](../timestep) /
+/ [terraferma_options](../../../terraferma_options.md) / [timestepping](../../timestepping.md) / [timestep](../timestep.md) /
 
 #adaptive
 
@@ -30,7 +30,7 @@ OPTIONAL
 
 Options to adapt the timestep based on a field in a system
 
-* [constraint](adaptive/constraint "child")
+* [constraint](adaptive/constraint.md "child")
 
     MULTIPLE (1+) 
 
@@ -47,7 +47,7 @@ Options to adapt the timestep based on a field in a system
     If multiple constraints are provided the minimum timestep is taken.
 
 * CHOICE:
-    * [adapt_period](adaptive/adapt_period "child")
+    * [adapt_period](adaptive/adapt_period.md "child")
 
         OPTIONAL CHOICE 
 
@@ -59,7 +59,7 @@ Options to adapt the timestep based on a field in a system
         
         Defaults to every timestep if not selected.
 
-    * [adapt_period_in_timesteps](adaptive/adapt_period_in_timesteps "child")
+    * [adapt_period_in_timesteps](adaptive/adapt_period_in_timesteps.md "child")
 
         OPTIONAL CHOICE 
 
@@ -71,7 +71,7 @@ Options to adapt the timestep based on a field in a system
         
         Defaults to 1 (every timestep) if not selected.
 
-* [increase_tolerance](adaptive/increase_tolerance "child")
+* [increase_tolerance](adaptive/increase_tolerance.md "child")
 
     OPTIONAL 
 

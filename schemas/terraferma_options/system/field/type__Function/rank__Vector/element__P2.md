@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Vector](../rank__Vector.md) /
 
 #element (P2)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing piecewise quadratic continuous Lagrange finite element for a vector.
 
-* [family](element__P2/family "child")
+* [family](element__P2/family.md "child")
 
     values: CG
 
@@ -40,7 +40,7 @@ Options describing piecewise quadratic continuous Lagrange finite element for a 
     
     - CG = Lagrange (continuous Galerkin)
 
-* [degree](element__P2/degree "child")
+* [degree](element__P2/degree.md "child")
 
     values: 0 2
 
@@ -48,7 +48,7 @@ Options describing piecewise quadratic continuous Lagrange finite element for a 
 
     Element degree
 
-* [size](element__P2/size "child")
+* [size](element__P2/size.md "child")
 
     OPTIONAL 
 
@@ -58,7 +58,7 @@ Options describing piecewise quadratic continuous Lagrange finite element for a 
 
     The size (length) of the vector.
 
-* [enrichment](element__P2/enrichment "child")
+* [enrichment](element__P2/enrichment.md "child")
 
     OPTIONAL 
 

@@ -32,7 +32,7 @@ sweeps may be performed for benchmarking and testing purposes.
 
 When viewed in diamond, options which are shaded blue are incomplete and require input.  Greyed out options are optional.  Black options are active.
 
-* [length](harness_options/length "child")
+* [length](harness_options/length.md "child")
 
     values: special short medium long
 
@@ -43,7 +43,7 @@ When viewed in diamond, options which are shaded blue are incomplete and require
     This option can be used by tfsimulationharness to filter the available 
     simulation harness files and decide which simulations to run.
 
-* [owner](harness_options/owner "child")
+* [owner](harness_options/owner.md "child")
 
     type: string
 
@@ -54,7 +54,7 @@ When viewed in diamond, options which are shaded blue are incomplete and require
     Useful for identifying the expert on this suite.  
     tfsimulationharness can also filter based on the owner.
 
-* [tags](harness_options/tags "child")
+* [tags](harness_options/tags.md "child")
 
     OPTIONAL 
 
@@ -66,7 +66,7 @@ When viewed in diamond, options which are shaded blue are incomplete and require
     simulations suite from tfsimulationharness using the -t (include
     tags) and -e (exclude tags) flags.
 
-* [description](harness_options/description "child")
+* [description](harness_options/description.md "child")
 
     type: string
 
@@ -74,7 +74,7 @@ When viewed in diamond, options which are shaded blue are incomplete and require
 
     A description of what this simulation suite is intended to run.
 
-* [simulations](harness_options/simulations "child")
+* [simulations](harness_options/simulations.md "child")
 
     OPTIONAL 
 
@@ -82,7 +82,7 @@ When viewed in diamond, options which are shaded blue are incomplete and require
 
     A list of the simulations to run.  Each simulation name should be unique.
 
-* [tests](harness_options/tests "child")
+* [tests](harness_options/tests.md "child")
 
     OPTIONAL 
 

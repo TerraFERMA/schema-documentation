@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Vector](../rank__Vector.md) /
 
 #boundary_condition
 
@@ -32,7 +32,7 @@ attributes: name (string)
 
 Options for the description of a boundary condition
 
-* [boundary_ids](boundary_condition/boundary_ids "child")
+* [boundary_ids](boundary_condition/boundary_ids.md "child")
 
     type: integers
 
@@ -41,7 +41,7 @@ Options for the description of a boundary condition
     A list of the boundary ids (physical ids in gmsh) that this condition applies to  
 
 * CHOICE:
-    * [sub_components (All)](boundary_condition/sub_components__All "child")
+    * [sub_components (All)](boundary_condition/sub_components__All.md "child")
 
         MULTIPLE (1+) CHOICE 
 
@@ -49,7 +49,7 @@ Options for the description of a boundary condition
 
         Apply this boundary condition to all the vector components on this boundary_id
 
-    * [sub_components](boundary_condition/sub_components "child")
+    * [sub_components](boundary_condition/sub_components.md "child")
 
         MULTIPLE (1+) CHOICE 
 

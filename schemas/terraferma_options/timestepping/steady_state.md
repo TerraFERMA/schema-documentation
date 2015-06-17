@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [timestepping](../timestepping) /
+/ [terraferma_options](../../terraferma_options.md) / [timestepping](../timestepping.md) /
 
 #steady_state
 
@@ -31,7 +31,7 @@ OPTIONAL
 Check for a steady state by comparing the previous timestep's values
 to the most recent compared to the given tolerance in the given norm
 
-* [tolerance](steady_state/tolerance "child")
+* [tolerance](steady_state/tolerance.md "child")
 
     type: float
 

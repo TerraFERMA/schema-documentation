@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../terraferma_options) /
+/ [terraferma_options](../terraferma_options.md) /
 
 #timestepping
 
@@ -30,7 +30,7 @@ OPTIONAL
 
 Options for timestepping if this is a dynamic simulation (leave inactive for steady state simulations)
 
-* [current_time](timestepping/current_time "child")
+* [current_time](timestepping/current_time.md "child")
 
     type: float
 
@@ -39,7 +39,7 @@ Options for timestepping if this is a dynamic simulation (leave inactive for ste
     The current time at the start of the simulation
 
 * CHOICE:
-    * [finish_time](timestepping/finish_time "child")
+    * [finish_time](timestepping/finish_time.md "child")
 
         CHOICE 
 
@@ -49,7 +49,7 @@ Options for timestepping if this is a dynamic simulation (leave inactive for ste
 
         The time at which the simulation should stop
 
-    * [number_timesteps](timestepping/number_timesteps "child")
+    * [number_timesteps](timestepping/number_timesteps.md "child")
 
         CHOICE 
 
@@ -59,13 +59,13 @@ Options for timestepping if this is a dynamic simulation (leave inactive for ste
 
         The number of timesteps after which the simulation should stop
 
-* [timestep](timestepping/timestep "child")
+* [timestep](timestepping/timestep.md "child")
 
     */timestepping/timestep*
 
     Options for the timestep
 
-* [steady_state](timestepping/steady_state "child")
+* [steady_state](timestepping/steady_state.md "child")
 
     OPTIONAL 
 

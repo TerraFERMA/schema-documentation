@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [nonlinear_solver](../../../nonlinear_solver) / [type::SNES](../../type__SNES) / [snes_type::ls](../snes_type__ls) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [nonlinear_solver](../../../nonlinear_solver.md) / [type::SNES](../../type__SNES.md) / [snes_type::ls](../snes_type__ls.md) /
 
 #ls_type (basic)
 

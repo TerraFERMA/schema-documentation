@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [system](../system) /
+/ [terraferma_options](../../terraferma_options.md) / [system](../system.md) /
 
 #functional
 
@@ -34,7 +34,7 @@ attributes: name (string)
 
 ufl code and symbol describing a functional.  This must return a single number and have a unique name beneath this field or coefficient.
 
-* [ufl_symbol (functional)](functional/ufl_symbol__functional "child")
+* [ufl_symbol (functional)](functional/ufl_symbol__functional.md "child")
 
     type: string
 
@@ -43,7 +43,7 @@ ufl code and symbol describing a functional.  This must return a single number a
     The ufl symbol used above to describe a functional.  This need not be unique as it is only accessible
     from this description.  No additional symbols will be automatically generated based on this symbol.
 
-* [quadrature_degree](functional/quadrature_degree "child")
+* [quadrature_degree](functional/quadrature_degree.md "child")
 
     OPTIONAL 
 
@@ -56,7 +56,7 @@ ufl code and symbol describing a functional.  This must return a single number a
     If unselected ffc will automatically determine the degree for the form.
 
 * CHOICE:
-    * [quadrature_rule (default)](functional/quadrature_rule__default "child")
+    * [quadrature_rule (default)](functional/quadrature_rule__default.md "child")
 
         CHOICE 
 
@@ -70,7 +70,7 @@ ufl code and symbol describing a functional.  This must return a single number a
         The 'canonical' option relies on FIAT to compute the quadrature rule which is based on Gauss--Legendre--Jacobi rule mapped
         onto simplices.
 
-    * [quadrature_rule (canonical)](functional/quadrature_rule__canonical "child")
+    * [quadrature_rule (canonical)](functional/quadrature_rule__canonical.md "child")
 
         CHOICE 
 
@@ -85,7 +85,7 @@ ufl code and symbol describing a functional.  This must return a single number a
         precision less than or equal to six.  Above this 'canonical' will automatically be used.
 
 * CHOICE:
-    * [include_in_statistics](functional/include_in_statistics "child")
+    * [include_in_statistics](functional/include_in_statistics.md "child")
 
         CHOICE 
 
@@ -93,7 +93,7 @@ ufl code and symbol describing a functional.  This must return a single number a
 
         Include this functional in the statistics output file (default).
 
-    * [exclude_from_statistics](functional/exclude_from_statistics "child")
+    * [exclude_from_statistics](functional/exclude_from_statistics.md "child")
 
         CHOICE 
 
@@ -101,7 +101,7 @@ ufl code and symbol describing a functional.  This must return a single number a
 
         Exclude this functional from the statistics output file.
 
-* [include_in_steady_state](functional/include_in_steady_state "child")
+* [include_in_steady_state](functional/include_in_steady_state.md "child")
 
     OPTIONAL 
 
@@ -109,7 +109,7 @@ ufl code and symbol describing a functional.  This must return a single number a
 
     Include this functional in the steady state check and output file.
 
-* [output_cell_function](functional/output_cell_function "child")
+* [output_cell_function](functional/output_cell_function.md "child")
 
     OPTIONAL 
 
@@ -117,7 +117,7 @@ ufl code and symbol describing a functional.  This must return a single number a
 
     Output the cell integrals of this functional as a mesh function (outputs at the visualization frequency).
 
-* [output_facet_function](functional/output_facet_function "child")
+* [output_facet_function](functional/output_facet_function.md "child")
 
     OPTIONAL 
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Vector](../rank__Vector.md) /
 
 #element (BDM2)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing second degree discontinuous Raviart-Thomas element for a vector.
 
-* [family](element__BDM2/family "child")
+* [family](element__BDM2/family.md "child")
 
     values: BDM
 
@@ -40,7 +40,7 @@ Options describing second degree discontinuous Raviart-Thomas element for a vect
     
     - BDM = Brezzi–Douglas–Marini
 
-* [degree](element__BDM2/degree "child")
+* [degree](element__BDM2/degree.md "child")
 
     values: 0 2
 
@@ -48,7 +48,7 @@ Options describing second degree discontinuous Raviart-Thomas element for a vect
 
     Element degree
 
-* [enrichment](element__BDM2/enrichment "child")
+* [enrichment](element__BDM2/enrichment.md "child")
 
     OPTIONAL 
 

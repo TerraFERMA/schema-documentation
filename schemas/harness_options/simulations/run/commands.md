@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../harness_options) / [simulations](../../simulations) / [run](../run) /
+/ [harness_options](../../../harness_options.md) / [simulations](../../simulations.md) / [run](../run.md) /
 
 #commands
 
@@ -32,7 +32,7 @@ A list of commands to perform this run.
 
 Parameters are available to the command as $parameter_name.
 
-* [command](commands/command "child")
+* [command](commands/command.md "child")
 
     MULTIPLE (1+) 
 

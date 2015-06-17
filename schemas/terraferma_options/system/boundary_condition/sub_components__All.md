@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [system](../../system) / [boundary_condition](../boundary_condition) /
+/ [terraferma_options](../../../terraferma_options.md) / [system](../../system.md) / [boundary_condition](../boundary_condition.md) /
 
 #sub_components (All)
 
@@ -28,7 +28,7 @@
 
 There are no sub components to a scalar so this is just a dummy tree level for consistency with a vector function
 
-* [type (Periodic)](sub_components__All/type__Periodic "child")
+* [type (Periodic)](sub_components__All/type__Periodic.md "child")
 
     */system/boundary_condition/sub_components::All/type::Periodic*
 

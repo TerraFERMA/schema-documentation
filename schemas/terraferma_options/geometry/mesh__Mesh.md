@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [geometry](../geometry) /
+/ [terraferma_options](../../terraferma_options.md) / [geometry](../geometry.md) /
 
 #mesh (Mesh)
 
@@ -31,7 +31,7 @@ MULTIPLE (1+) CHOICE
 Options for describing the mesh, automatically called "Mesh".  This name must be unique.
 
 * CHOICE:
-    * [source (File)](mesh__Mesh/source__File "child")
+    * [source (File)](mesh__Mesh/source__File.md "child")
 
         CHOICE 
 
@@ -39,7 +39,7 @@ Options for describing the mesh, automatically called "Mesh".  This name must be
 
         Choose the source of this mesh as an externally generated mesh file.
 
-    * [source (UnitInterval)](mesh__Mesh/source__UnitInterval "child")
+    * [source (UnitInterval)](mesh__Mesh/source__UnitInterval.md "child")
 
         CHOICE 
 
@@ -54,7 +54,7 @@ Options for describing the mesh, automatically called "Mesh".  This name must be
         No region ids will be assigned.   
         
 
-    * [source (Interval)](mesh__Mesh/source__Interval "child")
+    * [source (Interval)](mesh__Mesh/source__Interval.md "child")
 
         CHOICE 
 
@@ -69,7 +69,7 @@ Options for describing the mesh, automatically called "Mesh".  This name must be
         No region ids will be assigned.   
         
 
-    * [source (UnitSquare)](mesh__Mesh/source__UnitSquare "child")
+    * [source (UnitSquare)](mesh__Mesh/source__UnitSquare.md "child")
 
         CHOICE 
 
@@ -87,7 +87,7 @@ Options for describing the mesh, automatically called "Mesh".  This name must be
         No region ids will be assigned.   
         
 
-    * [source (Rectangle)](mesh__Mesh/source__Rectangle "child")
+    * [source (Rectangle)](mesh__Mesh/source__Rectangle.md "child")
 
         CHOICE 
 
@@ -105,7 +105,7 @@ Options for describing the mesh, automatically called "Mesh".  This name must be
         No region ids will be assigned.   
         
 
-    * [source (UnitCube)](mesh__Mesh/source__UnitCube "child")
+    * [source (UnitCube)](mesh__Mesh/source__UnitCube.md "child")
 
         CHOICE 
 
@@ -123,7 +123,7 @@ Options for describing the mesh, automatically called "Mesh".  This name must be
           
         No region ids will be assigned.   
 
-    * [source (Box)](mesh__Mesh/source__Box "child")
+    * [source (Box)](mesh__Mesh/source__Box.md "child")
 
         CHOICE 
 

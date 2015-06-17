@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [coefficient](../../../../coefficient) / [type::Function](../../../type__Function) / [rank::Vector](../../rank__Vector) / [value::WholeMesh](../value__WholeMesh) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [coefficient](../../../../coefficient.md) / [type::Function](../../../type__Function.md) / [rank::Vector](../../rank__Vector.md) / [value::WholeMesh](../value__WholeMesh.md) /
 
 #internal
 
@@ -30,7 +30,7 @@ CHOICE
 
 A vector described by an internal derived dolfin expression.
 
-* [algorithm (SemiLagrangian)](internal/algorithm__SemiLagrangian "child")
+* [algorithm (SemiLagrangian)](internal/algorithm__SemiLagrangian.md "child")
 
     */system/coefficient/type::Function/rank::Vector/value::WholeMesh/internal/algorithm::SemiLagrangian*
 

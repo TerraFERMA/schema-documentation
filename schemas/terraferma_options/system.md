@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../terraferma_options) /
+/ [terraferma_options](../terraferma_options.md) /
 
 #system
 
@@ -39,7 +39,7 @@ that act on that functionspace and the coefficients that appear in those forms.
 The system name must be unique amongst any other systems.
 
 * CHOICE:
-    * [mesh](system/mesh "child")
+    * [mesh](system/mesh.md "child")
 
         CHOICE 
 
@@ -50,7 +50,7 @@ The system name must be unique amongst any other systems.
         The name of the mesh that the system functionspace and any coefficient functions are defined on. 
         The actual mesh must be described above in /geometry/mesh.
 
-    * [mesh (Mesh)](system/mesh__Mesh "child")
+    * [mesh (Mesh)](system/mesh__Mesh.md "child")
 
         CHOICE 
 
@@ -61,7 +61,7 @@ The system name must be unique amongst any other systems.
         
         Use the automatically available name "Mesh."
 
-* [ufl_symbol (global)](system/ufl_symbol__global "child")
+* [ufl_symbol (global)](system/ufl_symbol__global.md "child")
 
     type: string
 
@@ -87,7 +87,7 @@ The system name must be unique amongst any other systems.
         (the old function coefficient, containing the values from the previous timestep for the system function)
     
 
-* [field](system/field "child")
+* [field](system/field.md "child")
 
     MULTIPLE (0+) 
 
@@ -95,7 +95,7 @@ The system name must be unique amongst any other systems.
 
     Options describing a field (a prognostic function) in this system
 
-* [coefficient](system/coefficient "child")
+* [coefficient](system/coefficient.md "child")
 
     MULTIPLE (0+) 
 
@@ -103,7 +103,7 @@ The system name must be unique amongst any other systems.
 
     Options describing a coefficient in this system
 
-* [boundary_condition](system/boundary_condition "child")
+* [boundary_condition](system/boundary_condition.md "child")
 
     OPTIONAL 
 
@@ -113,7 +113,7 @@ The system name must be unique amongst any other systems.
 
     Options for the description of a boundary condition
 
-* [nonlinear_solver](system/nonlinear_solver "child")
+* [nonlinear_solver](system/nonlinear_solver.md "child")
 
     MULTIPLE (0+) 
 
@@ -126,7 +126,7 @@ The system name must be unique amongst any other systems.
     solver describes the method of convering the nonlinear solve, either using a Newton or Picard iteration loop and a
     description of the linear solver used within this loop.
 
-* [functional](system/functional "child")
+* [functional](system/functional.md "child")
 
     MULTIPLE (0+) 
 

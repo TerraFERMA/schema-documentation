@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [timestepping](../timestepping) /
+/ [terraferma_options](../../terraferma_options.md) / [timestepping](../timestepping.md) /
 
 #current_time
 

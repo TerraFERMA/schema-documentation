@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [global_parameters](../global_parameters) /
+/ [terraferma_options](../../terraferma_options.md) / [global_parameters](../global_parameters.md) /
 
 #dolfin
 
@@ -30,7 +30,7 @@ OPTIONAL
 
 global dolfin parameters
 
-* [allow_extrapolation](dolfin/allow_extrapolation "child")
+* [allow_extrapolation](dolfin/allow_extrapolation.md "child")
 
     OPTIONAL 
 
@@ -39,7 +39,7 @@ global dolfin parameters
     Allow extrapolation in function interpolation.
 
 * CHOICE:
-    * [ghost_mode (none)](dolfin/ghost_mode__none "child")
+    * [ghost_mode (none)](dolfin/ghost_mode__none.md "child")
 
         OPTIONAL CHOICE 
 
@@ -47,7 +47,7 @@ global dolfin parameters
 
         Mesh ghosting type
 
-    * [ghost_mode (shared_facet)](dolfin/ghost_mode__shared_facet "child")
+    * [ghost_mode (shared_facet)](dolfin/ghost_mode__shared_facet.md "child")
 
         OPTIONAL CHOICE 
 
@@ -55,7 +55,7 @@ global dolfin parameters
 
         Mesh ghosting type
 
-    * [ghost_mode (shared_vertex)](dolfin/ghost_mode__shared_vertex "child")
+    * [ghost_mode (shared_vertex)](dolfin/ghost_mode__shared_vertex.md "child")
 
         OPTIONAL CHOICE 
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Vector](../rank__Vector.md) /
 
 #reference_point
 
@@ -36,7 +36,7 @@ coordinates specified below.
 
 Names of each reference point (perhaps on different components) must be unique within this field specification.
 
-* [coordinates](reference_point/coordinates "child")
+* [coordinates](reference_point/coordinates.md "child")
 
     type: floats
 
@@ -45,7 +45,7 @@ Names of each reference point (perhaps on different components) must be unique w
     The coordinates of the reference point.  The node nearest these coordinates will be used.
 
 * CHOICE:
-    * [sub_components (Subset)](reference_point/sub_components__Subset "child")
+    * [sub_components (Subset)](reference_point/sub_components__Subset.md "child")
 
         CHOICE 
 
@@ -53,7 +53,7 @@ Names of each reference point (perhaps on different components) must be unique w
 
         Zero a subset of the vector/tensor components at this reference point.
 
-    * [sub_components (All)](reference_point/sub_components__All "child")
+    * [sub_components (All)](reference_point/sub_components__All.md "child")
 
         CHOICE 
 

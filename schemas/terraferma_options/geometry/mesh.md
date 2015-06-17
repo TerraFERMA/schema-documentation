@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [geometry](../geometry) /
+/ [terraferma_options](../../terraferma_options.md) / [geometry](../geometry.md) /
 
 #mesh
 
@@ -33,7 +33,7 @@ attributes: name (string)
 Options for describing the mesh with a user-specified name.  This name must be unique.
 
 * CHOICE:
-    * [source (File)](mesh/source__File "child")
+    * [source (File)](mesh/source__File.md "child")
 
         CHOICE 
 
@@ -41,7 +41,7 @@ Options for describing the mesh with a user-specified name.  This name must be u
 
         Choose the source of this mesh as an externally generated mesh file.
 
-    * [source (UnitInterval)](mesh/source__UnitInterval "child")
+    * [source (UnitInterval)](mesh/source__UnitInterval.md "child")
 
         CHOICE 
 
@@ -56,7 +56,7 @@ Options for describing the mesh with a user-specified name.  This name must be u
         No region ids will be assigned.   
         
 
-    * [source (Interval)](mesh/source__Interval "child")
+    * [source (Interval)](mesh/source__Interval.md "child")
 
         CHOICE 
 
@@ -71,7 +71,7 @@ Options for describing the mesh with a user-specified name.  This name must be u
         No region ids will be assigned.   
         
 
-    * [source (UnitSquare)](mesh/source__UnitSquare "child")
+    * [source (UnitSquare)](mesh/source__UnitSquare.md "child")
 
         CHOICE 
 
@@ -89,7 +89,7 @@ Options for describing the mesh with a user-specified name.  This name must be u
         No region ids will be assigned.   
         
 
-    * [source (Rectangle)](mesh/source__Rectangle "child")
+    * [source (Rectangle)](mesh/source__Rectangle.md "child")
 
         CHOICE 
 
@@ -107,7 +107,7 @@ Options for describing the mesh with a user-specified name.  This name must be u
         No region ids will be assigned.   
         
 
-    * [source (UnitCube)](mesh/source__UnitCube "child")
+    * [source (UnitCube)](mesh/source__UnitCube.md "child")
 
         CHOICE 
 
@@ -125,7 +125,7 @@ Options for describing the mesh with a user-specified name.  This name must be u
           
         No region ids will be assigned.   
 
-    * [source (Box)](mesh/source__Box "child")
+    * [source (Box)](mesh/source__Box.md "child")
 
         CHOICE 
 

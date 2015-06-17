@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [system](../../system) / [nonlinear_solver](../nonlinear_solver) /
+/ [terraferma_options](../../../terraferma_options.md) / [system](../../system.md) / [nonlinear_solver](../nonlinear_solver.md) /
 
 #type (Picard)
 
@@ -31,7 +31,7 @@ CHOICE
 The type of nonlinear solver. 
 A Picard iteration.
 
-* [preamble](type__Picard/preamble "child")
+* [preamble](type__Picard/preamble.md "child")
 
     OPTIONAL 
 
@@ -42,7 +42,7 @@ A Picard iteration.
     ufl code preamble to the forms defined below.  
     Any system, field or coefficient ufl symbols defined in this options file may be used in this preamble.
 
-* [form (Bilinear)](type__Picard/form__Bilinear "child")
+* [form (Bilinear)](type__Picard/form__Bilinear.md "child")
 
     type: string
 
@@ -52,7 +52,7 @@ A Picard iteration.
     Any system, field or coefficient ufl symbols defined in this options file may be used in this form as well as any symbols 
     defined in the preamble above.
 
-* [form (BilinearPC)](type__Picard/form__BilinearPC "child")
+* [form (BilinearPC)](type__Picard/form__BilinearPC.md "child")
 
     OPTIONAL 
 
@@ -66,7 +66,7 @@ A Picard iteration.
     
     If undefined the bilinear form above will be used to precondition itself.
 
-* [form (Linear)](type__Picard/form__Linear "child")
+* [form (Linear)](type__Picard/form__Linear.md "child")
 
     type: string
 
@@ -76,7 +76,7 @@ A Picard iteration.
     Any system, field or coefficient ufl symbols defined in this options file may be used in this form as well as any symbols 
     defined in the preamble and bilinear forms above.
 
-* [form (Residual)](type__Picard/form__Residual "child")
+* [form (Residual)](type__Picard/form__Residual.md "child")
 
     type: string
 
@@ -86,7 +86,7 @@ A Picard iteration.
     Any system, field or coefficient ufl symbols defined in this options file may be used in this form as well as any symbols 
     defined in the preamble, bilinear and linear forms above.
 
-* [quadrature_degree](type__Picard/quadrature_degree "child")
+* [quadrature_degree](type__Picard/quadrature_degree.md "child")
 
     OPTIONAL 
 
@@ -99,7 +99,7 @@ A Picard iteration.
     If unselected ffc will automatically determine the degree for the form.
 
 * CHOICE:
-    * [quadrature_rule (default)](type__Picard/quadrature_rule__default "child")
+    * [quadrature_rule (default)](type__Picard/quadrature_rule__default.md "child")
 
         CHOICE 
 
@@ -113,7 +113,7 @@ A Picard iteration.
         The 'canonical' option relies on FIAT to compute the quadrature rule which is based on Gauss--Legendre--Jacobi rule mapped
         onto simplices.
 
-    * [quadrature_rule (canonical)](type__Picard/quadrature_rule__canonical "child")
+    * [quadrature_rule (canonical)](type__Picard/quadrature_rule__canonical.md "child")
 
         CHOICE 
 
@@ -127,7 +127,7 @@ A Picard iteration.
         The 'default' option covers hand implemented quadrature rules (in ffc) for triangles and tetrahedra with a degree of
         precision less than or equal to six.  Above this 'canonical' will automatically be used.
 
-* [relative_error](type__Picard/relative_error "child")
+* [relative_error](type__Picard/relative_error.md "child")
 
     type: float
 
@@ -136,7 +136,7 @@ A Picard iteration.
     The relative error allowed to remain in the vector l2 norm of the nonlinear solver residual (defined above) upon termination
     of the iteration loop.
 
-* [absolute_error](type__Picard/absolute_error "child")
+* [absolute_error](type__Picard/absolute_error.md "child")
 
     OPTIONAL 
 
@@ -149,7 +149,7 @@ A Picard iteration.
     
     Defaults to 1.e-50.
 
-* [max_iterations](type__Picard/max_iterations "child")
+* [max_iterations](type__Picard/max_iterations.md "child")
 
     type: integer
 
@@ -157,7 +157,7 @@ A Picard iteration.
 
     The maximum number of iterations to take in this nonlinear solver loop.
 
-* [min_iterations](type__Picard/min_iterations "child")
+* [min_iterations](type__Picard/min_iterations.md "child")
 
     OPTIONAL 
 
@@ -167,21 +167,21 @@ A Picard iteration.
 
     The minimum number of iterations to take in this nonlinear solver loop.
 
-* [monitors](type__Picard/monitors "child")
+* [monitors](type__Picard/monitors.md "child")
 
     */system/nonlinear_solver/type::Picard/monitors*
 
     Options to give extra information for each iteration of the
     Picard solve. Some of those may really slow down your computation!
 
-* [linear_solver](type__Picard/linear_solver "child")
+* [linear_solver](type__Picard/linear_solver.md "child")
 
     */system/nonlinear_solver/type::Picard/linear_solver*
 
     Options describing a linear solver.
 
 * CHOICE:
-    * [never_ignore_solver_failures](type__Picard/never_ignore_solver_failures "child")
+    * [never_ignore_solver_failures](type__Picard/never_ignore_solver_failures.md "child")
 
         CHOICE 
 
@@ -192,7 +192,7 @@ A Picard iteration.
         This option tests the convergence of the nonlinear solver and terminates the simulations at the end of the next timestep 
         if it has failed to converge.  Note that linear solves within the nonlinear solver may still allowed to fail.
 
-    * [ignore_all_solver_failures](type__Picard/ignore_all_solver_failures "child")
+    * [ignore_all_solver_failures](type__Picard/ignore_all_solver_failures.md "child")
 
         CHOICE 
 

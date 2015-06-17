@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [geometry](../../geometry) / [mesh](../mesh) /
+/ [terraferma_options](../../../terraferma_options.md) / [geometry](../../geometry.md) / [mesh](../mesh.md) /
 
 #source (Box)
 
@@ -40,7 +40,7 @@ Boundary ids will be automatically assigned as:
   
 No region ids will be assigned.   
 
-* [lower_back_left](source__Box/lower_back_left "child")
+* [lower_back_left](source__Box/lower_back_left.md "child")
 
     type: floats
 
@@ -55,7 +55,7 @@ No region ids will be assigned.
         |______|/
     
 
-* [upper_front_right](source__Box/upper_front_right "child")
+* [upper_front_right](source__Box/upper_front_right.md "child")
 
     type: floats
 
@@ -70,7 +70,7 @@ No region ids will be assigned.
         |_____|/
     
 
-* [number_cells](source__Box/number_cells "child")
+* [number_cells](source__Box/number_cells.md "child")
 
     type: integers
 
@@ -78,7 +78,7 @@ No region ids will be assigned.
 
     Specify the number of cells in each dimension.
 
-* [cell](source__Box/cell "child")
+* [cell](source__Box/cell.md "child")
 
     values: tetrahedron
 

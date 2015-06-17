@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [coefficient](../../../coefficient) / [type::Function](../../type__Function) / [rank::Tensor](../rank__Tensor) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [coefficient](../../../coefficient.md) / [type::Function](../../type__Function.md) / [rank::Tensor](../rank__Tensor.md) /
 
 #element (P0)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing piecewise constant discontinuous Lagrange finite element for a tensor.
 
-* [family](element__P0/family "child")
+* [family](element__P0/family.md "child")
 
     values: DG
 
@@ -40,7 +40,7 @@ Options describing piecewise constant discontinuous Lagrange finite element for 
     
     - DG = Discontinuous Lagrange (discontinuous Galerkin)
 
-* [degree](element__P0/degree "child")
+* [degree](element__P0/degree.md "child")
 
     values: 0 0
 
@@ -48,7 +48,7 @@ Options describing piecewise constant discontinuous Lagrange finite element for 
 
     Element degree
 
-* [shape](element__P0/shape "child")
+* [shape](element__P0/shape.md "child")
 
     OPTIONAL 
 
@@ -58,7 +58,7 @@ Options describing piecewise constant discontinuous Lagrange finite element for 
 
     The shape of the tensor.
 
-* [symmetric](element__P0/symmetric "child")
+* [symmetric](element__P0/symmetric.md "child")
 
     OPTIONAL 
 
@@ -66,7 +66,7 @@ Options describing piecewise constant discontinuous Lagrange finite element for 
 
     Tensor symmetry.
 
-* [enrichment](element__P0/enrichment "child")
+* [enrichment](element__P0/enrichment.md "child")
 
     OPTIONAL 
 

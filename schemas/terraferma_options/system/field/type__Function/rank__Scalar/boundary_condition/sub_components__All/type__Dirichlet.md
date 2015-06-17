@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../terraferma_options) / [system](../../../../../../system) / [field](../../../../../field) / [type::Function](../../../../type__Function) / [rank::Scalar](../../../rank__Scalar) / [boundary_condition](../../boundary_condition) / [sub_components::All](../sub_components__All) /
+/ [terraferma_options](../../../../../../../terraferma_options.md) / [system](../../../../../../system.md) / [field](../../../../../field.md) / [type::Function](../../../../type__Function.md) / [rank::Scalar](../../../rank__Scalar.md) / [boundary_condition](../../boundary_condition.md) / [sub_components::All](../sub_components__All.md) /
 
 #type (Dirichlet)
 
@@ -29,7 +29,7 @@
 The boundary condition type (only strong Dirichlet available).
 
 * CHOICE:
-    * [cpp](type__Dirichlet/cpp "child")
+    * [cpp](type__Dirichlet/cpp.md "child")
 
         CHOICE 
 
@@ -37,7 +37,7 @@ The boundary condition type (only strong Dirichlet available).
 
         A scalar described by a derived dolfin expression using c++ code.
 
-    * [python](type__Dirichlet/python "child")
+    * [python](type__Dirichlet/python.md "child")
 
         CHOICE 
 
@@ -63,7 +63,7 @@ The boundary condition type (only strong Dirichlet available).
         
         The return value should be scalar.
 
-    * [constant](type__Dirichlet/constant "child")
+    * [constant](type__Dirichlet/constant.md "child")
 
         CHOICE 
 

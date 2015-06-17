@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [io](../io) /
+/ [terraferma_options](../../terraferma_options.md) / [io](../io.md) /
 
 #dump_periods
 
@@ -34,7 +34,7 @@ i.e. even setting the dump_period to every timestep will produce no output if no
 or coefficients are selected to be included!
 
 * CHOICE:
-    * [visualization_period](dump_periods/visualization_period "child")
+    * [visualization_period](dump_periods/visualization_period.md "child")
 
         OPTIONAL CHOICE 
 
@@ -46,7 +46,7 @@ or coefficients are selected to be included!
         
         Defaults to every timestep if unselected.
 
-    * [visualization_period_in_timesteps](dump_periods/visualization_period_in_timesteps "child")
+    * [visualization_period_in_timesteps](dump_periods/visualization_period_in_timesteps.md "child")
 
         OPTIONAL CHOICE 
 
@@ -59,7 +59,7 @@ or coefficients are selected to be included!
         Defaults to every timestep if unselected.
 
 * CHOICE:
-    * [statistics_period](dump_periods/statistics_period "child")
+    * [statistics_period](dump_periods/statistics_period.md "child")
 
         OPTIONAL CHOICE 
 
@@ -71,7 +71,7 @@ or coefficients are selected to be included!
         
         Defaults to every timestep if unselected.
 
-    * [statistics_period_in_timesteps](dump_periods/statistics_period_in_timesteps "child")
+    * [statistics_period_in_timesteps](dump_periods/statistics_period_in_timesteps.md "child")
 
         OPTIONAL CHOICE 
 
@@ -84,7 +84,7 @@ or coefficients are selected to be included!
         Defaults to every timestep if unselected.
 
 * CHOICE:
-    * [steady_state_period](dump_periods/steady_state_period "child")
+    * [steady_state_period](dump_periods/steady_state_period.md "child")
 
         OPTIONAL CHOICE 
 
@@ -96,7 +96,7 @@ or coefficients are selected to be included!
         
         Defaults to every timestep if unselected.
 
-    * [steady_state_period_in_timesteps](dump_periods/steady_state_period_in_timesteps "child")
+    * [steady_state_period_in_timesteps](dump_periods/steady_state_period_in_timesteps.md "child")
 
         OPTIONAL CHOICE 
 
@@ -109,7 +109,7 @@ or coefficients are selected to be included!
         Defaults to every timestep if unselected.
 
 * CHOICE:
-    * [detectors_period](dump_periods/detectors_period "child")
+    * [detectors_period](dump_periods/detectors_period.md "child")
 
         OPTIONAL CHOICE 
 
@@ -121,7 +121,7 @@ or coefficients are selected to be included!
         
         Defaults to every timestep if unselected.
 
-    * [detectors_period_in_timesteps](dump_periods/detectors_period_in_timesteps "child")
+    * [detectors_period_in_timesteps](dump_periods/detectors_period_in_timesteps.md "child")
 
         OPTIONAL CHOICE 
 

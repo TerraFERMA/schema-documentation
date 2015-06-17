@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Vector](../rank__Vector.md) /
 
 #element (DRT1)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing first degree discontinuous Raviart-Thomas element for a vector.
 
-* [family](element__DRT1/family "child")
+* [family](element__DRT1/family.md "child")
 
     values: DRT
 
@@ -40,7 +40,7 @@ Options describing first degree discontinuous Raviart-Thomas element for a vecto
     
     - DRT = Discontinuous Raviart-Thomas
 
-* [degree](element__DRT1/degree "child")
+* [degree](element__DRT1/degree.md "child")
 
     values: 0 1
 
@@ -48,7 +48,7 @@ Options describing first degree discontinuous Raviart-Thomas element for a vecto
 
     Element degree
 
-* [enrichment](element__DRT1/enrichment "child")
+* [enrichment](element__DRT1/enrichment.md "child")
 
     OPTIONAL 
 

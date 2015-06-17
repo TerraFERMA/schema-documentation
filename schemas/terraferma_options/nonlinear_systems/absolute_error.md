@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [nonlinear_systems](../nonlinear_systems) /
+/ [terraferma_options](../../terraferma_options.md) / [nonlinear_systems](../nonlinear_systems.md) /
 
 #absolute_error
 

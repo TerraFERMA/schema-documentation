@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Vector](../rank__Vector.md) /
 
 #value_cap (Cap)
 
@@ -37,7 +37,7 @@ Perhaps consider using SNES VI instead.
 This version defaults to the name Cap.  If specifying more than one value cap (perhaps on different components) the name of each 
 one must be unique so multiple instances of this default name are not allowed.
 
-* [upper_cap](value_cap__Cap/upper_cap "child")
+* [upper_cap](value_cap__Cap/upper_cap.md "child")
 
     OPTIONAL 
 
@@ -47,7 +47,7 @@ one must be unique so multiple instances of this default name are not allowed.
 
     Do not let the maximum value exceed this cap
 
-* [lower_cap](value_cap__Cap/lower_cap "child")
+* [lower_cap](value_cap__Cap/lower_cap.md "child")
 
     OPTIONAL 
 
@@ -58,7 +58,7 @@ one must be unique so multiple instances of this default name are not allowed.
     Do not let the minimum value fall below this cap
 
 * CHOICE:
-    * [sub_components (All)](value_cap__Cap/sub_components__All "child")
+    * [sub_components (All)](value_cap__Cap/sub_components__All.md "child")
 
         CHOICE 
 
@@ -66,7 +66,7 @@ one must be unique so multiple instances of this default name are not allowed.
 
         Cap all the vector/tensor components.
 
-    * [sub_components (Subset)](value_cap__Cap/sub_components__Subset "child")
+    * [sub_components (Subset)](value_cap__Cap/sub_components__Subset.md "child")
 
         CHOICE 
 

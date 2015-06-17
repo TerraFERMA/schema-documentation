@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../../../harness_options) / [simulations](../../../../simulations) / [run](../../../run) / [dependencies](../../dependencies) / [run](../run) /
+/ [harness_options](../../../../../harness_options.md) / [simulations](../../../../simulations.md) / [run](../../../run.md) / [dependencies](../../dependencies.md) / [run](../run.md) /
 
 #input_file
 
@@ -40,7 +40,7 @@ variable 'input_file',  as an ascii string to all parameter updating code.
 This behaviour can be modified if the file can be loaded by libspud by toggling
 the option spud_file below.
 
-* [spud_file](input_file/spud_file "child")
+* [spud_file](input_file/spud_file.md "child")
 
     OPTIONAL 
 

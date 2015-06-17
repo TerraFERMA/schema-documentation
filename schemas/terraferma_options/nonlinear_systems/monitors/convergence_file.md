@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [nonlinear_systems](../../nonlinear_systems) / [monitors](../monitors) /
+/ [terraferma_options](../../../terraferma_options.md) / [nonlinear_systems](../../nonlinear_systems.md) / [monitors](../monitors.md) /
 
 #convergence_file
 

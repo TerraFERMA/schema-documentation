@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Scalar](../rank__Scalar) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Scalar](../rank__Scalar.md) /
 
 #reference_point (Point)
 
@@ -32,7 +32,7 @@ Options for the description of a reference point at which field values are zeroe
 by the imposition of an internal pointwise Dirichlet boundary condition at the nearest node to the
 coordinates specified below.
 
-* [coordinates](reference_point__Point/coordinates "child")
+* [coordinates](reference_point__Point/coordinates.md "child")
 
     type: floats
 

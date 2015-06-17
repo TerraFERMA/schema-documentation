@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [timestepping](../../timestepping) / [timestep](../timestep) /
+/ [terraferma_options](../../../terraferma_options.md) / [timestepping](../../timestepping.md) / [timestep](../timestep.md) /
 
 #coefficient (Timestep)
 
@@ -28,7 +28,7 @@
 
 Options describing a coefficient in this system
 
-* [ufl_symbol (global)](coefficient__Timestep/ufl_symbol__global "child")
+* [ufl_symbol (global)](coefficient__Timestep/ufl_symbol__global.md "child")
 
     type: string
 
@@ -38,7 +38,7 @@ Options describing a coefficient in this system
     This ufl symbol must be unique across the entire options file as it may be used in any ufl form or functional
     written in this file.  No additional symbols will be augomatically generated based on this symbol.
 
-* [type (Constant)](coefficient__Timestep/type__Constant "child")
+* [type (Constant)](coefficient__Timestep/type__Constant.md "child")
 
     */timestepping/timestep/coefficient::Timestep/type::Constant*
 

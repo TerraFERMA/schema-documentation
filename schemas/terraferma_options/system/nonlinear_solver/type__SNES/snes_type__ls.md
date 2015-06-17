@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [system](../../../system) / [nonlinear_solver](../../nonlinear_solver) / [type::SNES](../type__SNES) /
+/ [terraferma_options](../../../../terraferma_options.md) / [system](../../../system.md) / [nonlinear_solver](../../nonlinear_solver.md) / [type::SNES](../type__SNES.md) /
 
 #snes_type (ls)
 
@@ -31,7 +31,7 @@ CHOICE
 The SNES type.  Line search.
 
 * CHOICE:
-    * [ls_type (cubic)](snes_type__ls/ls_type__cubic "child")
+    * [ls_type (cubic)](snes_type__ls/ls_type__cubic.md "child")
 
         CHOICE 
 
@@ -39,7 +39,7 @@ The SNES type.  Line search.
 
         Performs a cubic line search (default line search method).
 
-    * [ls_type (quadratic)](snes_type__ls/ls_type__quadratic "child")
+    * [ls_type (quadratic)](snes_type__ls/ls_type__quadratic.md "child")
 
         CHOICE 
 
@@ -47,7 +47,7 @@ The SNES type.  Line search.
 
         Performs a quadratic line search.
 
-    * [ls_type (basic)](snes_type__ls/ls_type__basic "child")
+    * [ls_type (basic)](snes_type__ls/ls_type__basic.md "child")
 
         CHOICE 
 
@@ -56,7 +56,7 @@ The SNES type.  Line search.
         This routine is not a line search at all; it simply uses the full Newton step.  
         Thus, this routine is intended to serve as a template and is not recommended for general use.
 
-    * [ls_type (basicnonorms)](snes_type__ls/ls_type__basicnonorms "child")
+    * [ls_type (basicnonorms)](snes_type__ls/ls_type__basicnonorms.md "child")
 
         CHOICE 
 
@@ -69,7 +69,7 @@ The SNES type.  Line search.
         fixed number of Newton steps).
 
 * CHOICE:
-    * [convergence_test (default)](snes_type__ls/convergence_test__default "child")
+    * [convergence_test (default)](snes_type__ls/convergence_test__default.md "child")
 
         CHOICE 
 
@@ -77,7 +77,7 @@ The SNES type.  Line search.
 
         Default convergence test. See SNESConvergedReason.
 
-    * [convergence_test (skip)](snes_type__ls/convergence_test__skip "child")
+    * [convergence_test (skip)](snes_type__ls/convergence_test__skip.md "child")
 
         CHOICE 
 
@@ -85,7 +85,7 @@ The SNES type.  Line search.
 
         Skip standard convergence tests, allowing maximum iterations to be reached.
 
-* [alpha](snes_type__ls/alpha "child")
+* [alpha](snes_type__ls/alpha.md "child")
 
     OPTIONAL 
 
@@ -100,7 +100,7 @@ The SNES type.  Line search.
     
     Defaults to 1.e-4 if unset.
 
-* [max_step](snes_type__ls/max_step "child")
+* [max_step](snes_type__ls/max_step.md "child")
 
     OPTIONAL 
 
@@ -115,7 +115,7 @@ The SNES type.  Line search.
     
     Defaults to 1.e8 if unset.
 
-* [min_lambda](snes_type__ls/min_lambda "child")
+* [min_lambda](snes_type__ls/min_lambda.md "child")
 
     OPTIONAL 
 

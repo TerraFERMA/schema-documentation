@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Scalar](../rank__Scalar) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Scalar](../rank__Scalar.md) /
 
 #initial_condition
 
@@ -32,7 +32,7 @@ attributes: name (string)
 
 Options for the description of the initial condition over a subset of the whole domain
 
-* [region_ids](initial_condition/region_ids "child")
+* [region_ids](initial_condition/region_ids.md "child")
 
     type: integers
 
@@ -41,7 +41,7 @@ Options for the description of the initial condition over a subset of the whole 
     A list of the region ids (physical ids in gmsh) that this  condition applies to
 
 * CHOICE:
-    * [cpp](initial_condition/cpp "child")
+    * [cpp](initial_condition/cpp.md "child")
 
         CHOICE 
 
@@ -49,7 +49,7 @@ Options for the description of the initial condition over a subset of the whole 
 
         A scalar described by a derived dolfin expression using c++ code.
 
-    * [python](initial_condition/python "child")
+    * [python](initial_condition/python.md "child")
 
         CHOICE 
 
@@ -75,7 +75,7 @@ Options for the description of the initial condition over a subset of the whole 
         
         The return value should be scalar.
 
-    * [constant](initial_condition/constant "child")
+    * [constant](initial_condition/constant.md "child")
 
         CHOICE 
 

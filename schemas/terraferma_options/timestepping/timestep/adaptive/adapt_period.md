@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [timestepping](../../../timestepping) / [timestep](../../timestep) / [adaptive](../adaptive) /
+/ [terraferma_options](../../../../terraferma_options.md) / [timestepping](../../../timestepping.md) / [timestep](../../timestep.md) / [adaptive](../adaptive.md) /
 
 #adapt_period
 

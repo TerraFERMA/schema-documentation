@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [coefficient](../../../coefficient) / [type::Function](../../type__Function) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [coefficient](../../../coefficient.md) / [type::Function](../../type__Function.md) / [rank::Vector](../rank__Vector.md) /
 
 #element (P1)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing piecewise linear continuous Lagrange finite element for a vector.
 
-* [family](element__P1/family "child")
+* [family](element__P1/family.md "child")
 
     values: CG
 
@@ -40,7 +40,7 @@ Options describing piecewise linear continuous Lagrange finite element for a vec
     
     - CG = Lagrange (continuous Galerkin)
 
-* [degree](element__P1/degree "child")
+* [degree](element__P1/degree.md "child")
 
     values: 0 1
 
@@ -48,7 +48,7 @@ Options describing piecewise linear continuous Lagrange finite element for a vec
 
     Element degree
 
-* [size](element__P1/size "child")
+* [size](element__P1/size.md "child")
 
     OPTIONAL 
 
@@ -58,7 +58,7 @@ Options describing piecewise linear continuous Lagrange finite element for a vec
 
     The size (length) of the vector.
 
-* [enrichment](element__P1/enrichment "child")
+* [enrichment](element__P1/enrichment.md "child")
 
     OPTIONAL 
 

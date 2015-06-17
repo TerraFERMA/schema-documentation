@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [nonlinear_solver](../../../nonlinear_solver) / [type::SNES](../../type__SNES) / [snes_type::vi](../snes_type__vi) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [nonlinear_solver](../../../nonlinear_solver.md) / [type::SNES](../../type__SNES.md) / [snes_type::vi](../snes_type__vi.md) /
 
 #constraints
 
@@ -28,7 +28,7 @@
 
 Place constraints on the variational inequality.
 
-* [upper_bound](constraints/upper_bound "child")
+* [upper_bound](constraints/upper_bound.md "child")
 
     OPTIONAL 
 
@@ -36,7 +36,7 @@ Place constraints on the variational inequality.
 
     Describe the upper bound constraint on fields.
 
-* [lower_bound](constraints/lower_bound "child")
+* [lower_bound](constraints/lower_bound.md "child")
 
     OPTIONAL 
 

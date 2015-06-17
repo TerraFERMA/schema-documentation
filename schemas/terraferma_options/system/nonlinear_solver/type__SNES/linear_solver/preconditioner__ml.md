@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [nonlinear_solver](../../../nonlinear_solver) / [type::SNES](../../type__SNES) / [linear_solver](../linear_solver) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [nonlinear_solver](../../../nonlinear_solver.md) / [type::SNES](../../type__SNES.md) / [linear_solver](../linear_solver.md) /
 
 #preconditioner (ml)
 
@@ -32,7 +32,7 @@ The ML MultiGrid Method
 
 NOTE: Only available if petsc is configured with ml!
 
-* [near_null_space](preconditioner__ml/near_null_space "child")
+* [near_null_space](preconditioner__ml/near_null_space.md "child")
 
     OPTIONAL 
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [system](../../../system) / [nonlinear_solver](../../nonlinear_solver) / [type::SNES](../type__SNES) /
+/ [terraferma_options](../../../../terraferma_options.md) / [system](../../../system.md) / [nonlinear_solver](../../nonlinear_solver.md) / [type::SNES](../type__SNES.md) /
 
 #form (JacobianPC)
 
@@ -36,7 +36,7 @@ defined in the preamble and bilinear form above.
 
 If undefined the jacobian bilinear form above will be used to precondition itself.
 
-* [ufl_symbol (solver)](form__JacobianPC/ufl_symbol__solver "child")
+* [ufl_symbol (solver)](form__JacobianPC/ufl_symbol__solver.md "child")
 
     type: string
 
@@ -45,7 +45,7 @@ If undefined the jacobian bilinear form above will be used to precondition itsel
     The ufl symbol used above to describe a form.  This need only be unique within this nonlinear_solver. 
     No additional symbols will be automatically generated based on this symbol.
 
-* [ident_zeros](form__JacobianPC/ident_zeros "child")
+* [ident_zeros](form__JacobianPC/ident_zeros.md "child")
 
     OPTIONAL 
 

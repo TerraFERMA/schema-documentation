@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../../../harness_options) / [simulations](../../../../simulations) / [simulation](../../../simulation) / [dependencies](../../dependencies) / [simulation](../simulation) /
+/ [harness_options](../../../../../harness_options.md) / [simulations](../../../../simulations.md) / [simulation](../../../simulation.md) / [dependencies](../../dependencies.md) / [simulation](../simulation.md) /
 
 #required_input
 
@@ -33,7 +33,7 @@ Enter a list of files required as input.
 All required_output from dependency simulations/runs are automatically 
 assumed to be required as input so need not be entered here.
 
-* [filenames](required_input/filenames "child")
+* [filenames](required_input/filenames.md "child")
 
     MULTIPLE (1+) 
 

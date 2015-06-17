@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Tensor](../rank__Tensor) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Tensor](../rank__Tensor.md) /
 
 #element (P2)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing piecewise quadratic continuous Lagrange finite element for a tensor.
 
-* [family](element__P2/family "child")
+* [family](element__P2/family.md "child")
 
     values: CG
 
@@ -40,7 +40,7 @@ Options describing piecewise quadratic continuous Lagrange finite element for a 
     
     - CG = Lagrange (continuous Galerkin)
 
-* [degree](element__P2/degree "child")
+* [degree](element__P2/degree.md "child")
 
     values: 0 2
 
@@ -48,7 +48,7 @@ Options describing piecewise quadratic continuous Lagrange finite element for a 
 
     Element degree
 
-* [shape](element__P2/shape "child")
+* [shape](element__P2/shape.md "child")
 
     OPTIONAL 
 
@@ -58,7 +58,7 @@ Options describing piecewise quadratic continuous Lagrange finite element for a 
 
     The shape of the tensor.
 
-* [symmetric](element__P2/symmetric "child")
+* [symmetric](element__P2/symmetric.md "child")
 
     OPTIONAL 
 
@@ -66,7 +66,7 @@ Options describing piecewise quadratic continuous Lagrange finite element for a 
 
     Tensor symmetry.
 
-* [enrichment](element__P2/enrichment "child")
+* [enrichment](element__P2/enrichment.md "child")
 
     OPTIONAL 
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [system](../../../system) / [nonlinear_solver](../../nonlinear_solver) / [type::SNES](../type__SNES) /
+/ [terraferma_options](../../../../terraferma_options.md) / [system](../../../system.md) / [nonlinear_solver](../../nonlinear_solver.md) / [type::SNES](../type__SNES.md) /
 
 #form (Residual)
 
@@ -32,7 +32,7 @@ ufl code form describing a linear residual form (must return a linear form).
 Any system, field or coefficient ufl symbols defined in this options file may be used in this form as well as any symbols 
 defined in the preamble above.
 
-* [ufl_symbol (solver)](form__Residual/ufl_symbol__solver "child")
+* [ufl_symbol (solver)](form__Residual/ufl_symbol__solver.md "child")
 
     type: string
 

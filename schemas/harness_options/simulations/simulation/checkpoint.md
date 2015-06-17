@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../harness_options) / [simulations](../../simulations) / [simulation](../simulation) /
+/ [harness_options](../../../harness_options.md) / [simulations](../../simulations.md) / [simulation](../simulation.md) /
 
 #checkpoint
 
@@ -30,7 +30,7 @@ OPTIONAL
 
 Options for updating and restarting simulations from checkpoint.
 
-* [parameter](checkpoint/parameter "child")
+* [parameter](checkpoint/parameter.md "child")
 
     MULTIPLE (1+) 
 

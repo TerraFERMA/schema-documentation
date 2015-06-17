@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../terraferma_options) / [system](../../../../../../system) / [field](../../../../../field) / [type::Function](../../../../type__Function) / [rank::Vector](../../../rank__Vector) / [element::BDM2](../../element__BDM2) / [enrichment](../enrichment) /
+/ [terraferma_options](../../../../../../../terraferma_options.md) / [system](../../../../../../system.md) / [field](../../../../../field.md) / [type::Function](../../../../type__Function.md) / [rank::Vector](../../../rank__Vector.md) / [element::BDM2](../../element__BDM2.md) / [enrichment](../enrichment.md) /
 
 #element (B3)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing a
 
-* [family](element__B3/family "child")
+* [family](element__B3/family.md "child")
 
     values: B
 
@@ -40,7 +40,7 @@ Options describing a
     
     - B = Bubble
 
-* [degree](element__B3/degree "child")
+* [degree](element__B3/degree.md "child")
 
     values: 0 3
 

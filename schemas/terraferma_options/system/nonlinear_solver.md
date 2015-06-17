@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [system](../system) /
+/ [terraferma_options](../../terraferma_options.md) / [system](../system.md) /
 
 #nonlinear_solver
 
@@ -36,7 +36,7 @@ solver describes the method of convering the nonlinear solve, either using a New
 description of the linear solver used within this loop.
 
 * CHOICE:
-    * [type (SNES)](nonlinear_solver/type__SNES "child")
+    * [type (SNES)](nonlinear_solver/type__SNES.md "child")
 
         CHOICE 
 
@@ -45,7 +45,7 @@ description of the linear solver used within this loop.
         The type of nonlinear solver. 
         PETSc SNES - a Newton iteration with line search.
 
-    * [type (Picard)](nonlinear_solver/type__Picard "child")
+    * [type (Picard)](nonlinear_solver/type__Picard.md "child")
 
         CHOICE 
 
@@ -55,7 +55,7 @@ description of the linear solver used within this loop.
         A Picard iteration.
 
 * CHOICE:
-    * [solve (in_timeloop)](nonlinear_solver/solve__in_timeloop "child")
+    * [solve (in_timeloop)](nonlinear_solver/solve__in_timeloop.md "child")
 
         CHOICE 
 
@@ -63,7 +63,7 @@ description of the linear solver used within this loop.
 
         Solve the equations listed in this nonlinear solver every timestep.
 
-    * [solve (at_start)](nonlinear_solver/solve__at_start "child")
+    * [solve (at_start)](nonlinear_solver/solve__at_start.md "child")
 
         CHOICE 
 
@@ -71,7 +71,7 @@ description of the linear solver used within this loop.
 
         Only solve the equations listed in this nonlinear solver at the start of the simulation.
 
-    * [solve (with_diagnostics)](nonlinear_solver/solve__with_diagnostics "child")
+    * [solve (with_diagnostics)](nonlinear_solver/solve__with_diagnostics.md "child")
 
         CHOICE 
 
@@ -81,7 +81,7 @@ description of the linear solver used within this loop.
         
         This means that this system will be updated at an interval dependant on how the diagnostic dump periods are set in /io.
 
-    * [solve (never)](nonlinear_solver/solve__never "child")
+    * [solve (never)](nonlinear_solver/solve__never.md "child")
 
         CHOICE 
 

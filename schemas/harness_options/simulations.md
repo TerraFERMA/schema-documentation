@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../harness_options) /
+/ [harness_options](../harness_options.md) /
 
 #simulations
 
@@ -30,7 +30,7 @@ OPTIONAL
 
 A list of the simulations to run.  Each simulation name should be unique.
 
-* [simulation](simulations/simulation "child")
+* [simulation](simulations/simulation.md "child")
 
     MULTIPLE (0+) 
 
@@ -40,7 +40,7 @@ A list of the simulations to run.  Each simulation name should be unique.
 
     Definition of a top level TerraFERMA simulation.
 
-* [run](simulations/run "child")
+* [run](simulations/run.md "child")
 
     MULTIPLE (0+) 
 

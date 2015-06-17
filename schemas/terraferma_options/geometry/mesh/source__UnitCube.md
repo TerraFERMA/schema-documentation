@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [geometry](../../geometry) / [mesh](../mesh) /
+/ [terraferma_options](../../../terraferma_options.md) / [geometry](../../geometry.md) / [mesh](../mesh.md) /
 
 #source (UnitCube)
 
@@ -40,7 +40,7 @@ Boundary ids will be automatically assigned as:
   
 No region ids will be assigned.   
 
-* [number_cells](source__UnitCube/number_cells "child")
+* [number_cells](source__UnitCube/number_cells.md "child")
 
     type: integers
 
@@ -48,7 +48,7 @@ No region ids will be assigned.
 
     Specify the number of cells in each dimension.
 
-* [cell](source__UnitCube/cell "child")
+* [cell](source__UnitCube/cell.md "child")
 
     values: tetrahedron
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../../../../terraferma_options) / [system](../../../../../../../../../system) / [nonlinear_solver](../../../../../../../../nonlinear_solver) / [type::Picard](../../../../../../../type__Picard) / [linear_solver](../../../../../../linear_solver) / [preconditioner::ksp](../../../../../preconditioner__ksp) / [linear_solver](../../../../linear_solver) / [preconditioner::fieldsplit](../../../preconditioner__fieldsplit) / [fieldsplit](../../fieldsplit) / [linear_solver](../linear_solver) /
+/ [terraferma_options](../../../../../../../../../../terraferma_options.md) / [system](../../../../../../../../../system.md) / [nonlinear_solver](../../../../../../../../nonlinear_solver.md) / [type::Picard](../../../../../../../type__Picard.md) / [linear_solver](../../../../../../linear_solver.md) / [preconditioner::ksp](../../../../../preconditioner__ksp.md) / [linear_solver](../../../../linear_solver.md) / [preconditioner::fieldsplit](../../../preconditioner__fieldsplit.md) / [fieldsplit](../../fieldsplit.md) / [linear_solver](../linear_solver.md) /
 
 #preconditioner (bjacobi)
 
@@ -38,7 +38,7 @@ the performance may be less than in serial and degrade with
 increasing number of processors/decreasing local domain size.
 
 * CHOICE:
-    * [preconditioner (sor)](preconditioner__bjacobi/preconditioner__sor "child")
+    * [preconditioner (sor)](preconditioner__bjacobi/preconditioner__sor.md "child")
 
         CHOICE 
 
@@ -48,7 +48,7 @@ increasing number of processors/decreasing local domain size.
         
         This includes SSOR (symmetric sor)
 
-    * [preconditioner (eisenstat)](preconditioner__bjacobi/preconditioner__eisenstat "child")
+    * [preconditioner (eisenstat)](preconditioner__bjacobi/preconditioner__eisenstat.md "child")
 
         CHOICE 
 
@@ -63,7 +63,7 @@ increasing number of processors/decreasing local domain size.
         a different preconditioned residual the convergence in
         practice may be quite different though.
 
-    * [preconditioner (ilu)](preconditioner__bjacobi/preconditioner__ilu "child")
+    * [preconditioner (ilu)](preconditioner__bjacobi/preconditioner__ilu.md "child")
 
         CHOICE 
 
@@ -71,7 +71,7 @@ increasing number of processors/decreasing local domain size.
 
         Incomplete LU decomposition
 
-    * [preconditioner (icc)](preconditioner__bjacobi/preconditioner__icc "child")
+    * [preconditioner (icc)](preconditioner__bjacobi/preconditioner__icc.md "child")
 
         CHOICE 
 
@@ -79,7 +79,7 @@ increasing number of processors/decreasing local domain size.
 
         Incomplete Cholesky decomposition (only works for symmetric matrices)
 
-    * [preconditioner (lu)](preconditioner__bjacobi/preconditioner__lu "child")
+    * [preconditioner (lu)](preconditioner__bjacobi/preconditioner__lu.md "child")
 
         CHOICE 
 
@@ -89,7 +89,7 @@ increasing number of processors/decreasing local domain size.
         
         This performs a complete, direct solve of the equation and should only be used in combination with preonly as iterative method.
 
-    * [preconditioner (prometheus)](preconditioner__bjacobi/preconditioner__prometheus "child")
+    * [preconditioner (prometheus)](preconditioner__bjacobi/preconditioner__prometheus.md "child")
 
         CHOICE 
 
@@ -97,7 +97,7 @@ increasing number of processors/decreasing local domain size.
 
         Prometheus multigrid method
 
-    * [preconditioner (hypre)](preconditioner__bjacobi/preconditioner__hypre "child")
+    * [preconditioner (hypre)](preconditioner__bjacobi/preconditioner__hypre.md "child")
 
         CHOICE 
 
@@ -105,7 +105,7 @@ increasing number of processors/decreasing local domain size.
 
         Hypre preconditioners (includes boomeramg)
 
-    * [preconditioner (gamg)](preconditioner__bjacobi/preconditioner__gamg "child")
+    * [preconditioner (gamg)](preconditioner__bjacobi/preconditioner__gamg.md "child")
 
         CHOICE 
 
@@ -115,7 +115,7 @@ increasing number of processors/decreasing local domain size.
         
         NOTE: Only available with petsc > 3.2.
 
-    * [preconditioner (ml)](preconditioner__bjacobi/preconditioner__ml "child")
+    * [preconditioner (ml)](preconditioner__bjacobi/preconditioner__ml.md "child")
 
         CHOICE 
 
@@ -125,7 +125,7 @@ increasing number of processors/decreasing local domain size.
         
         NOTE: Only available if petsc is configured with ml!
 
-    * [preconditioner](preconditioner__bjacobi/preconditioner "child")
+    * [preconditioner](preconditioner__bjacobi/preconditioner.md "child")
 
         CHOICE 
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../terraferma_options) /
+/ [terraferma_options](../terraferma_options.md) /
 
 #global_parameters
 
@@ -28,7 +28,7 @@
 
 Global parameter options
 
-* [ufl](global_parameters/ufl "child")
+* [ufl](global_parameters/ufl.md "child")
 
     OPTIONAL 
 
@@ -39,7 +39,7 @@ Global parameter options
     global ufl code preamble to all forms defined below.  
     Any system, field or coefficient ufl symbols defined in this options file may be used in this ufl.
 
-* [dolfin](global_parameters/dolfin "child")
+* [dolfin](global_parameters/dolfin.md "child")
 
     OPTIONAL 
 

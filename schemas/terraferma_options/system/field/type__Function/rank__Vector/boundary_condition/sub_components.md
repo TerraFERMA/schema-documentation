@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [field](../../../../field) / [type::Function](../../../type__Function) / [rank::Vector](../../rank__Vector) / [boundary_condition](../boundary_condition) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [field](../../../../field.md) / [type::Function](../../../type__Function.md) / [rank::Vector](../../rank__Vector.md) / [boundary_condition](../boundary_condition.md) /
 
 #sub_components
 
@@ -32,7 +32,7 @@ attributes: name (string)
 
 Apply this boundary condition to a subset of the vector components on this boundary_id
 
-* [components](sub_components/components "child")
+* [components](sub_components/components.md "child")
 
     type: integers
 
@@ -40,7 +40,7 @@ Apply this boundary condition to a subset of the vector components on this bound
 
     A list of the vector components to which this boundary condition applies (indexes from 0)
 
-* [type (Dirichlet)](sub_components/type__Dirichlet "child")
+* [type (Dirichlet)](sub_components/type__Dirichlet.md "child")
 
     */system/field/type::Function/rank::Vector/boundary_condition/sub_components/type::Dirichlet*
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [io](../../io) / [detectors](../detectors) /
+/ [terraferma_options](../../../terraferma_options.md) / [io](../../io.md) / [detectors](../detectors.md) /
 
 #array
 
@@ -32,7 +32,7 @@ attributes: name (string)
 
 Define an array of detectors using python.  The name of the array must be unique amongst all detectors.
 
-* [python](array/python "child")
+* [python](array/python.md "child")
 
     type: string
 

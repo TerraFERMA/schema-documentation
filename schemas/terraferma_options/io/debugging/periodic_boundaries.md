@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [io](../../io) / [debugging](../debugging) /
+/ [terraferma_options](../../../terraferma_options.md) / [io](../../io.md) / [debugging](../debugging.md) /
 
 #periodic_boundaries
 

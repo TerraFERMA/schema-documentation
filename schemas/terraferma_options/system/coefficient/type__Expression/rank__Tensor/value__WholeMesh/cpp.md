@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [coefficient](../../../../coefficient) / [type::Expression](../../../type__Expression) / [rank::Tensor](../../rank__Tensor) / [value::WholeMesh](../value__WholeMesh) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [coefficient](../../../../coefficient.md) / [type::Expression](../../../type__Expression.md) / [rank::Tensor](../../rank__Tensor.md) / [value::WholeMesh](../value__WholeMesh.md) /
 
 #cpp
 
@@ -30,7 +30,7 @@ CHOICE
 
 A tensor described by a derived dolfin expression using c++ code.
 
-* [include](cpp/include "child")
+* [include](cpp/include.md "child")
 
     OPTIONAL 
 
@@ -52,7 +52,7 @@ A tensor described by a derived dolfin expression using c++ code.
         #include "SystemBucket.h"
         #include <dolfin.h>
 
-* [members](cpp/members "child")
+* [members](cpp/members.md "child")
 
     type: string
 
@@ -67,7 +67,7 @@ A tensor described by a derived dolfin expression using c++ code.
     automatically generated variables.  Additionally the overloaded dolfin eval interface provides
     variables named values, x and cell, so these should not be used to avoid confusion.
 
-* [initialization](cpp/initialization "child")
+* [initialization](cpp/initialization.md "child")
 
     type: string
 
@@ -106,7 +106,7 @@ A tensor described by a derived dolfin expression using c++ code.
     
         examplecoeff = system()->fetch_coeff("ExampleCoefficient")->genericfunction_ptr(time())
 
-* [eval](cpp/eval "child")
+* [eval](cpp/eval.md "child")
 
     type: string
 

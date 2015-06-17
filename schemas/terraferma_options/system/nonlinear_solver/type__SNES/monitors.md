@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [system](../../../system) / [nonlinear_solver](../../nonlinear_solver) / [type::SNES](../type__SNES) /
+/ [terraferma_options](../../../../terraferma_options.md) / [system](../../../system.md) / [nonlinear_solver](../../nonlinear_solver.md) / [type::SNES](../type__SNES.md) /
 
 #monitors
 
@@ -29,7 +29,7 @@
 Options to give extra information for each iteration of the
 the SNES solve. Some of those may really slow down your computation!
 
-* [view_snes](monitors/view_snes "child")
+* [view_snes](monitors/view_snes.md "child")
 
     OPTIONAL 
 
@@ -37,7 +37,7 @@ the SNES solve. Some of those may really slow down your computation!
 
     Prints PETSc information about the snes object.
 
-* [residual](monitors/residual "child")
+* [residual](monitors/residual.md "child")
 
     OPTIONAL 
 
@@ -45,7 +45,7 @@ the SNES solve. Some of those may really slow down your computation!
 
     Output the residual at every function evaluation.
 
-* [solution_graph](monitors/solution_graph "child")
+* [solution_graph](monitors/solution_graph.md "child")
 
     OPTIONAL 
 
@@ -53,7 +53,7 @@ the SNES solve. Some of those may really slow down your computation!
 
     Plot a graph of the solution with each iteration.
 
-* [visualization](monitors/visualization "child")
+* [visualization](monitors/visualization.md "child")
 
     OPTIONAL 
 
@@ -63,7 +63,7 @@ the SNES solve. Some of those may really slow down your computation!
     
     WARNING: This will produce a lot of output so should only be used for debugging purposes!
 
-* [convergence_file](monitors/convergence_file "child")
+* [convergence_file](monitors/convergence_file.md "child")
 
     OPTIONAL 
 
@@ -71,7 +71,7 @@ the SNES solve. Some of those may really slow down your computation!
 
     Output a diagnostic file detailing the convergence of this solver.
 
-* [norms](monitors/norms "child")
+* [norms](monitors/norms.md "child")
 
     OPTIONAL 
 

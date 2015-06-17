@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../terraferma_options) /
+/ [terraferma_options](../terraferma_options.md) /
 
 #io
 
@@ -28,7 +28,7 @@
 
 Input/Output options
 
-* [output_base_name](io/output_base_name "child")
+* [output_base_name](io/output_base_name.md "child")
 
     type: string
 
@@ -36,13 +36,13 @@ Input/Output options
 
     Base name for files output by the model
 
-* [visualization](io/visualization "child")
+* [visualization](io/visualization.md "child")
 
     */io/visualization*
 
     Options to control the functionspace that the visualization output is interpolated to.
 
-* [dump_periods](io/dump_periods "child")
+* [dump_periods](io/dump_periods.md "child")
 
     */io/dump_periods*
 
@@ -53,13 +53,13 @@ Input/Output options
     i.e. even setting the dump_period to every timestep will produce no output if no fields 
     or coefficients are selected to be included!
 
-* [detectors](io/detectors "child")
+* [detectors](io/detectors.md "child")
 
     */io/detectors*
 
     Detectors options
 
-* [checkpointing](io/checkpointing "child")
+* [checkpointing](io/checkpointing.md "child")
 
     OPTIONAL 
 
@@ -67,7 +67,7 @@ Input/Output options
 
     Options to enable checkpointing
 
-* [debugging](io/debugging "child")
+* [debugging](io/debugging.md "child")
 
     OPTIONAL 
 

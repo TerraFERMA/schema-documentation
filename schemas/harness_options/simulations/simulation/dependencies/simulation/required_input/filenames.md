@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../../../../harness_options) / [simulations](../../../../../simulations) / [simulation](../../../../simulation) / [dependencies](../../../dependencies) / [simulation](../../simulation) / [required_input](../required_input) /
+/ [harness_options](../../../../../../harness_options.md) / [simulations](../../../../../simulations.md) / [simulation](../../../../simulation.md) / [dependencies](../../../dependencies.md) / [simulation](../../simulation.md) / [required_input](../required_input.md) /
 
 #filenames
 
@@ -35,7 +35,7 @@ Enter filenames, either as a string or returned from python code.
 All filenames must have a unique name.
 
 * CHOICE:
-    * [string](filenames/string "child")
+    * [string](filenames/string.md "child")
 
         CHOICE 
 
@@ -45,7 +45,7 @@ All filenames must have a unique name.
 
         Enter one or multiple filenames as a comma, semicolon or space separated list.
 
-    * [python](filenames/python "child")
+    * [python](filenames/python.md "child")
 
         CHOICE 
 

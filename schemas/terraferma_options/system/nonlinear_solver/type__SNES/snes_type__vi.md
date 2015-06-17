@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [system](../../../system) / [nonlinear_solver](../../nonlinear_solver) / [type::SNES](../type__SNES) /
+/ [terraferma_options](../../../../terraferma_options.md) / [system](../../../system.md) / [nonlinear_solver](../../nonlinear_solver.md) / [type::SNES](../type__SNES.md) /
 
 #snes_type (vi)
 
@@ -32,14 +32,14 @@ The SNES type. Variational Inequality.
 
 NOTE: only available with Petsc >= 3.2 and with petsc > 3.2 this maps to virs.
 
-* [constraints](snes_type__vi/constraints "child")
+* [constraints](snes_type__vi/constraints.md "child")
 
     */system/nonlinear_solver/type::SNES/snes_type::vi/constraints*
 
     Place constraints on the variational inequality.
 
 * CHOICE:
-    * [convergence_test (default)](snes_type__vi/convergence_test__default "child")
+    * [convergence_test (default)](snes_type__vi/convergence_test__default.md "child")
 
         CHOICE 
 
@@ -47,7 +47,7 @@ NOTE: only available with Petsc >= 3.2 and with petsc > 3.2 this maps to virs.
 
         Default convergence test. See SNESConvergedReason.
 
-    * [convergence_test (skip)](snes_type__vi/convergence_test__skip "child")
+    * [convergence_test (skip)](snes_type__vi/convergence_test__skip.md "child")
 
         CHOICE 
 

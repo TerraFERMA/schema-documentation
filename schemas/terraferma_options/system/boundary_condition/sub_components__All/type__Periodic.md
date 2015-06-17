@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [system](../../../system) / [boundary_condition](../../boundary_condition) / [sub_components::All](../sub_components__All) /
+/ [terraferma_options](../../../../terraferma_options.md) / [system](../../../system.md) / [boundary_condition](../../boundary_condition.md) / [sub_components::All](../sub_components__All.md) /
 
 #type (Periodic)
 
@@ -28,7 +28,7 @@
 
 The boundary condition type.
 
-* [slave_boundary_ids](type__Periodic/slave_boundary_ids "child")
+* [slave_boundary_ids](type__Periodic/slave_boundary_ids.md "child")
 
     type: integers
 
@@ -38,7 +38,7 @@ The boundary condition type.
     
     The master boundary ids are those given for this boundary condition.
 
-* [coordinate_map](type__Periodic/coordinate_map "child")
+* [coordinate_map](type__Periodic/coordinate_map.md "child")
 
     type: string
 

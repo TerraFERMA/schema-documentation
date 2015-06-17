@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [geometry](../geometry) /
+/ [terraferma_options](../../terraferma_options.md) / [geometry](../geometry.md) /
 
 #dimension
 

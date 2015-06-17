@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../harness_options) /
+/ [harness_options](../harness_options.md) /
 
 #tags
 

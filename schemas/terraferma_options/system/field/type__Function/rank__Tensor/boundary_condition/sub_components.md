@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [field](../../../../field) / [type::Function](../../../type__Function) / [rank::Tensor](../../rank__Tensor) / [boundary_condition](../boundary_condition) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [field](../../../../field.md) / [type::Function](../../../type__Function.md) / [rank::Tensor](../../rank__Tensor.md) / [boundary_condition](../boundary_condition.md) /
 
 #sub_components
 
@@ -32,7 +32,7 @@ attributes: name (string)
 
 Apply this boundary condition to a subset of the tensor components on this boundary_id
 
-* [components](sub_components/components "child")
+* [components](sub_components/components.md "child")
 
     type: integers
 
@@ -40,7 +40,7 @@ Apply this boundary condition to a subset of the tensor components on this bound
 
     A list of the tensor components to which this boundary condition applies (indexes from 0 by row first)
 
-* [type (Dirichlet)](sub_components/type__Dirichlet "child")
+* [type (Dirichlet)](sub_components/type__Dirichlet.md "child")
 
     */system/field/type::Function/rank::Tensor/boundary_condition/sub_components/type::Dirichlet*
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [system](../system) /
+/ [terraferma_options](../../terraferma_options.md) / [system](../system.md) /
 
 #mesh
 

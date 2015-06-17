@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [coefficient](../../../coefficient) / [type::Expression](../../type__Expression) / [rank::Scalar](../rank__Scalar) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [coefficient](../../../coefficient.md) / [type::Expression](../../type__Expression.md) / [rank::Scalar](../rank__Scalar.md) /
 
 #element (P2DG)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing piecewise quadratic discontinuous Lagrange finite element.
 
-* [family](element__P2DG/family "child")
+* [family](element__P2DG/family.md "child")
 
     values: DG
 
@@ -40,7 +40,7 @@ Options describing piecewise quadratic discontinuous Lagrange finite element.
     
     - DG = Discontinuous Lagrange (discontinuous Galerkin)
 
-* [degree](element__P2DG/degree "child")
+* [degree](element__P2DG/degree.md "child")
 
     values: 0 2
 
@@ -48,7 +48,7 @@ Options describing piecewise quadratic discontinuous Lagrange finite element.
 
     Element degree
 
-* [enrichment](element__P2DG/enrichment "child")
+* [enrichment](element__P2DG/enrichment.md "child")
 
     OPTIONAL 
 

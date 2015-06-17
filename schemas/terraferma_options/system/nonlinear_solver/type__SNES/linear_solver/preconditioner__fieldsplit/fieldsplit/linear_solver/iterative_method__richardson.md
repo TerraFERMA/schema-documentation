@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../../terraferma_options) / [system](../../../../../../../system) / [nonlinear_solver](../../../../../../nonlinear_solver) / [type::SNES](../../../../../type__SNES) / [linear_solver](../../../../linear_solver) / [preconditioner::fieldsplit](../../../preconditioner__fieldsplit) / [fieldsplit](../../fieldsplit) / [linear_solver](../linear_solver) /
+/ [terraferma_options](../../../../../../../../terraferma_options.md) / [system](../../../../../../../system.md) / [nonlinear_solver](../../../../../../nonlinear_solver.md) / [type::SNES](../../../../../type__SNES.md) / [linear_solver](../../../../linear_solver.md) / [preconditioner::fieldsplit](../../../preconditioner__fieldsplit.md) / [fieldsplit](../../fieldsplit.md) / [linear_solver](../linear_solver.md) /
 
 #iterative_method (richardson)
 
@@ -32,7 +32,7 @@ Richardson iteration
 
 Only apply preconditioner each iteration, no krylov acceleration
 
-* [relative_error](iterative_method__richardson/relative_error "child")
+* [relative_error](iterative_method__richardson/relative_error.md "child")
 
     type: float
 
@@ -43,7 +43,7 @@ Only apply preconditioner each iteration, no krylov acceleration
     The solver finishes if the preconditioned error becomes smaller than the original preconditioned error times this value.
     Suggested value: 1.0e-7
 
-* [absolute_error](iterative_method__richardson/absolute_error "child")
+* [absolute_error](iterative_method__richardson/absolute_error.md "child")
 
     OPTIONAL 
 
@@ -57,7 +57,7 @@ Only apply preconditioner each iteration, no krylov acceleration
     
     Defaults to 1.e-50.
 
-* [divergence_error](iterative_method__richardson/divergence_error "child")
+* [divergence_error](iterative_method__richardson/divergence_error.md "child")
 
     OPTIONAL 
 
@@ -71,7 +71,7 @@ Only apply preconditioner each iteration, no krylov acceleration
     
     Defaults to 10000.
 
-* [max_iterations](iterative_method__richardson/max_iterations "child")
+* [max_iterations](iterative_method__richardson/max_iterations.md "child")
 
     type: integer
 
@@ -80,7 +80,7 @@ Only apply preconditioner each iteration, no krylov acceleration
     Maximum number of iterations allowed in the linear solver
     before giving up.
 
-* [monitors](iterative_method__richardson/monitors "child")
+* [monitors](iterative_method__richardson/monitors.md "child")
 
     */system/nonlinear_solver/type::SNES/linear_solver/preconditioner::fieldsplit/fieldsplit/linear_solver/iterative_method::richardson/monitors*
 
@@ -88,7 +88,7 @@ Only apply preconditioner each iteration, no krylov acceleration
     the solve. Some of those may really slow down your computation!
 
 * CHOICE:
-    * [nonzero_initial_guess](iterative_method__richardson/nonzero_initial_guess "child")
+    * [nonzero_initial_guess](iterative_method__richardson/nonzero_initial_guess.md "child")
 
         CHOICE 
 
@@ -99,7 +99,7 @@ Only apply preconditioner each iteration, no krylov acceleration
         NOTE: some solvers always start at zero in which case this switch will have no effect.
         Also the value of this switch on any parent solves may effect its behaviour.
 
-    * [zero_initial_guess](iterative_method__richardson/zero_initial_guess "child")
+    * [zero_initial_guess](iterative_method__richardson/zero_initial_guess.md "child")
 
         CHOICE 
 

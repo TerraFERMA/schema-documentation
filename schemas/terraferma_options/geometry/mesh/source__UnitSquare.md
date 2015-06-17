@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [geometry](../../geometry) / [mesh](../mesh) /
+/ [terraferma_options](../../../terraferma_options.md) / [geometry](../../geometry.md) / [mesh](../mesh.md) /
 
 #source (UnitSquare)
 
@@ -40,7 +40,7 @@ Boundary ids will be automatically assigned as:
 No region ids will be assigned.   
 
 
-* [number_cells](source__UnitSquare/number_cells "child")
+* [number_cells](source__UnitSquare/number_cells.md "child")
 
     type: integers
 
@@ -48,7 +48,7 @@ No region ids will be assigned.
 
     Specify the number of cells in each dimension.
 
-* [diagonal](source__UnitSquare/diagonal "child")
+* [diagonal](source__UnitSquare/diagonal.md "child")
 
     values: left right right/left left/right crossed
 
@@ -56,7 +56,7 @@ No region ids will be assigned.
 
     Specify the direction in which the diagonal should lie.
 
-* [cell](source__UnitSquare/cell "child")
+* [cell](source__UnitSquare/cell.md "child")
 
     values: triangle
 

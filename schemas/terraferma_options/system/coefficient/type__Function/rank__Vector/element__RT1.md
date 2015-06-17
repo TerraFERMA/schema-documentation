@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [coefficient](../../../coefficient) / [type::Function](../../type__Function) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [coefficient](../../../coefficient.md) / [type::Function](../../type__Function.md) / [rank::Vector](../rank__Vector.md) /
 
 #element (RT1)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing first degree Raviart-Thomas element for a vector.
 
-* [family](element__RT1/family "child")
+* [family](element__RT1/family.md "child")
 
     values: RT
 
@@ -40,7 +40,7 @@ Options describing first degree Raviart-Thomas element for a vector.
     
     - RT = Raviart-Thomas
 
-* [degree](element__RT1/degree "child")
+* [degree](element__RT1/degree.md "child")
 
     values: 0 1
 
@@ -48,7 +48,7 @@ Options describing first degree Raviart-Thomas element for a vector.
 
     Element degree
 
-* [enrichment](element__RT1/enrichment "child")
+* [enrichment](element__RT1/enrichment.md "child")
 
     OPTIONAL 
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [coefficient](../../../coefficient) / [type::Function](../../type__Function) / [rank::Scalar](../rank__Scalar) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [coefficient](../../../coefficient.md) / [type::Function](../../type__Function.md) / [rank::Scalar](../rank__Scalar.md) /
 
 #element (Quadrature)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing a piecewise constant quadrature element.
 
-* [family](element__Quadrature/family "child")
+* [family](element__Quadrature/family.md "child")
 
     values: Quadrature
 
@@ -40,7 +40,7 @@ Options describing a piecewise constant quadrature element.
     
     - Quadrature
 
-* [degree](element__Quadrature/degree "child")
+* [degree](element__Quadrature/degree.md "child")
 
     type: integer
 

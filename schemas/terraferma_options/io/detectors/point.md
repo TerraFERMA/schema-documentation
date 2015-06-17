@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [io](../../io) / [detectors](../detectors) /
+/ [terraferma_options](../../../terraferma_options.md) / [io](../../io.md) / [detectors](../detectors.md) /
 
 #point
 

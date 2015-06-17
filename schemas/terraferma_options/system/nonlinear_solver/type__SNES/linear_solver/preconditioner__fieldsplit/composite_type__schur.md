@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [nonlinear_solver](../../../../nonlinear_solver) / [type::SNES](../../../type__SNES) / [linear_solver](../../linear_solver) / [preconditioner::fieldsplit](../preconditioner__fieldsplit) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [nonlinear_solver](../../../../nonlinear_solver.md) / [type::SNES](../../../type__SNES.md) / [linear_solver](../../linear_solver.md) / [preconditioner::fieldsplit](../preconditioner__fieldsplit.md) /
 
 #composite_type (schur)
 
@@ -34,7 +34,7 @@ NOTE: Only two fieldsplits may be specified.  The first is for the upper left di
 while the second must describe the lower right diagonal block (A11).
 
 * CHOICE:
-    * [factorization_type (full)](composite_type__schur/factorization_type__full "child")
+    * [factorization_type (full)](composite_type__schur/factorization_type__full.md "child")
 
         CHOICE 
 
@@ -52,7 +52,7 @@ while the second must describe the lower right diagonal block (A11).
         Upper uses D*U, lower uses L*D, and diag is the diagonal part with the sign of S flipped (because 
         this makes the preconditioner positive definite for many formulations, thus allowing the use of KSPMINRES).
 
-    * [factorization_type (upper)](composite_type__schur/factorization_type__upper "child")
+    * [factorization_type (upper)](composite_type__schur/factorization_type__upper.md "child")
 
         CHOICE 
 
@@ -70,7 +70,7 @@ while the second must describe the lower right diagonal block (A11).
         Upper uses D*U, lower uses L*D, and diag is the diagonal part with the sign of S flipped (because 
         this makes the preconditioner positive definite for many formulations, thus allowing the use of KSPMINRES).
 
-    * [factorization_type (lower)](composite_type__schur/factorization_type__lower "child")
+    * [factorization_type (lower)](composite_type__schur/factorization_type__lower.md "child")
 
         CHOICE 
 
@@ -88,7 +88,7 @@ while the second must describe the lower right diagonal block (A11).
         Upper uses D*U, lower uses L*D, and diag is the diagonal part with the sign of S flipped (because 
         this makes the preconditioner positive definite for many formulations, thus allowing the use of KSPMINRES).
 
-    * [factorization_type (diag)](composite_type__schur/factorization_type__diag "child")
+    * [factorization_type (diag)](composite_type__schur/factorization_type__diag.md "child")
 
         CHOICE 
 
@@ -107,7 +107,7 @@ while the second must describe the lower right diagonal block (A11).
         this makes the preconditioner positive definite for many formulations, thus allowing the use of KSPMINRES).
 
 * CHOICE:
-    * [schur_preconditioner (diag)](composite_type__schur/schur_preconditioner__diag "child")
+    * [schur_preconditioner (diag)](composite_type__schur/schur_preconditioner__diag.md "child")
 
         CHOICE 
 
@@ -122,7 +122,7 @@ while the second must describe the lower right diagonal block (A11).
         which uses the least squares commutator compute a preconditioner for the Schur 
         complement.
 
-    * [schur_preconditioner (self)](composite_type__schur/schur_preconditioner__self "child")
+    * [schur_preconditioner (self)](composite_type__schur/schur_preconditioner__self.md "child")
 
         CHOICE 
 
@@ -136,7 +136,7 @@ while the second must describe the lower right diagonal block (A11).
         which uses the least squares commutator compute a preconditioner for the Schur 
         complement.
 
-    * [schur_preconditioner (user)](composite_type__schur/schur_preconditioner__user "child")
+    * [schur_preconditioner (user)](composite_type__schur/schur_preconditioner__user.md "child")
 
         CHOICE 
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [nonlinear_solver](../../../nonlinear_solver) / [type::Picard](../../type__Picard) / [linear_solver](../linear_solver) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [nonlinear_solver](../../../nonlinear_solver.md) / [type::Picard](../../type__Picard.md) / [linear_solver](../linear_solver.md) /
 
 #preconditioner (ksp)
 
@@ -38,7 +38,7 @@ solve you either need to set your tolerances much stricter for it
 than in the outer solve (so that the preconditioner is close to an
 exact matrix inversion), or use fgmres in the outer solve.
 
-* [linear_solver](preconditioner__ksp/linear_solver "child")
+* [linear_solver](preconditioner__ksp/linear_solver.md "child")
 
     */system/nonlinear_solver/type::Picard/linear_solver/preconditioner::ksp/linear_solver*
 

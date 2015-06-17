@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../../terraferma_options) / [system](../../../../../../../system) / [nonlinear_solver](../../../../../../nonlinear_solver) / [type::SNES](../../../../../type__SNES) / [linear_solver](../../../../linear_solver) / [preconditioner::fieldsplit](../../../preconditioner__fieldsplit) / [fieldsplit](../../fieldsplit) / [linear_solver](../linear_solver) /
+/ [terraferma_options](../../../../../../../../terraferma_options.md) / [system](../../../../../../../system.md) / [nonlinear_solver](../../../../../../nonlinear_solver.md) / [type::SNES](../../../../../type__SNES.md) / [linear_solver](../../../../linear_solver.md) / [preconditioner::fieldsplit](../../../preconditioner__fieldsplit.md) / [fieldsplit](../../fieldsplit.md) / [linear_solver](../linear_solver.md) /
 
 #preconditioner (asm)
 
@@ -38,7 +38,7 @@ increase the communication cost, so iterations may be more expensive
 than with bjacobi.
 
 * CHOICE:
-    * [preconditioner (sor)](preconditioner__asm/preconditioner__sor "child")
+    * [preconditioner (sor)](preconditioner__asm/preconditioner__sor.md "child")
 
         CHOICE 
 
@@ -48,7 +48,7 @@ than with bjacobi.
         
         This includes SSOR (symmetric sor)
 
-    * [preconditioner (eisenstat)](preconditioner__asm/preconditioner__eisenstat "child")
+    * [preconditioner (eisenstat)](preconditioner__asm/preconditioner__eisenstat.md "child")
 
         CHOICE 
 
@@ -63,7 +63,7 @@ than with bjacobi.
         a different preconditioned residual the convergence in
         practice may be quite different though.
 
-    * [preconditioner (ilu)](preconditioner__asm/preconditioner__ilu "child")
+    * [preconditioner (ilu)](preconditioner__asm/preconditioner__ilu.md "child")
 
         CHOICE 
 
@@ -71,7 +71,7 @@ than with bjacobi.
 
         Incomplete LU decomposition
 
-    * [preconditioner (icc)](preconditioner__asm/preconditioner__icc "child")
+    * [preconditioner (icc)](preconditioner__asm/preconditioner__icc.md "child")
 
         CHOICE 
 
@@ -79,7 +79,7 @@ than with bjacobi.
 
         Incomplete Cholesky decomposition (only works for symmetric matrices)
 
-    * [preconditioner (lu)](preconditioner__asm/preconditioner__lu "child")
+    * [preconditioner (lu)](preconditioner__asm/preconditioner__lu.md "child")
 
         CHOICE 
 
@@ -89,7 +89,7 @@ than with bjacobi.
         
         This performs a complete, direct solve of the equation and should only be used in combination with preonly as iterative method.
 
-    * [preconditioner (prometheus)](preconditioner__asm/preconditioner__prometheus "child")
+    * [preconditioner (prometheus)](preconditioner__asm/preconditioner__prometheus.md "child")
 
         CHOICE 
 
@@ -97,7 +97,7 @@ than with bjacobi.
 
         Prometheus multigrid method
 
-    * [preconditioner (hypre)](preconditioner__asm/preconditioner__hypre "child")
+    * [preconditioner (hypre)](preconditioner__asm/preconditioner__hypre.md "child")
 
         CHOICE 
 
@@ -105,7 +105,7 @@ than with bjacobi.
 
         Hypre preconditioners (includes boomeramg)
 
-    * [preconditioner (gamg)](preconditioner__asm/preconditioner__gamg "child")
+    * [preconditioner (gamg)](preconditioner__asm/preconditioner__gamg.md "child")
 
         CHOICE 
 
@@ -115,7 +115,7 @@ than with bjacobi.
         
         NOTE: Only available with petsc > 3.2.
 
-    * [preconditioner (ml)](preconditioner__asm/preconditioner__ml "child")
+    * [preconditioner (ml)](preconditioner__asm/preconditioner__ml.md "child")
 
         CHOICE 
 
@@ -125,7 +125,7 @@ than with bjacobi.
         
         NOTE: Only available if petsc is configured with ml!
 
-    * [preconditioner](preconditioner__asm/preconditioner "child")
+    * [preconditioner](preconditioner__asm/preconditioner.md "child")
 
         CHOICE 
 

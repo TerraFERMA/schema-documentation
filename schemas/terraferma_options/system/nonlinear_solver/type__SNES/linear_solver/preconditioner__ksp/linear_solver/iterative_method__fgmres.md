@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../terraferma_options) / [system](../../../../../../system) / [nonlinear_solver](../../../../../nonlinear_solver) / [type::SNES](../../../../type__SNES) / [linear_solver](../../../linear_solver) / [preconditioner::ksp](../../preconditioner__ksp) / [linear_solver](../linear_solver) /
+/ [terraferma_options](../../../../../../../terraferma_options.md) / [system](../../../../../../system.md) / [nonlinear_solver](../../../../../nonlinear_solver.md) / [type::SNES](../../../../type__SNES.md) / [linear_solver](../../../linear_solver.md) / [preconditioner::ksp](../../preconditioner__ksp.md) / [linear_solver](../linear_solver.md) /
 
 #iterative_method (fgmres)
 
@@ -30,7 +30,7 @@ CHOICE
 
 FGMRES
 
-* [restart](iterative_method__fgmres/restart "child")
+* [restart](iterative_method__fgmres/restart.md "child")
 
     type: integer
 
@@ -40,7 +40,7 @@ FGMRES
     Higher values give better convergence but require more memory.
     Suggested value: 30
 
-* [relative_error](iterative_method__fgmres/relative_error "child")
+* [relative_error](iterative_method__fgmres/relative_error.md "child")
 
     type: float
 
@@ -51,7 +51,7 @@ FGMRES
     The solver finishes if the preconditioned error becomes smaller than the original preconditioned error times this value.
     Suggested value: 1.0e-7
 
-* [absolute_error](iterative_method__fgmres/absolute_error "child")
+* [absolute_error](iterative_method__fgmres/absolute_error.md "child")
 
     OPTIONAL 
 
@@ -65,7 +65,7 @@ FGMRES
     
     Defaults to 1.e-50.
 
-* [divergence_error](iterative_method__fgmres/divergence_error "child")
+* [divergence_error](iterative_method__fgmres/divergence_error.md "child")
 
     OPTIONAL 
 
@@ -79,7 +79,7 @@ FGMRES
     
     Defaults to 10000.
 
-* [max_iterations](iterative_method__fgmres/max_iterations "child")
+* [max_iterations](iterative_method__fgmres/max_iterations.md "child")
 
     type: integer
 
@@ -88,7 +88,7 @@ FGMRES
     Maximum number of iterations allowed in the linear solver
     before giving up.
 
-* [monitors](iterative_method__fgmres/monitors "child")
+* [monitors](iterative_method__fgmres/monitors.md "child")
 
     */system/nonlinear_solver/type::SNES/linear_solver/preconditioner::ksp/linear_solver/iterative_method::fgmres/monitors*
 
@@ -96,7 +96,7 @@ FGMRES
     the solve. Some of those may really slow down your computation!
 
 * CHOICE:
-    * [nonzero_initial_guess](iterative_method__fgmres/nonzero_initial_guess "child")
+    * [nonzero_initial_guess](iterative_method__fgmres/nonzero_initial_guess.md "child")
 
         CHOICE 
 
@@ -107,7 +107,7 @@ FGMRES
         NOTE: some solvers always start at zero in which case this switch will have no effect.
         Also the value of this switch on any parent solves may effect its behaviour.
 
-    * [zero_initial_guess](iterative_method__fgmres/zero_initial_guess "child")
+    * [zero_initial_guess](iterative_method__fgmres/zero_initial_guess.md "child")
 
         CHOICE 
 

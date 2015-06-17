@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [coefficient](../../../../coefficient) / [type::Constant](../../../type__Constant) / [rank::Scalar](../../rank__Scalar) / [value::WholeMesh](../value__WholeMesh) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [coefficient](../../../../coefficient.md) / [type::Constant](../../../type__Constant.md) / [rank::Scalar](../../rank__Scalar.md) / [value::WholeMesh](../value__WholeMesh.md) /
 
 #functional
 
@@ -32,7 +32,7 @@ type: string
 
 ufl code and symbol describing a functional.  This must return a single number, which is used to set a spatially constant coefficient value.
 
-* [ufl_symbol (functional)](functional/ufl_symbol__functional "child")
+* [ufl_symbol (functional)](functional/ufl_symbol__functional.md "child")
 
     type: string
 
@@ -41,7 +41,7 @@ ufl code and symbol describing a functional.  This must return a single number, 
     The ufl symbol used above to describe a functional.  This need not be unique as it is only accessible
     from this description.  No additional symbols will be automatically generated based on this symbol.
 
-* [quadrature_degree](functional/quadrature_degree "child")
+* [quadrature_degree](functional/quadrature_degree.md "child")
 
     OPTIONAL 
 
@@ -54,7 +54,7 @@ ufl code and symbol describing a functional.  This must return a single number, 
     If unselected ffc will automatically determine the degree for the form.
 
 * CHOICE:
-    * [quadrature_rule (default)](functional/quadrature_rule__default "child")
+    * [quadrature_rule (default)](functional/quadrature_rule__default.md "child")
 
         CHOICE 
 
@@ -68,7 +68,7 @@ ufl code and symbol describing a functional.  This must return a single number, 
         The 'canonical' option relies on FIAT to compute the quadrature rule which is based on Gauss--Legendre--Jacobi rule mapped
         onto simplices.
 
-    * [quadrature_rule (canonical)](functional/quadrature_rule__canonical "child")
+    * [quadrature_rule (canonical)](functional/quadrature_rule__canonical.md "child")
 
         CHOICE 
 

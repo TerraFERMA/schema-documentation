@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [system](../../../system) / [nonlinear_solver](../../nonlinear_solver) / [type::Picard](../type__Picard) /
+/ [terraferma_options](../../../../terraferma_options.md) / [system](../../../system.md) / [nonlinear_solver](../../nonlinear_solver.md) / [type::Picard](../type__Picard.md) /
 
 #monitors
 
@@ -29,7 +29,7 @@
 Options to give extra information for each iteration of the
 Picard solve. Some of those may really slow down your computation!
 
-* [visualization](monitors/visualization "child")
+* [visualization](monitors/visualization.md "child")
 
     OPTIONAL 
 
@@ -39,7 +39,7 @@ Picard solve. Some of those may really slow down your computation!
     
     WARNING: This will produce a lot of output so should only be used for debugging purposes!
 
-* [convergence_file](monitors/convergence_file "child")
+* [convergence_file](monitors/convergence_file.md "child")
 
     OPTIONAL 
 
@@ -47,7 +47,7 @@ Picard solve. Some of those may really slow down your computation!
 
     Output a diagnostic file detailing the convergence of this solver.
 
-* [norms](monitors/norms "child")
+* [norms](monitors/norms.md "child")
 
     OPTIONAL 
 

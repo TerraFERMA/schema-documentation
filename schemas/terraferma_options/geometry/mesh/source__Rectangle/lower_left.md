@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [geometry](../../../geometry) / [mesh](../../mesh) / [source::Rectangle](../source__Rectangle) /
+/ [terraferma_options](../../../../terraferma_options.md) / [geometry](../../../geometry.md) / [mesh](../../mesh.md) / [source::Rectangle](../source__Rectangle.md) /
 
 #lower_left
 

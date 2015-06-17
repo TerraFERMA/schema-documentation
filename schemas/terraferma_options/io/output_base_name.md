@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [io](../io) /
+/ [terraferma_options](../../terraferma_options.md) / [io](../io.md) /
 
 #output_base_name
 

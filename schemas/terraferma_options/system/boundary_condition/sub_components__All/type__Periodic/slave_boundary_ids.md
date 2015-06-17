@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [boundary_condition](../../../boundary_condition) / [sub_components::All](../../sub_components__All) / [type::Periodic](../type__Periodic) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [boundary_condition](../../../boundary_condition.md) / [sub_components::All](../../sub_components__All.md) / [type::Periodic](../type__Periodic.md) /
 
 #slave_boundary_ids
 

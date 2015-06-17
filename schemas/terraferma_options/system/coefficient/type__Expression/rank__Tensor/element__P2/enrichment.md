@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [coefficient](../../../../coefficient) / [type::Expression](../../../type__Expression) / [rank::Tensor](../../rank__Tensor) / [element::P2](../element__P2) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [coefficient](../../../../coefficient.md) / [type::Expression](../../../type__Expression.md) / [rank::Tensor](../../rank__Tensor.md) / [element::P2](../element__P2.md) /
 
 #enrichment
 
@@ -33,7 +33,7 @@ NO DOCUMENTATION
 Please raise an issue at: [https://github.com/terraferma/terraferma/issues](https://github.com/terraferma/terraferma/issues "project url").
 
 * CHOICE:
-    * [element (UserDefined)](enrichment/element__UserDefined "child")
+    * [element (UserDefined)](enrichment/element__UserDefined.md "child")
 
         CHOICE 
 
@@ -43,7 +43,7 @@ Please raise an issue at: [https://github.com/terraferma/terraferma/issues](http
 
         Please raise an issue at: [https://github.com/terraferma/terraferma/issues](https://github.com/terraferma/terraferma/issues "project url").
 
-    * [element (B3)](enrichment/element__B3 "child")
+    * [element (B3)](enrichment/element__B3.md "child")
 
         CHOICE 
 

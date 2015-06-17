@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [system](../../system) / [coefficient](../coefficient) /
+/ [terraferma_options](../../../terraferma_options.md) / [system](../../system.md) / [coefficient](../coefficient.md) /
 
 #type (Function)
 
@@ -33,7 +33,7 @@ The type of coefficient.
 Functions require a functionspace, which will be defined on the same mesh as the system in which this coefficient falls.
 
 * CHOICE:
-    * [rank (Scalar)](type__Function/rank__Scalar "child")
+    * [rank (Scalar)](type__Function/rank__Scalar.md "child")
 
         CHOICE 
 
@@ -41,7 +41,7 @@ Functions require a functionspace, which will be defined on the same mesh as the
 
         The rank of the coefficient (scalar, rank 0).
 
-    * [rank (Vector)](type__Function/rank__Vector "child")
+    * [rank (Vector)](type__Function/rank__Vector.md "child")
 
         CHOICE 
 
@@ -49,7 +49,7 @@ Functions require a functionspace, which will be defined on the same mesh as the
 
         The rank of the coefficient (vector, rank 1).
 
-    * [rank (Tensor)](type__Function/rank__Tensor "child")
+    * [rank (Tensor)](type__Function/rank__Tensor.md "child")
 
         CHOICE 
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../../terraferma_options) / [system](../../../../../../../system) / [nonlinear_solver](../../../../../../nonlinear_solver) / [type::SNES](../../../../../type__SNES) / [linear_solver](../../../../linear_solver) / [preconditioner::fieldsplit](../../../preconditioner__fieldsplit) / [fieldsplit](../../fieldsplit) / [linear_solver](../linear_solver) /
+/ [terraferma_options](../../../../../../../../terraferma_options.md) / [system](../../../../../../../system.md) / [nonlinear_solver](../../../../../../nonlinear_solver.md) / [type::SNES](../../../../../type__SNES.md) / [linear_solver](../../../../linear_solver.md) / [preconditioner::fieldsplit](../../../preconditioner__fieldsplit.md) / [fieldsplit](../../fieldsplit.md) / [linear_solver](../linear_solver.md) /
 
 #iterative_method
 
@@ -36,7 +36,7 @@ Any method provided by the PETSc library
 http://www.mcs.anl.gov/petsc/petsc-current/docs/manualpages/KSP/KSPType.html
 (available methods may depend on the PETSc library installed on your system)
 
-* [relative_error](iterative_method/relative_error "child")
+* [relative_error](iterative_method/relative_error.md "child")
 
     type: float
 
@@ -47,7 +47,7 @@ http://www.mcs.anl.gov/petsc/petsc-current/docs/manualpages/KSP/KSPType.html
     The solver finishes if the preconditioned error becomes smaller than the original preconditioned error times this value.
     Suggested value: 1.0e-7
 
-* [absolute_error](iterative_method/absolute_error "child")
+* [absolute_error](iterative_method/absolute_error.md "child")
 
     OPTIONAL 
 
@@ -61,7 +61,7 @@ http://www.mcs.anl.gov/petsc/petsc-current/docs/manualpages/KSP/KSPType.html
     
     Defaults to 1.e-50.
 
-* [divergence_error](iterative_method/divergence_error "child")
+* [divergence_error](iterative_method/divergence_error.md "child")
 
     OPTIONAL 
 
@@ -75,7 +75,7 @@ http://www.mcs.anl.gov/petsc/petsc-current/docs/manualpages/KSP/KSPType.html
     
     Defaults to 10000.
 
-* [max_iterations](iterative_method/max_iterations "child")
+* [max_iterations](iterative_method/max_iterations.md "child")
 
     type: integer
 
@@ -84,7 +84,7 @@ http://www.mcs.anl.gov/petsc/petsc-current/docs/manualpages/KSP/KSPType.html
     Maximum number of iterations allowed in the linear solver
     before giving up.
 
-* [monitors](iterative_method/monitors "child")
+* [monitors](iterative_method/monitors.md "child")
 
     */system/nonlinear_solver/type::SNES/linear_solver/preconditioner::fieldsplit/fieldsplit/linear_solver/iterative_method/monitors*
 
@@ -92,7 +92,7 @@ http://www.mcs.anl.gov/petsc/petsc-current/docs/manualpages/KSP/KSPType.html
     the solve. Some of those may really slow down your computation!
 
 * CHOICE:
-    * [nonzero_initial_guess](iterative_method/nonzero_initial_guess "child")
+    * [nonzero_initial_guess](iterative_method/nonzero_initial_guess.md "child")
 
         CHOICE 
 
@@ -103,7 +103,7 @@ http://www.mcs.anl.gov/petsc/petsc-current/docs/manualpages/KSP/KSPType.html
         NOTE: some solvers always start at zero in which case this switch will have no effect.
         Also the value of this switch on any parent solves may effect its behaviour.
 
-    * [zero_initial_guess](iterative_method/zero_initial_guess "child")
+    * [zero_initial_guess](iterative_method/zero_initial_guess.md "child")
 
         CHOICE 
 

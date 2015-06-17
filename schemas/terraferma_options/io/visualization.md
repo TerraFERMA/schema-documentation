@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [io](../io) /
+/ [terraferma_options](../../terraferma_options.md) / [io](../io.md) /
 
 #visualization
 
@@ -29,7 +29,7 @@
 Options to control the functionspace that the visualization output is interpolated to.
 
 * CHOICE:
-    * [element (P1)](visualization/element__P1 "child")
+    * [element (P1)](visualization/element__P1.md "child")
 
         CHOICE 
 
@@ -37,7 +37,7 @@ Options to control the functionspace that the visualization output is interpolat
 
         Options describing piecewise linear continuous Lagrange finite element.
 
-    * [element (P2)](visualization/element__P2 "child")
+    * [element (P2)](visualization/element__P2.md "child")
 
         CHOICE 
 
@@ -45,7 +45,7 @@ Options to control the functionspace that the visualization output is interpolat
 
         Options describing piecewise quadratic continuous Lagrange finite element.
 
-    * [element (P1DG)](visualization/element__P1DG "child")
+    * [element (P1DG)](visualization/element__P1DG.md "child")
 
         CHOICE 
 
@@ -53,7 +53,7 @@ Options to control the functionspace that the visualization output is interpolat
 
         Options describing piecewise linear discontinuous Lagrange finite element.
 
-    * [element (P2DG)](visualization/element__P2DG "child")
+    * [element (P2DG)](visualization/element__P2DG.md "child")
 
         CHOICE 
 

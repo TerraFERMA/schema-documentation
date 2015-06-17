@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../harness_options) / [tests](../tests) /
+/ [harness_options](../../harness_options.md) / [tests](../tests.md) /
 
 #test
 

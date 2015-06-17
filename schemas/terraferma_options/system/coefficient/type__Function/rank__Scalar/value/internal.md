@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [coefficient](../../../../coefficient) / [type::Function](../../../type__Function) / [rank::Scalar](../../rank__Scalar) / [value](../value) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [coefficient](../../../../coefficient.md) / [type::Function](../../../type__Function.md) / [rank::Scalar](../../rank__Scalar.md) / [value](../value.md) /
 
 #internal
 
@@ -30,7 +30,7 @@ CHOICE
 
 A scalar described by an internal derived dolfin expression.
 
-* [algorithm (SemiLagrangian)](internal/algorithm__SemiLagrangian "child")
+* [algorithm (SemiLagrangian)](internal/algorithm__SemiLagrangian.md "child")
 
     */system/coefficient/type::Function/rank::Scalar/value/internal/algorithm::SemiLagrangian*
 

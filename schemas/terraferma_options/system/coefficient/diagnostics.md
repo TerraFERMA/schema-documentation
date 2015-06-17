@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [system](../../system) / [coefficient](../coefficient) /
+/ [terraferma_options](../../../terraferma_options.md) / [system](../../system.md) / [coefficient](../coefficient.md) /
 
 #diagnostics
 
@@ -28,7 +28,7 @@
 
 Output options
 
-* [include_in_visualization](diagnostics/include_in_visualization "child")
+* [include_in_visualization](diagnostics/include_in_visualization.md "child")
 
     OPTIONAL 
 
@@ -37,7 +37,7 @@ Output options
     Include this coefficient in the visualization output file 
     (at the dof of the visualization element).
 
-* [include_in_statistics](diagnostics/include_in_statistics "child")
+* [include_in_statistics](diagnostics/include_in_statistics.md "child")
 
     OPTIONAL 
 
@@ -47,7 +47,7 @@ Output options
     The minimum and maximum (evaluated at the vertices of the mesh) 
     of functions is included.
 
-* [include_in_detectors](diagnostics/include_in_detectors "child")
+* [include_in_detectors](diagnostics/include_in_detectors.md "child")
 
     OPTIONAL 
 

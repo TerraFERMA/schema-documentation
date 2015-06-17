@@ -140,14 +140,14 @@ are willing to copy, paste and modify this stylesheet.-->
             <xsl:value-of select="@name"/>
             <xsl:text> (</xsl:text><xsl:value-of select="$vname"/><xsl:text>)](</xsl:text>
             <xsl:value-of select="concat($parent/@name, '__', $pvname, '/', @name, '__', $vname)"/>
-            <xsl:text> "child")&#10;&#10;</xsl:text>
+            <xsl:text>.md "child")&#10;&#10;</xsl:text>
         </xsl:when>
         <xsl:when test="string-length($vname) and not($spud) and $depth &gt; 0 and $continue">
             <xsl:text>[</xsl:text>
             <xsl:value-of select="@name"/>
             <xsl:text> (</xsl:text><xsl:value-of select="$vname"/><xsl:text>)](</xsl:text>
             <xsl:value-of select="concat($parent/@name, '/', @name, '__', $vname)"/>
-            <xsl:text> "child")&#10;&#10;</xsl:text>
+            <xsl:text>.md "child")&#10;&#10;</xsl:text>
         </xsl:when>
         <xsl:when test="string-length($vname) and not($spud)">
             <xsl:value-of select="@name"/>
@@ -159,14 +159,14 @@ are willing to copy, paste and modify this stylesheet.-->
             <xsl:value-of select="@name"/>
             <xsl:text>](</xsl:text>
             <xsl:value-of select="concat($parent/@name, '__', $pvname, '/', @name)"/>
-            <xsl:text> "child")&#10;&#10;</xsl:text>
+            <xsl:text>.md "child")&#10;&#10;</xsl:text>
         </xsl:when>
         <xsl:when test="not($spud) and $depth &gt; 0 and $continue">
             <xsl:text>[</xsl:text>
             <xsl:value-of select="@name"/>
             <xsl:text>](</xsl:text>
             <xsl:value-of select="concat($parent/@name, '/', @name)"/>
-            <xsl:text> "child")&#10;&#10;</xsl:text>
+            <xsl:text>.md "child")&#10;&#10;</xsl:text>
         </xsl:when>
         <xsl:when test="not($spud)">
             <xsl:value-of select="@name"/>
@@ -592,7 +592,7 @@ are willing to copy, paste and modify this stylesheet.-->
                 <xsl:with-param name="string" select="'../'"/>
             </xsl:call-template>
             <xsl:value-of select="translate($name, ':', '_')"/>
-            <xsl:text>) </xsl:text>
+            <xsl:text>.md) </xsl:text>
             <xsl:call-template name="history">
                 <xsl:with-param name="path" select="substring-after($path, '/')"/>
             </xsl:call-template>
@@ -606,7 +606,7 @@ are willing to copy, paste and modify this stylesheet.-->
                 <xsl:with-param name="string" select="'../'"/>
             </xsl:call-template>
             <xsl:value-of select="translate(substring-after($path, '/'), ':', '_')"/>
-            <xsl:text>) /</xsl:text>
+            <xsl:text>.md) /</xsl:text>
         </xsl:otherwise>
     </xsl:choose>
 </xsl:template>

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [system](../../../system) / [field](../../field) / [diagnostics](../diagnostics) /
+/ [terraferma_options](../../../../terraferma_options.md) / [system](../../../system.md) / [field](../../field.md) / [diagnostics](../diagnostics.md) /
 
 #include_in_steady_state
 
@@ -30,7 +30,7 @@ OPTIONAL
 
 Include this field in the steady state check and output file.
 
-* [norm](include_in_steady_state/norm "child")
+* [norm](include_in_steady_state/norm.md "child")
 
     values: linf l2 l1
 

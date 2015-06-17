@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [system](../../system) / [nonlinear_solver](../nonlinear_solver) /
+/ [terraferma_options](../../../terraferma_options.md) / [system](../../system.md) / [nonlinear_solver](../nonlinear_solver.md) /
 
 #type (SNES)
 
@@ -31,7 +31,7 @@ CHOICE
 The type of nonlinear solver. 
 PETSc SNES - a Newton iteration with line search.
 
-* [preamble](type__SNES/preamble "child")
+* [preamble](type__SNES/preamble.md "child")
 
     OPTIONAL 
 
@@ -42,7 +42,7 @@ PETSc SNES - a Newton iteration with line search.
     ufl code preamble to the forms defined below.  
     Any system, field or coefficient ufl symbols defined in this options file may be used in this preamble.
 
-* [form (Residual)](type__SNES/form__Residual "child")
+* [form (Residual)](type__SNES/form__Residual.md "child")
 
     type: string
 
@@ -52,7 +52,7 @@ PETSc SNES - a Newton iteration with line search.
     Any system, field or coefficient ufl symbols defined in this options file may be used in this form as well as any symbols 
     defined in the preamble above.
 
-* [form (Jacobian)](type__SNES/form__Jacobian "child")
+* [form (Jacobian)](type__SNES/form__Jacobian.md "child")
 
     type: string
 
@@ -62,7 +62,7 @@ PETSc SNES - a Newton iteration with line search.
     Any system, field or coefficient ufl symbols defined in this options file may be used in this form as well as any symbols 
     defined in the preamble and residual linear form above.
 
-* [form (JacobianPC)](type__SNES/form__JacobianPC "child")
+* [form (JacobianPC)](type__SNES/form__JacobianPC.md "child")
 
     OPTIONAL 
 
@@ -76,7 +76,7 @@ PETSc SNES - a Newton iteration with line search.
     
     If undefined the jacobian bilinear form above will be used to precondition itself.
 
-* [quadrature_degree](type__SNES/quadrature_degree "child")
+* [quadrature_degree](type__SNES/quadrature_degree.md "child")
 
     OPTIONAL 
 
@@ -89,7 +89,7 @@ PETSc SNES - a Newton iteration with line search.
     If unselected ffc will automatically determine the degree for the form.
 
 * CHOICE:
-    * [quadrature_rule (default)](type__SNES/quadrature_rule__default "child")
+    * [quadrature_rule (default)](type__SNES/quadrature_rule__default.md "child")
 
         CHOICE 
 
@@ -103,7 +103,7 @@ PETSc SNES - a Newton iteration with line search.
         The 'canonical' option relies on FIAT to compute the quadrature rule which is based on Gauss--Legendre--Jacobi rule mapped
         onto simplices.
 
-    * [quadrature_rule (canonical)](type__SNES/quadrature_rule__canonical "child")
+    * [quadrature_rule (canonical)](type__SNES/quadrature_rule__canonical.md "child")
 
         CHOICE 
 
@@ -118,7 +118,7 @@ PETSc SNES - a Newton iteration with line search.
         precision less than or equal to six.  Above this 'canonical' will automatically be used.
 
 * CHOICE:
-    * [snes_type (ls)](type__SNES/snes_type__ls "child")
+    * [snes_type (ls)](type__SNES/snes_type__ls.md "child")
 
         CHOICE 
 
@@ -126,7 +126,7 @@ PETSc SNES - a Newton iteration with line search.
 
         The SNES type.  Line search.
 
-    * [snes_type (vi)](type__SNES/snes_type__vi "child")
+    * [snes_type (vi)](type__SNES/snes_type__vi.md "child")
 
         CHOICE 
 
@@ -136,7 +136,7 @@ PETSc SNES - a Newton iteration with line search.
         
         NOTE: only available with Petsc >= 3.2 and with petsc > 3.2 this maps to virs.
 
-    * [snes_type (ksponly)](type__SNES/snes_type__ksponly "child")
+    * [snes_type (ksponly)](type__SNES/snes_type__ksponly.md "child")
 
         CHOICE 
 
@@ -144,7 +144,7 @@ PETSc SNES - a Newton iteration with line search.
 
         The SNES type.  KSP only - treat as a linear problem.
 
-    * [snes_type](type__SNES/snes_type "child")
+    * [snes_type](type__SNES/snes_type.md "child")
 
         CHOICE 
 
@@ -154,7 +154,7 @@ PETSc SNES - a Newton iteration with line search.
 
         The SNES type.  Any valid PETSc SNES type may be entered.
 
-* [relative_error](type__SNES/relative_error "child")
+* [relative_error](type__SNES/relative_error.md "child")
 
     type: float
 
@@ -163,7 +163,7 @@ PETSc SNES - a Newton iteration with line search.
     The relative error allowed to remain in the l2 norm of the nonlinear solver residual upon termination
     of the iteration loop.
 
-* [absolute_error](type__SNES/absolute_error "child")
+* [absolute_error](type__SNES/absolute_error.md "child")
 
     OPTIONAL 
 
@@ -176,7 +176,7 @@ PETSc SNES - a Newton iteration with line search.
     
     Defaults to 1.e-50.
 
-* [solution_error](type__SNES/solution_error "child")
+* [solution_error](type__SNES/solution_error.md "child")
 
     OPTIONAL 
 
@@ -186,7 +186,7 @@ PETSc SNES - a Newton iteration with line search.
 
     Defaults to 1.e-8.
 
-* [max_iterations](type__SNES/max_iterations "child")
+* [max_iterations](type__SNES/max_iterations.md "child")
 
     type: integer
 
@@ -194,7 +194,7 @@ PETSc SNES - a Newton iteration with line search.
 
     The maximum number of iterations to take in this nonlinear solver loop.
 
-* [max_function_evaluations](type__SNES/max_function_evaluations "child")
+* [max_function_evaluations](type__SNES/max_function_evaluations.md "child")
 
     OPTIONAL 
 
@@ -206,21 +206,21 @@ PETSc SNES - a Newton iteration with line search.
     
     Defaults to 10000.
 
-* [monitors](type__SNES/monitors "child")
+* [monitors](type__SNES/monitors.md "child")
 
     */system/nonlinear_solver/type::SNES/monitors*
 
     Options to give extra information for each iteration of the
     the SNES solve. Some of those may really slow down your computation!
 
-* [linear_solver](type__SNES/linear_solver "child")
+* [linear_solver](type__SNES/linear_solver.md "child")
 
     */system/nonlinear_solver/type::SNES/linear_solver*
 
     Options describing a linear solver.
 
 * CHOICE:
-    * [never_ignore_solver_failures](type__SNES/never_ignore_solver_failures "child")
+    * [never_ignore_solver_failures](type__SNES/never_ignore_solver_failures.md "child")
 
         CHOICE 
 
@@ -231,7 +231,7 @@ PETSc SNES - a Newton iteration with line search.
         This option tests the convergence of the nonlinear solver and terminates the simulations at the end of the next timestep 
         if it has failed to converge.  Note that linear solves within the nonlinear solver may still allowed to fail.
 
-    * [ignore_all_solver_failures](type__SNES/ignore_all_solver_failures "child")
+    * [ignore_all_solver_failures](type__SNES/ignore_all_solver_failures.md "child")
 
         CHOICE 
 

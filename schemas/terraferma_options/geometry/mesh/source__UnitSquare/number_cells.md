@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [geometry](../../../geometry) / [mesh](../../mesh) / [source::UnitSquare](../source__UnitSquare) /
+/ [terraferma_options](../../../../terraferma_options.md) / [geometry](../../../geometry.md) / [mesh](../../mesh.md) / [source::UnitSquare](../source__UnitSquare.md) /
 
 #number_cells
 

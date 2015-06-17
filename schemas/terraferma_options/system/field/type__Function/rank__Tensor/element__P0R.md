@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Tensor](../rank__Tensor) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Tensor](../rank__Tensor.md) /
 
 #element (P0R)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing piecewise constant continuous real for a tensor, e.g. for a global Lagrange multiplier.
 
-* [family](element__P0R/family "child")
+* [family](element__P0R/family.md "child")
 
     values: R
 
@@ -40,7 +40,7 @@ Options describing piecewise constant continuous real for a tensor, e.g. for a g
     
     - R  = Real (global constant)
 
-* [degree](element__P0R/degree "child")
+* [degree](element__P0R/degree.md "child")
 
     values: 0 0
 
@@ -48,7 +48,7 @@ Options describing piecewise constant continuous real for a tensor, e.g. for a g
 
     Element degree
 
-* [shape](element__P0R/shape "child")
+* [shape](element__P0R/shape.md "child")
 
     OPTIONAL 
 
@@ -58,7 +58,7 @@ Options describing piecewise constant continuous real for a tensor, e.g. for a g
 
     The shape of the tensor.
 
-* [symmetric](element__P0R/symmetric "child")
+* [symmetric](element__P0R/symmetric.md "child")
 
     OPTIONAL 
 

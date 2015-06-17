@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [system](../system) /
+/ [terraferma_options](../../terraferma_options.md) / [system](../system.md) /
 
 #field
 
@@ -30,7 +30,7 @@ MULTIPLE (0+)
 
 Options describing a field (a prognostic function) in this system
 
-* [ufl_symbol (global)](field/ufl_symbol__global "child")
+* [ufl_symbol (global)](field/ufl_symbol__global.md "child")
 
     type: string
 
@@ -56,7 +56,7 @@ Options describing a field (a prognostic function) in this system
         (the old function coefficient, containing the values from the previous timestep for the system function)
     
 
-* [type (Function)](field/type__Function "child")
+* [type (Function)](field/type__Function.md "child")
 
     */system/field/type::Function*
 
@@ -64,7 +64,7 @@ Options describing a field (a prognostic function) in this system
     
     Fields may only be prognostic functions.
 
-* [diagnostics](field/diagnostics "child")
+* [diagnostics](field/diagnostics.md "child")
 
     */system/field/diagnostics*
 

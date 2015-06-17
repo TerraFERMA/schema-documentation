@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [system](../../system) / [coefficient](../coefficient) /
+/ [terraferma_options](../../../terraferma_options.md) / [system](../../system.md) / [coefficient](../coefficient.md) /
 
 #type (Constant)
 
@@ -33,7 +33,7 @@ The type of coefficient.
 Constants are spatially constant expressions.
 
 * CHOICE:
-    * [rank (Scalar)](type__Constant/rank__Scalar "child")
+    * [rank (Scalar)](type__Constant/rank__Scalar.md "child")
 
         CHOICE 
 
@@ -41,7 +41,7 @@ Constants are spatially constant expressions.
 
         The rank of the coefficient (scalar, rank 0).
 
-    * [rank (Vector)](type__Constant/rank__Vector "child")
+    * [rank (Vector)](type__Constant/rank__Vector.md "child")
 
         CHOICE 
 
@@ -49,7 +49,7 @@ Constants are spatially constant expressions.
 
         The rank of the coefficient (vector, rank 1).
 
-    * [rank (Tensor)](type__Constant/rank__Tensor "child")
+    * [rank (Tensor)](type__Constant/rank__Tensor.md "child")
 
         CHOICE 
 

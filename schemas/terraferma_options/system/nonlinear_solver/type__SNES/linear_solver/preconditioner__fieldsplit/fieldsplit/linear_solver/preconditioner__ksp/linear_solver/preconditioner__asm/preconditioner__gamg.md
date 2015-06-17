@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../../../../../terraferma_options) / [system](../../../../../../../../../../system) / [nonlinear_solver](../../../../../../../../../nonlinear_solver) / [type::SNES](../../../../../../../../type__SNES) / [linear_solver](../../../../../../../linear_solver) / [preconditioner::fieldsplit](../../../../../../preconditioner__fieldsplit) / [fieldsplit](../../../../../fieldsplit) / [linear_solver](../../../../linear_solver) / [preconditioner::ksp](../../../preconditioner__ksp) / [linear_solver](../../linear_solver) / [preconditioner::asm](../preconditioner__asm) /
+/ [terraferma_options](../../../../../../../../../../../terraferma_options.md) / [system](../../../../../../../../../../system.md) / [nonlinear_solver](../../../../../../../../../nonlinear_solver.md) / [type::SNES](../../../../../../../../type__SNES.md) / [linear_solver](../../../../../../../linear_solver.md) / [preconditioner::fieldsplit](../../../../../../preconditioner__fieldsplit.md) / [fieldsplit](../../../../../fieldsplit.md) / [linear_solver](../../../../linear_solver.md) / [preconditioner::ksp](../../../preconditioner__ksp.md) / [linear_solver](../../linear_solver.md) / [preconditioner::asm](../preconditioner__asm.md) /
 
 #preconditioner (gamg)
 
@@ -32,7 +32,7 @@ The Geometric-Algrbraic MultiGrid Method
 
 NOTE: Only available with petsc > 3.2.
 
-* [near_null_space](preconditioner__gamg/near_null_space "child")
+* [near_null_space](preconditioner__gamg/near_null_space.md "child")
 
     OPTIONAL 
 

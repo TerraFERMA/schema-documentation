@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [coefficient](../../../coefficient) / [type::Expression](../../type__Expression) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [coefficient](../../../coefficient.md) / [type::Expression](../../type__Expression.md) / [rank::Vector](../rank__Vector.md) /
 
 #element (UserDefined)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing a user defined finite element for a vector.
 
-* [family](element__UserDefined/family "child")
+* [family](element__UserDefined/family.md "child")
 
     values: CG DG RT DRT BDM R Quadrature
 
@@ -52,7 +52,7 @@ Options describing a user defined finite element for a vector.
     
     - Quadrature
 
-* [degree](element__UserDefined/degree "child")
+* [degree](element__UserDefined/degree.md "child")
 
     type: integer
 
@@ -60,7 +60,7 @@ Options describing a user defined finite element for a vector.
 
     Element (or quadrature) degree
 
-* [size](element__UserDefined/size "child")
+* [size](element__UserDefined/size.md "child")
 
     OPTIONAL 
 
@@ -70,7 +70,7 @@ Options describing a user defined finite element for a vector.
 
     The size (length) of the vector.
 
-* [enrichment](element__UserDefined/enrichment "child")
+* [enrichment](element__UserDefined/enrichment.md "child")
 
     OPTIONAL 
 

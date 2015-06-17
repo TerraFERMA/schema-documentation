@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [system](../system) /
+/ [terraferma_options](../../terraferma_options.md) / [system](../system.md) /
 
 #boundary_condition
 
@@ -32,7 +32,7 @@ attributes: name (string)
 
 Options for the description of a boundary condition
 
-* [boundary_ids](boundary_condition/boundary_ids "child")
+* [boundary_ids](boundary_condition/boundary_ids.md "child")
 
     type: integers
 
@@ -40,7 +40,7 @@ Options for the description of a boundary condition
 
     A list of the boundary ids (physical ids in gmsh) that this condition applies to  
 
-* [sub_components (All)](boundary_condition/sub_components__All "child")
+* [sub_components (All)](boundary_condition/sub_components__All.md "child")
 
     */system/boundary_condition/sub_components::All*
 

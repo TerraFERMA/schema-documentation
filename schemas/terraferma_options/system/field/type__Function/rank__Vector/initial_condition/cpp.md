@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [field](../../../../field) / [type::Function](../../../type__Function) / [rank::Vector](../../rank__Vector) / [initial_condition](../initial_condition) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [field](../../../../field.md) / [type::Function](../../../type__Function.md) / [rank::Vector](../../rank__Vector.md) / [initial_condition](../initial_condition.md) /
 
 #cpp
 
@@ -30,7 +30,7 @@ CHOICE
 
 A vector described by a derived dolfin expression using c++ code.
 
-* [include](cpp/include "child")
+* [include](cpp/include.md "child")
 
     OPTIONAL 
 
@@ -52,7 +52,7 @@ A vector described by a derived dolfin expression using c++ code.
         #include "SystemBucket.h"
         #include <dolfin.h>
 
-* [members](cpp/members "child")
+* [members](cpp/members.md "child")
 
     type: string
 
@@ -67,7 +67,7 @@ A vector described by a derived dolfin expression using c++ code.
     automatically generated variables.  Additionally the overloaded dolfin eval interface provides
     variables named values, x and cell, so these should not be used to avoid confusion.
 
-* [initialization](cpp/initialization "child")
+* [initialization](cpp/initialization.md "child")
 
     type: string
 
@@ -106,7 +106,7 @@ A vector described by a derived dolfin expression using c++ code.
     
         examplecoeff = system()->fetch_coeff("ExampleCoefficient")->genericfunction_ptr(time())
 
-* [eval](cpp/eval "child")
+* [eval](cpp/eval.md "child")
 
     type: string
 

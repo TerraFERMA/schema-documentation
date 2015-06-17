@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../../../../harness_options) / [simulations](../../../../../simulations) / [run](../../../../run) / [dependencies](../../../dependencies) / [run](../../run) / [parameter_sweep](../parameter_sweep) /
+/ [harness_options](../../../../../../harness_options.md) / [simulations](../../../../../simulations.md) / [run](../../../../run.md) / [dependencies](../../../dependencies.md) / [run](../../run.md) / [parameter_sweep](../parameter_sweep.md) /
 
 #parameter
 
@@ -40,7 +40,7 @@ python code describing how the parameter should be updated.
 
 Dependency parameters do NOT list values as these are taken from the parent simulation.
 
-* [update](parameter/update "child")
+* [update](parameter/update.md "child")
 
     OPTIONAL 
 

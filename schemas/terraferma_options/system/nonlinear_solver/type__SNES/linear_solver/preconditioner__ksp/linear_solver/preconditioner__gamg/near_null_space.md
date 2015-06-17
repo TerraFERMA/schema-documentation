@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../../terraferma_options) / [system](../../../../../../../system) / [nonlinear_solver](../../../../../../nonlinear_solver) / [type::SNES](../../../../../type__SNES) / [linear_solver](../../../../linear_solver) / [preconditioner::ksp](../../../preconditioner__ksp) / [linear_solver](../../linear_solver) / [preconditioner::gamg](../preconditioner__gamg) /
+/ [terraferma_options](../../../../../../../../terraferma_options.md) / [system](../../../../../../../system.md) / [nonlinear_solver](../../../../../../nonlinear_solver.md) / [type::SNES](../../../../../type__SNES.md) / [linear_solver](../../../../linear_solver.md) / [preconditioner::ksp](../../../preconditioner__ksp.md) / [linear_solver](../../linear_solver.md) / [preconditioner::gamg](../preconditioner__gamg.md) /
 
 #near_null_space
 
@@ -30,7 +30,7 @@ OPTIONAL
 
 Set a near null-space for this preconditioner.
 
-* [null_space](near_null_space/null_space "child")
+* [null_space](near_null_space/null_space.md "child")
 
     MULTIPLE (1+) 
 
@@ -47,7 +47,7 @@ Set a near null-space for this preconditioner.
     then the entire vector is assumed to contain a constant nullspace.  To describe variable
     nullspaces python functions must be attached underneath the description of the field.
 
-* [monitors](near_null_space/monitors "child")
+* [monitors](near_null_space/monitors.md "child")
 
     */system/nonlinear_solver/type::SNES/linear_solver/preconditioner::ksp/linear_solver/preconditioner::gamg/near_null_space/monitors*
 

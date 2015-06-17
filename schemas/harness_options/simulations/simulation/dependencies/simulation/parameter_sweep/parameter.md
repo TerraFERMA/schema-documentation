@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../../../../harness_options) / [simulations](../../../../../simulations) / [simulation](../../../../simulation) / [dependencies](../../../dependencies) / [simulation](../../simulation) / [parameter_sweep](../parameter_sweep) /
+/ [harness_options](../../../../../../harness_options.md) / [simulations](../../../../../simulations.md) / [simulation](../../../../simulation.md) / [dependencies](../../../dependencies.md) / [simulation](../../simulation.md) / [parameter_sweep](../parameter_sweep.md) /
 
 #parameter
 
@@ -40,7 +40,7 @@ python code describing how the parameter should be updated.
 
 Dependency parameters do NOT list values as these are taken from the parent simulation.
 
-* [update](parameter/update "child")
+* [update](parameter/update.md "child")
 
     OPTIONAL 
 
@@ -57,7 +57,7 @@ Dependency parameters do NOT list values as these are taken from the parent simu
     the names given to the parameters above.  They will be formatted as strings and should be converted 
     appropriately within the code.
 
-* [process_scale](parameter/process_scale "child")
+* [process_scale](parameter/process_scale.md "child")
 
     OPTIONAL 
 

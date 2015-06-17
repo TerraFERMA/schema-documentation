@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../harness_options) / [simulations](../../simulations) / [run](../run) /
+/ [harness_options](../../../harness_options.md) / [simulations](../../simulations.md) / [run](../run.md) /
 
 #parameter_sweep
 
@@ -30,7 +30,7 @@ OPTIONAL
 
 Perform a sweep over the listed parameters.  Each parameter requires a unique name.
 
-* [parameter](parameter_sweep/parameter "child")
+* [parameter](parameter_sweep/parameter.md "child")
 
     MULTIPLE (0+) 
 
@@ -45,7 +45,7 @@ Perform a sweep over the listed parameters.  Each parameter requires a unique na
     Parameters should specify a list of values to be swept over and optionally, 
     python code describing how the parameter should be updated.
 
-* [number_runs](parameter_sweep/number_runs "child")
+* [number_runs](parameter_sweep/number_runs.md "child")
 
     OPTIONAL 
 

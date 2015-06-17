@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Tensor](../rank__Tensor) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Tensor](../rank__Tensor.md) /
 
 #initial_condition (WholeMesh)
 
@@ -31,7 +31,7 @@ MULTIPLE (1+) CHOICE
 Options for the description of the initial condition over the whole domain
 
 * CHOICE:
-    * [file](initial_condition__WholeMesh/file "child")
+    * [file](initial_condition__WholeMesh/file.md "child")
 
         CHOICE 
 
@@ -42,7 +42,7 @@ Options for the description of the initial condition over the whole domain
         Give the name of a checkpoint file.  All fields in a system must share this file
         and the functionspace must be identical to the original system's functionspace.
 
-    * [cpp](initial_condition__WholeMesh/cpp "child")
+    * [cpp](initial_condition__WholeMesh/cpp.md "child")
 
         CHOICE 
 
@@ -50,7 +50,7 @@ Options for the description of the initial condition over the whole domain
 
         A tensor described by a derived dolfin expression using c++ code.
 
-    * [python](initial_condition__WholeMesh/python "child")
+    * [python](initial_condition__WholeMesh/python.md "child")
 
         CHOICE 
 
@@ -76,7 +76,7 @@ Options for the description of the initial condition over the whole domain
         
         The return value must have the same shape as the tensor element.
 
-    * [constant (dim)](initial_condition__WholeMesh/constant__dim "child")
+    * [constant (dim)](initial_condition__WholeMesh/constant__dim.md "child")
 
         CHOICE 
 
@@ -86,7 +86,7 @@ Options for the description of the initial condition over the whole domain
 
         A constant tensor of shape /geometry/dimension x /geometry/dimension
 
-    * [constant (arbitrary)](initial_condition__WholeMesh/constant__arbitrary "child")
+    * [constant (arbitrary)](initial_condition__WholeMesh/constant__arbitrary.md "child")
 
         CHOICE 
 

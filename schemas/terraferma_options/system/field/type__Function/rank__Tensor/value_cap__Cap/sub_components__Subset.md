@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [field](../../../../field) / [type::Function](../../../type__Function) / [rank::Tensor](../../rank__Tensor) / [value_cap::Cap](../value_cap__Cap) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [field](../../../../field.md) / [type::Function](../../../type__Function.md) / [rank::Tensor](../../rank__Tensor.md) / [value_cap::Cap](../value_cap__Cap.md) /
 
 #sub_components (Subset)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Cap a subset of the vector/tensor components.
 
-* [components](sub_components__Subset/components "child")
+* [components](sub_components__Subset/components.md "child")
 
     type: integers
 

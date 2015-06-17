@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [io](../io) /
+/ [terraferma_options](../../terraferma_options.md) / [io](../io.md) /
 
 #detectors
 
@@ -29,7 +29,7 @@
 Detectors options
 
 * CHOICE:
-    * [point](detectors/point "child")
+    * [point](detectors/point.md "child")
 
         MULTIPLE (0+) CHOICE 
 
@@ -41,7 +41,7 @@ Detectors options
 
         Define a single point detector.  The name must be unique amongst all detectors.
 
-    * [array](detectors/array "child")
+    * [array](detectors/array.md "child")
 
         MULTIPLE (0+) CHOICE 
 

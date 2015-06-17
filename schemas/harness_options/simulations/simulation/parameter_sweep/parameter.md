@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../../harness_options) / [simulations](../../../simulations) / [simulation](../../simulation) / [parameter_sweep](../parameter_sweep) /
+/ [harness_options](../../../../harness_options.md) / [simulations](../../../simulations.md) / [simulation](../../simulation.md) / [parameter_sweep](../parameter_sweep.md) /
 
 #parameter
 
@@ -37,7 +37,7 @@ Each parameter should have a unique name.
 Parameters should specify a list of values to be swept over and optionally, 
 python code describing how the parameter should be updated.
 
-* [values](parameter/values "child")
+* [values](parameter/values.md "child")
 
     type: string
 
@@ -48,7 +48,7 @@ python code describing how the parameter should be updated.
     The values are input as a string to allow them to be used to uniquely create a folder structure.
     The update python code before should convert them to appropriate types within the input file.
 
-* [update](parameter/update "child")
+* [update](parameter/update.md "child")
 
     OPTIONAL 
 
@@ -65,7 +65,7 @@ python code describing how the parameter should be updated.
     the names given to the parameters above.  They will be formatted as strings and should be converted 
     appropriately within the code.
 
-* [process_scale](parameter/process_scale "child")
+* [process_scale](parameter/process_scale.md "child")
 
     OPTIONAL 
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [system](../system) /
+/ [terraferma_options](../../terraferma_options.md) / [system](../system.md) /
 
 #coefficient
 
@@ -30,7 +30,7 @@ MULTIPLE (0+)
 
 Options describing a coefficient in this system
 
-* [ufl_symbol (global)](coefficient/ufl_symbol__global "child")
+* [ufl_symbol (global)](coefficient/ufl_symbol__global.md "child")
 
     type: string
 
@@ -50,7 +50,7 @@ Options describing a coefficient in this system
     
 
 * CHOICE:
-    * [type (Expression)](coefficient/type__Expression "child")
+    * [type (Expression)](coefficient/type__Expression.md "child")
 
         CHOICE 
 
@@ -60,7 +60,7 @@ Options describing a coefficient in this system
         
         Expressions are not defined on functionspaces but require an element to be described in ufl.
 
-    * [type (Constant)](coefficient/type__Constant "child")
+    * [type (Constant)](coefficient/type__Constant.md "child")
 
         CHOICE 
 
@@ -70,7 +70,7 @@ Options describing a coefficient in this system
         
         Constants are spatially constant expressions.
 
-    * [type (Function)](coefficient/type__Function "child")
+    * [type (Function)](coefficient/type__Function.md "child")
 
         CHOICE 
 
@@ -80,7 +80,7 @@ Options describing a coefficient in this system
         
         Functions require a functionspace, which will be defined on the same mesh as the system in which this coefficient falls.
 
-* [diagnostics](coefficient/diagnostics "child")
+* [diagnostics](coefficient/diagnostics.md "child")
 
     */system/coefficient/diagnostics*
 

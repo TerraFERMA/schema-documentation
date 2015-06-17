@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [system](../../system) / [boundary_condition](../boundary_condition) /
+/ [terraferma_options](../../../terraferma_options.md) / [system](../../system.md) / [boundary_condition](../boundary_condition.md) /
 
 #boundary_ids
 

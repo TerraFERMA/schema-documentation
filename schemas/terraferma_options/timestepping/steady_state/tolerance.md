@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [timestepping](../../timestepping) / [steady_state](../steady_state) /
+/ [terraferma_options](../../../terraferma_options.md) / [timestepping](../../timestepping.md) / [steady_state](../steady_state.md) /
 
 #tolerance
 

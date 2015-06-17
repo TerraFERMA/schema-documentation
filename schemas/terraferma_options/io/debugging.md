@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [io](../io) /
+/ [terraferma_options](../../terraferma_options.md) / [io](../io.md) /
 
 #debugging
 
@@ -30,7 +30,7 @@ OPTIONAL
 
 Debugging output options.
 
-* [periodic_boundaries](debugging/periodic_boundaries "child")
+* [periodic_boundaries](debugging/periodic_boundaries.md "child")
 
     OPTIONAL 
 

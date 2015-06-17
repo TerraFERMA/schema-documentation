@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [geometry](../../../geometry) / [mesh](../../mesh) / [source::File](../source__File) /
+/ [terraferma_options](../../../../terraferma_options.md) / [geometry](../../../geometry.md) / [mesh](../../mesh.md) / [source::File](../source__File.md) /
 
 #cell_destinations
 
@@ -38,7 +38,7 @@ Region ids assigned to multple processes will be given to the highest rank proce
 (or unvisited if run on fewer cores than processes listed in the map) region ids will be assigned
 to process 0.
 
-* [process](cell_destinations/process "child")
+* [process](cell_destinations/process.md "child")
 
     MULTIPLE (1+) 
 

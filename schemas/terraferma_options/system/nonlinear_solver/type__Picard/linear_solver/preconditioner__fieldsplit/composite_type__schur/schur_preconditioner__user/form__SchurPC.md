@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../../terraferma_options) / [system](../../../../../../../system) / [nonlinear_solver](../../../../../../nonlinear_solver) / [type::Picard](../../../../../type__Picard) / [linear_solver](../../../../linear_solver) / [preconditioner::fieldsplit](../../../preconditioner__fieldsplit) / [composite_type::schur](../../composite_type__schur) / [schur_preconditioner::user](../schur_preconditioner__user) /
+/ [terraferma_options](../../../../../../../../terraferma_options.md) / [system](../../../../../../../system.md) / [nonlinear_solver](../../../../../../nonlinear_solver.md) / [type::Picard](../../../../../type__Picard.md) / [linear_solver](../../../../linear_solver.md) / [preconditioner::fieldsplit](../../../preconditioner__fieldsplit.md) / [composite_type::schur](../../composite_type__schur.md) / [schur_preconditioner::user](../schur_preconditioner__user.md) /
 
 #form (SchurPC)
 
@@ -32,7 +32,7 @@ ufl code form describing a preconditioner for the Schur block (must return a bil
 Any system, field or coefficient ufl symbols defined in this options file may be used in this form as well as any symbols 
 defined in the preamble and bilinear form from this nonlinear_solver above.
 
-* [ufl_symbol (solver)](form__SchurPC/ufl_symbol__solver "child")
+* [ufl_symbol (solver)](form__SchurPC/ufl_symbol__solver.md "child")
 
     type: string
 
@@ -41,7 +41,7 @@ defined in the preamble and bilinear form from this nonlinear_solver above.
     The ufl symbol used above to describe a form.  This need only be unique within this nonlinear_solver. 
     No additional symbols will be automatically generated based on this symbol.
 
-* [ident_zeros](form__SchurPC/ident_zeros "child")
+* [ident_zeros](form__SchurPC/ident_zeros.md "child")
 
     OPTIONAL 
 

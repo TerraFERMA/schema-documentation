@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../../harness_options) / [simulations](../../../simulations) / [simulation](../../simulation) / [checkpoint](../checkpoint) /
+/ [harness_options](../../../../harness_options.md) / [simulations](../../../simulations.md) / [simulation](../../simulation.md) / [checkpoint](../checkpoint.md) /
 
 #parameter
 
@@ -38,7 +38,7 @@ Parameters should specify a value and python code describing how the parameter s
 
 For example, you may wish to update the finish time of the simulation when picking up for a checkpoint.
 
-* [values](parameter/values "child")
+* [values](parameter/values.md "child")
 
     type: string
 
@@ -49,7 +49,7 @@ For example, you may wish to update the finish time of the simulation when picki
     The value is input as a string.
     The update python code before should convert them to appropriate types within the input file.
 
-* [update](parameter/update "child")
+* [update](parameter/update.md "child")
 
     type: string
 

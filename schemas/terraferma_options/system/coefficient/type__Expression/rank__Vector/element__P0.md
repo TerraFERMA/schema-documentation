@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [coefficient](../../../coefficient) / [type::Expression](../../type__Expression) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [coefficient](../../../coefficient.md) / [type::Expression](../../type__Expression.md) / [rank::Vector](../rank__Vector.md) /
 
 #element (P0)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing piecewise constant discontinuous Lagrange finite element for a vector.
 
-* [family](element__P0/family "child")
+* [family](element__P0/family.md "child")
 
     values: DG
 
@@ -40,7 +40,7 @@ Options describing piecewise constant discontinuous Lagrange finite element for 
     
     - DG = Discontinuous Lagrange (discontinuous Galerkin)
 
-* [degree](element__P0/degree "child")
+* [degree](element__P0/degree.md "child")
 
     values: 0 0
 
@@ -48,7 +48,7 @@ Options describing piecewise constant discontinuous Lagrange finite element for 
 
     Element degree
 
-* [size](element__P0/size "child")
+* [size](element__P0/size.md "child")
 
     OPTIONAL 
 
@@ -58,7 +58,7 @@ Options describing piecewise constant discontinuous Lagrange finite element for 
 
     The size (length) of the vector.
 
-* [enrichment](element__P0/enrichment "child")
+* [enrichment](element__P0/enrichment.md "child")
 
     OPTIONAL 
 

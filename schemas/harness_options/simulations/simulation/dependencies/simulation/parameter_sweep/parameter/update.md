@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../../../../../harness_options) / [simulations](../../../../../../simulations) / [simulation](../../../../../simulation) / [dependencies](../../../../dependencies) / [simulation](../../../simulation) / [parameter_sweep](../../parameter_sweep) / [parameter](../parameter) /
+/ [harness_options](../../../../../../../harness_options.md) / [simulations](../../../../../../simulations.md) / [simulation](../../../../../simulation.md) / [dependencies](../../../../dependencies.md) / [simulation](../../../simulation.md) / [parameter_sweep](../../parameter_sweep.md) / [parameter](../parameter.md) /
 
 #update
 
@@ -39,7 +39,7 @@ The values of all the parameters for this simulation will be available to this c
 the names given to the parameters above.  They will be formatted as strings and should be converted 
 appropriately within the code.
 
-* [single_build](update/single_build "child")
+* [single_build](update/single_build.md "child")
 
     OPTIONAL 
 

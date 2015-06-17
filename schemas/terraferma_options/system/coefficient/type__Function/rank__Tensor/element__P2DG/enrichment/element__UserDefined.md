@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../terraferma_options) / [system](../../../../../../system) / [coefficient](../../../../../coefficient) / [type::Function](../../../../type__Function) / [rank::Tensor](../../../rank__Tensor) / [element::P2DG](../../element__P2DG) / [enrichment](../enrichment) /
+/ [terraferma_options](../../../../../../../terraferma_options.md) / [system](../../../../../../system.md) / [coefficient](../../../../../coefficient.md) / [type::Function](../../../../type__Function.md) / [rank::Tensor](../../../rank__Tensor.md) / [element::P2DG](../../element__P2DG.md) / [enrichment](../enrichment.md) /
 
 #element (UserDefined)
 
@@ -32,7 +32,7 @@ NO DOCUMENTATION
 
 Please raise an issue at: [https://github.com/terraferma/terraferma/issues](https://github.com/terraferma/terraferma/issues "project url").
 
-* [family](element__UserDefined/family "child")
+* [family](element__UserDefined/family.md "child")
 
     values: B
 
@@ -42,7 +42,7 @@ Please raise an issue at: [https://github.com/terraferma/terraferma/issues](http
     
     - B = Bubble
 
-* [degree](element__UserDefined/degree "child")
+* [degree](element__UserDefined/degree.md "child")
 
     type: integer
 

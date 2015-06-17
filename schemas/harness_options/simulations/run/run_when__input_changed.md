@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../harness_options) / [simulations](../../simulations) / [run](../run) /
+/ [harness_options](../../../harness_options.md) / [simulations](../../simulations.md) / [run](../run.md) /
 
 #run_when (input_changed)
 

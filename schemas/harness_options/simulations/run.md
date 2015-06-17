@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../harness_options) / [simulations](../simulations) /
+/ [harness_options](../../harness_options.md) / [simulations](../simulations.md) /
 
 #run
 
@@ -32,7 +32,7 @@ attributes: name (string)
 
 Definition of a top level run (not a TerraFERMA simulation).
 
-* [input_file](run/input_file "child")
+* [input_file](run/input_file.md "child")
 
     type: string
 
@@ -51,7 +51,7 @@ Definition of a top level run (not a TerraFERMA simulation).
     the option spud_file below.
 
 * CHOICE:
-    * [run_when (input_changed_or_output_missing)](run/run_when__input_changed_or_output_missing "child")
+    * [run_when (input_changed_or_output_missing)](run/run_when__input_changed_or_output_missing.md "child")
 
         CHOICE 
 
@@ -64,7 +64,7 @@ Definition of a top level run (not a TerraFERMA simulation).
         
         Can be overridden with the command line force flag, which will force a run (and possibly a build).
 
-    * [run_when (input_changed)](run/run_when__input_changed "child")
+    * [run_when (input_changed)](run/run_when__input_changed.md "child")
 
         CHOICE 
 
@@ -76,7 +76,7 @@ Definition of a top level run (not a TerraFERMA simulation).
         
         Can be overridden with the command line force flag, which will force a run (and possibly a build).
 
-    * [run_when (output_missing)](run/run_when__output_missing "child")
+    * [run_when (output_missing)](run/run_when__output_missing.md "child")
 
         CHOICE 
 
@@ -89,7 +89,7 @@ Definition of a top level run (not a TerraFERMA simulation).
         
         Can be overridden with the command line force flag, which will force a run (and possibly a build).
 
-    * [run_when (always)](run/run_when__always "child")
+    * [run_when (always)](run/run_when__always.md "child")
 
         CHOICE 
 
@@ -101,7 +101,7 @@ Definition of a top level run (not a TerraFERMA simulation).
         
         The command line force flag will also force a build if necessary.
 
-    * [run_when (never)](run/run_when__never "child")
+    * [run_when (never)](run/run_when__never.md "child")
 
         CHOICE 
 
@@ -113,7 +113,7 @@ Definition of a top level run (not a TerraFERMA simulation).
         
         Can be overridden with the command line force flag, which will force a run (and possibly a build).
 
-* [parameter_sweep](run/parameter_sweep "child")
+* [parameter_sweep](run/parameter_sweep.md "child")
 
     OPTIONAL 
 
@@ -121,7 +121,7 @@ Definition of a top level run (not a TerraFERMA simulation).
 
     Perform a sweep over the listed parameters.  Each parameter requires a unique name.
 
-* [required_input](run/required_input "child")
+* [required_input](run/required_input.md "child")
 
     OPTIONAL 
 
@@ -132,7 +132,7 @@ Definition of a top level run (not a TerraFERMA simulation).
     All required_output from dependency simulations/runs are automatically 
     assumed to be required as input so need not be entered here.
 
-* [required_output](run/required_output "child")
+* [required_output](run/required_output.md "child")
 
     OPTIONAL 
 
@@ -145,7 +145,7 @@ Definition of a top level run (not a TerraFERMA simulation).
     If this is a dependency of another simulation, this list will also be used as
     required input to the parent simulation.
 
-* [commands](run/commands "child")
+* [commands](run/commands.md "child")
 
     OPTIONAL 
 
@@ -155,7 +155,7 @@ Definition of a top level run (not a TerraFERMA simulation).
     
     Parameters are available to the command as $parameter_name.
 
-* [dependencies](run/dependencies "child")
+* [dependencies](run/dependencies.md "child")
 
     OPTIONAL 
 
@@ -163,7 +163,7 @@ Definition of a top level run (not a TerraFERMA simulation).
 
     A list of the dependencies of this simulation.
 
-* [variables](run/variables "child")
+* [variables](run/variables.md "child")
 
     OPTIONAL 
 

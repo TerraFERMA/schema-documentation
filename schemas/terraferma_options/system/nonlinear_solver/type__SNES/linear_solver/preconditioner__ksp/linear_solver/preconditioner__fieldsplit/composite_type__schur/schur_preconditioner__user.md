@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../../../terraferma_options) / [system](../../../../../../../../system) / [nonlinear_solver](../../../../../../../nonlinear_solver) / [type::SNES](../../../../../../type__SNES) / [linear_solver](../../../../../linear_solver) / [preconditioner::ksp](../../../../preconditioner__ksp) / [linear_solver](../../../linear_solver) / [preconditioner::fieldsplit](../../preconditioner__fieldsplit) / [composite_type::schur](../composite_type__schur) /
+/ [terraferma_options](../../../../../../../../../terraferma_options.md) / [system](../../../../../../../../system.md) / [nonlinear_solver](../../../../../../../nonlinear_solver.md) / [type::SNES](../../../../../../type__SNES.md) / [linear_solver](../../../../../linear_solver.md) / [preconditioner::ksp](../../../../preconditioner__ksp.md) / [linear_solver](../../../linear_solver.md) / [preconditioner::fieldsplit](../../preconditioner__fieldsplit.md) / [composite_type::schur](../composite_type__schur.md) /
 
 #schur_preconditioner (user)
 
@@ -30,7 +30,7 @@ CHOICE
 
 The preconditioner for the Schur complement is described by a ufl form.
 
-* [form (SchurPC)](schur_preconditioner__user/form__SchurPC "child")
+* [form (SchurPC)](schur_preconditioner__user/form__SchurPC.md "child")
 
     type: string
 
@@ -40,7 +40,7 @@ The preconditioner for the Schur complement is described by a ufl form.
     Any system, field or coefficient ufl symbols defined in this options file may be used in this form as well as any symbols 
     defined in the preamble and bilinear form from this nonlinear_solver above.
 
-* [monitors](schur_preconditioner__user/monitors "child")
+* [monitors](schur_preconditioner__user/monitors.md "child")
 
     */system/nonlinear_solver/type::SNES/linear_solver/preconditioner::ksp/linear_solver/preconditioner::fieldsplit/composite_type::schur/schur_preconditioner::user/monitors*
 

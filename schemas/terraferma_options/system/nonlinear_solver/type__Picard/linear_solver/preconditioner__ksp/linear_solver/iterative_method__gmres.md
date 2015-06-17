@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../terraferma_options) / [system](../../../../../../system) / [nonlinear_solver](../../../../../nonlinear_solver) / [type::Picard](../../../../type__Picard) / [linear_solver](../../../linear_solver) / [preconditioner::ksp](../../preconditioner__ksp) / [linear_solver](../linear_solver) /
+/ [terraferma_options](../../../../../../../terraferma_options.md) / [system](../../../../../../system.md) / [nonlinear_solver](../../../../../nonlinear_solver.md) / [type::Picard](../../../../type__Picard.md) / [linear_solver](../../../linear_solver.md) / [preconditioner::ksp](../../preconditioner__ksp.md) / [linear_solver](../linear_solver.md) /
 
 #iterative_method (gmres)
 
@@ -32,7 +32,7 @@ GMRES
 
 Your safest bet for non-symmetric systems.
 
-* [restart](iterative_method__gmres/restart "child")
+* [restart](iterative_method__gmres/restart.md "child")
 
     type: integer
 
@@ -42,7 +42,7 @@ Your safest bet for non-symmetric systems.
     Higher values give better convergence but require more memory.
     Suggested value: 30
 
-* [relative_error](iterative_method__gmres/relative_error "child")
+* [relative_error](iterative_method__gmres/relative_error.md "child")
 
     type: float
 
@@ -53,7 +53,7 @@ Your safest bet for non-symmetric systems.
     The solver finishes if the preconditioned error becomes smaller than the original preconditioned error times this value.
     Suggested value: 1.0e-7
 
-* [absolute_error](iterative_method__gmres/absolute_error "child")
+* [absolute_error](iterative_method__gmres/absolute_error.md "child")
 
     OPTIONAL 
 
@@ -67,7 +67,7 @@ Your safest bet for non-symmetric systems.
     
     Defaults to 1.e-50.
 
-* [divergence_error](iterative_method__gmres/divergence_error "child")
+* [divergence_error](iterative_method__gmres/divergence_error.md "child")
 
     OPTIONAL 
 
@@ -81,7 +81,7 @@ Your safest bet for non-symmetric systems.
     
     Defaults to 10000.
 
-* [max_iterations](iterative_method__gmres/max_iterations "child")
+* [max_iterations](iterative_method__gmres/max_iterations.md "child")
 
     type: integer
 
@@ -90,7 +90,7 @@ Your safest bet for non-symmetric systems.
     Maximum number of iterations allowed in the linear solver
     before giving up.
 
-* [monitors](iterative_method__gmres/monitors "child")
+* [monitors](iterative_method__gmres/monitors.md "child")
 
     */system/nonlinear_solver/type::Picard/linear_solver/preconditioner::ksp/linear_solver/iterative_method::gmres/monitors*
 
@@ -98,7 +98,7 @@ Your safest bet for non-symmetric systems.
     the solve. Some of those may really slow down your computation!
 
 * CHOICE:
-    * [zero_initial_guess](iterative_method__gmres/zero_initial_guess "child")
+    * [zero_initial_guess](iterative_method__gmres/zero_initial_guess.md "child")
 
         CHOICE 
 
@@ -109,7 +109,7 @@ Your safest bet for non-symmetric systems.
         NOTE: some solvers always start at zero in which case this switch will have no effect.  
         Also the value of this switch on any parent solves may effect its behaviour.
 
-    * [nonzero_initial_guess](iterative_method__gmres/nonzero_initial_guess "child")
+    * [nonzero_initial_guess](iterative_method__gmres/nonzero_initial_guess.md "child")
 
         CHOICE 
 

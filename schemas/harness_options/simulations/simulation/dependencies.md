@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../harness_options) / [simulations](../../simulations) / [simulation](../simulation) /
+/ [harness_options](../../../harness_options.md) / [simulations](../../simulations.md) / [simulation](../simulation.md) /
 
 #dependencies
 
@@ -30,7 +30,7 @@ OPTIONAL
 
 A list of the dependencies of this simulation.
 
-* [simulation](dependencies/simulation "child")
+* [simulation](dependencies/simulation.md "child")
 
     MULTIPLE (0+) 
 
@@ -40,7 +40,7 @@ A list of the dependencies of this simulation.
 
     Definition of a dependency TerraFERMA simulation.
 
-* [run](dependencies/run "child")
+* [run](dependencies/run.md "child")
 
     MULTIPLE (0+) 
 

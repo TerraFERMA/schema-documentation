@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Vector](../rank__Vector.md) /
 
 #zero_point
 
@@ -37,7 +37,7 @@ with a Lagrange multiplier or the removal of the null space if the solution woul
 
 If specifying multiple zero points (perhaps on different components) their names must be unique within this field specification.
 
-* [coordinates](zero_point/coordinates "child")
+* [coordinates](zero_point/coordinates.md "child")
 
     type: floats
 
@@ -46,7 +46,7 @@ If specifying multiple zero points (perhaps on different components) their names
     The coordinates of the zero point.
 
 * CHOICE:
-    * [sub_components (Subset)](zero_point/sub_components__Subset "child")
+    * [sub_components (Subset)](zero_point/sub_components__Subset.md "child")
 
         CHOICE 
 
@@ -54,7 +54,7 @@ If specifying multiple zero points (perhaps on different components) their names
 
         Zero a subset of the vector/tensor components at this reference point.
 
-    * [sub_components (All)](zero_point/sub_components__All "child")
+    * [sub_components (All)](zero_point/sub_components__All.md "child")
 
         CHOICE 
 

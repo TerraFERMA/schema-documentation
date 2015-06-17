@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [geometry](../../geometry) / [mesh::Mesh](../mesh__Mesh) /
+/ [terraferma_options](../../../terraferma_options.md) / [geometry](../../geometry.md) / [mesh::Mesh](../mesh__Mesh.md) /
 
 #source (UnitInterval)
 
@@ -37,7 +37,7 @@ Boundary ids will be automatically assigned as:
 No region ids will be assigned.   
 
 
-* [number_cells](source__UnitInterval/number_cells "child")
+* [number_cells](source__UnitInterval/number_cells.md "child")
 
     type: integer
 
@@ -45,7 +45,7 @@ No region ids will be assigned.
 
     Specify the number of cells.
 
-* [cell](source__UnitInterval/cell "child")
+* [cell](source__UnitInterval/cell.md "child")
 
     values: interval
 

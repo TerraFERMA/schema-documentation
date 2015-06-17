@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../../../terraferma_options) / [system](../../../../../../../../system) / [nonlinear_solver](../../../../../../../nonlinear_solver) / [type::SNES](../../../../../../type__SNES) / [linear_solver](../../../../../linear_solver) / [preconditioner::fieldsplit](../../../../preconditioner__fieldsplit) / [fieldsplit](../../../fieldsplit) / [linear_solver](../../linear_solver) / [preconditioner::ksp](../preconditioner__ksp) /
+/ [terraferma_options](../../../../../../../../../terraferma_options.md) / [system](../../../../../../../../system.md) / [nonlinear_solver](../../../../../../../nonlinear_solver.md) / [type::SNES](../../../../../../type__SNES.md) / [linear_solver](../../../../../linear_solver.md) / [preconditioner::fieldsplit](../../../../preconditioner__fieldsplit.md) / [fieldsplit](../../../fieldsplit.md) / [linear_solver](../../linear_solver.md) / [preconditioner::ksp](../preconditioner__ksp.md) /
 
 #linear_solver
 
@@ -29,7 +29,7 @@
 Solver options for the full solve done by this preconditioner
 
 * CHOICE:
-    * [iterative_method (gmres)](linear_solver/iterative_method__gmres "child")
+    * [iterative_method (gmres)](linear_solver/iterative_method__gmres.md "child")
 
         CHOICE 
 
@@ -39,7 +39,7 @@ Solver options for the full solve done by this preconditioner
         
         Your safest bet for non-symmetric systems.
 
-    * [iterative_method (fgmres)](linear_solver/iterative_method__fgmres "child")
+    * [iterative_method (fgmres)](linear_solver/iterative_method__fgmres.md "child")
 
         CHOICE 
 
@@ -47,7 +47,7 @@ Solver options for the full solve done by this preconditioner
 
         FGMRES
 
-    * [iterative_method (cg)](linear_solver/iterative_method__cg "child")
+    * [iterative_method (cg)](linear_solver/iterative_method__cg.md "child")
 
         CHOICE 
 
@@ -57,7 +57,7 @@ Solver options for the full solve done by this preconditioner
         
         Only works for symmetric systems.
 
-    * [iterative_method (preonly)](linear_solver/iterative_method__preonly "child")
+    * [iterative_method (preonly)](linear_solver/iterative_method__preonly.md "child")
 
         CHOICE 
 
@@ -68,7 +68,7 @@ Solver options for the full solve done by this preconditioner
         This is for non-iterative methods
         Only makes sense in combination with preconditioners that do a complete solve, e.g. lu.
 
-    * [iterative_method (richardson)](linear_solver/iterative_method__richardson "child")
+    * [iterative_method (richardson)](linear_solver/iterative_method__richardson.md "child")
 
         CHOICE 
 
@@ -78,7 +78,7 @@ Solver options for the full solve done by this preconditioner
         
         Only apply preconditioner each iteration, no krylov acceleration
 
-    * [iterative_method](linear_solver/iterative_method "child")
+    * [iterative_method](linear_solver/iterative_method.md "child")
 
         CHOICE 
 
@@ -93,7 +93,7 @@ Solver options for the full solve done by this preconditioner
         (available methods may depend on the PETSc library installed on your system)
 
 * CHOICE:
-    * [preconditioner (sor)](linear_solver/preconditioner__sor "child")
+    * [preconditioner (sor)](linear_solver/preconditioner__sor.md "child")
 
         CHOICE 
 
@@ -103,7 +103,7 @@ Solver options for the full solve done by this preconditioner
         
         This includes SSOR (symmetric sor)
 
-    * [preconditioner (eisenstat)](linear_solver/preconditioner__eisenstat "child")
+    * [preconditioner (eisenstat)](linear_solver/preconditioner__eisenstat.md "child")
 
         CHOICE 
 
@@ -126,7 +126,7 @@ Solver options for the full solve done by this preconditioner
 
         A fieldsplit preconditioner.
 
-    * [preconditioner (ilu)](linear_solver/preconditioner__ilu "child")
+    * [preconditioner (ilu)](linear_solver/preconditioner__ilu.md "child")
 
         CHOICE 
 
@@ -134,7 +134,7 @@ Solver options for the full solve done by this preconditioner
 
         Incomplete LU decomposition
 
-    * [preconditioner (lu)](linear_solver/preconditioner__lu "child")
+    * [preconditioner (lu)](linear_solver/preconditioner__lu.md "child")
 
         CHOICE 
 
@@ -144,7 +144,7 @@ Solver options for the full solve done by this preconditioner
         
         This performs a complete, direct solve of the equation and should only be used in combination with preonly as iterative method.
 
-    * [preconditioner (prometheus)](linear_solver/preconditioner__prometheus "child")
+    * [preconditioner (prometheus)](linear_solver/preconditioner__prometheus.md "child")
 
         CHOICE 
 
@@ -152,7 +152,7 @@ Solver options for the full solve done by this preconditioner
 
         Prometheus multigrid method
 
-    * [preconditioner (hypre)](linear_solver/preconditioner__hypre "child")
+    * [preconditioner (hypre)](linear_solver/preconditioner__hypre.md "child")
 
         CHOICE 
 
@@ -160,7 +160,7 @@ Solver options for the full solve done by this preconditioner
 
         Hypre preconditioners (includes boomeramg)
 
-    * [preconditioner (gamg)](linear_solver/preconditioner__gamg "child")
+    * [preconditioner (gamg)](linear_solver/preconditioner__gamg.md "child")
 
         CHOICE 
 
@@ -170,7 +170,7 @@ Solver options for the full solve done by this preconditioner
         
         NOTE: Only available with petsc > 3.2.
 
-    * [preconditioner (ml)](linear_solver/preconditioner__ml "child")
+    * [preconditioner (ml)](linear_solver/preconditioner__ml.md "child")
 
         CHOICE 
 
@@ -180,7 +180,7 @@ Solver options for the full solve done by this preconditioner
         
         NOTE: Only available if petsc is configured with ml!
 
-    * [preconditioner (jacobi)](linear_solver/preconditioner__jacobi "child")
+    * [preconditioner (jacobi)](linear_solver/preconditioner__jacobi.md "child")
 
         CHOICE 
 
@@ -188,7 +188,7 @@ Solver options for the full solve done by this preconditioner
 
         Jacobi
 
-    * [preconditioner (bjacobi)](linear_solver/preconditioner__bjacobi "child")
+    * [preconditioner (bjacobi)](linear_solver/preconditioner__bjacobi.md "child")
 
         CHOICE 
 
@@ -203,7 +203,7 @@ Solver options for the full solve done by this preconditioner
         the performance may be less than in serial and degrade with 
         increasing number of processors/decreasing local domain size.
 
-    * [preconditioner (asm)](linear_solver/preconditioner__asm "child")
+    * [preconditioner (asm)](linear_solver/preconditioner__asm.md "child")
 
         CHOICE 
 
@@ -234,7 +234,7 @@ Solver options for the full solve done by this preconditioner
         than in the outer solve (so that the preconditioner is close to an
         exact matrix inversion), or use fgmres in the outer solve.
 
-    * [preconditioner (lsc)](linear_solver/preconditioner__lsc "child")
+    * [preconditioner (lsc)](linear_solver/preconditioner__lsc.md "child")
 
         CHOICE 
 
@@ -246,7 +246,7 @@ Solver options for the full solve done by this preconditioner
         
         No options for the subksp are currently exposed so defaults are assumed.
 
-    * [preconditioner (none)](linear_solver/preconditioner__none "child")
+    * [preconditioner (none)](linear_solver/preconditioner__none.md "child")
 
         CHOICE 
 
@@ -254,7 +254,7 @@ Solver options for the full solve done by this preconditioner
 
         No preconditioner
 
-    * [preconditioner](linear_solver/preconditioner "child")
+    * [preconditioner](linear_solver/preconditioner.md "child")
 
         CHOICE 
 
@@ -268,7 +268,7 @@ Solver options for the full solve done by this preconditioner
         http://www.mcs.anl.gov/petsc/petsc-current/docs/manualpages/PC/PCType.html
         (available preconditioners may depend on the PETSc library installed on your system)
 
-* [remove_null_space](linear_solver/remove_null_space "child")
+* [remove_null_space](linear_solver/remove_null_space.md "child")
 
     OPTIONAL 
 

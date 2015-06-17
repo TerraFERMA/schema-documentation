@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [system](../../system) / [field](../field) /
+/ [terraferma_options](../../../terraferma_options.md) / [system](../../system.md) / [field](../field.md) /
 
 #type (Function)
 
@@ -31,7 +31,7 @@ The type of field (no option available).
 Fields may only be prognostic functions.
 
 * CHOICE:
-    * [rank (Scalar)](type__Function/rank__Scalar "child")
+    * [rank (Scalar)](type__Function/rank__Scalar.md "child")
 
         CHOICE 
 
@@ -39,7 +39,7 @@ Fields may only be prognostic functions.
 
         The rank of the field (scalar, rank 0).
 
-    * [rank (Vector)](type__Function/rank__Vector "child")
+    * [rank (Vector)](type__Function/rank__Vector.md "child")
 
         CHOICE 
 
@@ -47,7 +47,7 @@ Fields may only be prognostic functions.
 
         The rank of the field (vector, rank 1).
 
-    * [rank (Tensor)](type__Function/rank__Tensor "child")
+    * [rank (Tensor)](type__Function/rank__Tensor.md "child")
 
         CHOICE 
 

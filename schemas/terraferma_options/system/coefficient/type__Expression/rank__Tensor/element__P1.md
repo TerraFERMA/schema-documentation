@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [coefficient](../../../coefficient) / [type::Expression](../../type__Expression) / [rank::Tensor](../rank__Tensor) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [coefficient](../../../coefficient.md) / [type::Expression](../../type__Expression.md) / [rank::Tensor](../rank__Tensor.md) /
 
 #element (P1)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing piecewise linear continuous Lagrange finite element for a tensor.
 
-* [family](element__P1/family "child")
+* [family](element__P1/family.md "child")
 
     values: CG
 
@@ -40,7 +40,7 @@ Options describing piecewise linear continuous Lagrange finite element for a ten
     
     - CG = Lagrange (continuous Galerkin)
 
-* [degree](element__P1/degree "child")
+* [degree](element__P1/degree.md "child")
 
     values: 0 1
 
@@ -48,7 +48,7 @@ Options describing piecewise linear continuous Lagrange finite element for a ten
 
     Element degree
 
-* [shape](element__P1/shape "child")
+* [shape](element__P1/shape.md "child")
 
     OPTIONAL 
 
@@ -58,7 +58,7 @@ Options describing piecewise linear continuous Lagrange finite element for a ten
 
     The shape of the tensor.
 
-* [symmetric](element__P1/symmetric "child")
+* [symmetric](element__P1/symmetric.md "child")
 
     OPTIONAL 
 
@@ -66,7 +66,7 @@ Options describing piecewise linear continuous Lagrange finite element for a ten
 
     Tensor symmetry.
 
-* [enrichment](element__P1/enrichment "child")
+* [enrichment](element__P1/enrichment.md "child")
 
     OPTIONAL 
 

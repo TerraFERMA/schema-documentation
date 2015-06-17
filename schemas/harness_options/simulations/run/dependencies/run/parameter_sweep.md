@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../../../harness_options) / [simulations](../../../../simulations) / [run](../../../run) / [dependencies](../../dependencies) / [run](../run) /
+/ [harness_options](../../../../../harness_options.md) / [simulations](../../../../simulations.md) / [run](../../../run.md) / [dependencies](../../dependencies.md) / [run](../run.md) /
 
 #parameter_sweep
 
@@ -30,7 +30,7 @@ OPTIONAL
 
 Perform a sweep over the listed parameters.  This list should be a subset of the parent simulation parameters.
 
-* [parameter](parameter_sweep/parameter "child")
+* [parameter](parameter_sweep/parameter.md "child")
 
     MULTIPLE (0+) 
 
@@ -48,7 +48,7 @@ Perform a sweep over the listed parameters.  This list should be a subset of the
     
     Dependency parameters do NOT list values as these are taken from the parent simulation.
 
-* [number_runs](parameter_sweep/number_runs "child")
+* [number_runs](parameter_sweep/number_runs.md "child")
 
     OPTIONAL 
 

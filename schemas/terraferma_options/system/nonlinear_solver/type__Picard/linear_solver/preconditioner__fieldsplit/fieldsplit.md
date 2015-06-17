@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [nonlinear_solver](../../../../nonlinear_solver) / [type::Picard](../../../type__Picard) / [linear_solver](../../linear_solver) / [preconditioner::fieldsplit](../preconditioner__fieldsplit) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [nonlinear_solver](../../../../nonlinear_solver.md) / [type::Picard](../../../type__Picard.md) / [linear_solver](../../linear_solver.md) / [preconditioner::fieldsplit](../preconditioner__fieldsplit.md) /
 
 #fieldsplit
 
@@ -38,7 +38,7 @@ even if they are described below (a warning will be given).
 Fields included in any sibling fieldsplits will be excluded from this fieldsplit
 even if they are described below (a warning will be given).
 
-* [field](fieldsplit/field "child")
+* [field](fieldsplit/field.md "child")
 
     MULTIPLE (0+) 
 
@@ -48,13 +48,13 @@ even if they are described below (a warning will be given).
 
     Field to include in this index set.
 
-* [monitors](fieldsplit/monitors "child")
+* [monitors](fieldsplit/monitors.md "child")
 
     */system/nonlinear_solver/type::Picard/linear_solver/preconditioner::fieldsplit/fieldsplit/monitors*
 
     Parent option for index set monitors.
 
-* [linear_solver](fieldsplit/linear_solver "child")
+* [linear_solver](fieldsplit/linear_solver.md "child")
 
     */system/nonlinear_solver/type::Picard/linear_solver/preconditioner::fieldsplit/fieldsplit/linear_solver*
 

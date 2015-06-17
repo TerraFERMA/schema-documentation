@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [system](../../../system) / [coefficient](../../coefficient) / [diagnostics](../diagnostics) /
+/ [terraferma_options](../../../../terraferma_options.md) / [system](../../../system.md) / [coefficient](../../coefficient.md) / [diagnostics](../diagnostics.md) /
 
 #include_in_visualization
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Vector](../rank__Vector.md) /
 
 #element (P2DG)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing piecewise quadratic discontinuous Lagrange finite element for a vector.
 
-* [family](element__P2DG/family "child")
+* [family](element__P2DG/family.md "child")
 
     values: DG
 
@@ -40,7 +40,7 @@ Options describing piecewise quadratic discontinuous Lagrange finite element for
     
     - DG = Discontinuous Lagrange (discontinuous Galerkin)
 
-* [degree](element__P2DG/degree "child")
+* [degree](element__P2DG/degree.md "child")
 
     values: 0 2
 
@@ -48,7 +48,7 @@ Options describing piecewise quadratic discontinuous Lagrange finite element for
 
     Element degree
 
-* [size](element__P2DG/size "child")
+* [size](element__P2DG/size.md "child")
 
     OPTIONAL 
 
@@ -58,7 +58,7 @@ Options describing piecewise quadratic discontinuous Lagrange finite element for
 
     The size (length) of the vector.
 
-* [enrichment](element__P2DG/enrichment "child")
+* [enrichment](element__P2DG/enrichment.md "child")
 
     OPTIONAL 
 

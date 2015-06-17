@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [system](../../../system) / [coefficient](../../coefficient) / [type::Constant](../type__Constant) /
+/ [terraferma_options](../../../../terraferma_options.md) / [system](../../../system.md) / [coefficient](../../coefficient.md) / [type::Constant](../type__Constant.md) /
 
 #rank (Tensor)
 
@@ -30,7 +30,7 @@ CHOICE
 
 The rank of the coefficient (tensor, rank 2).
 
-* [value (WholeMesh)](rank__Tensor/value__WholeMesh "child")
+* [value (WholeMesh)](rank__Tensor/value__WholeMesh.md "child")
 
     */system/coefficient/type::Constant/rank::Tensor/value::WholeMesh*
 

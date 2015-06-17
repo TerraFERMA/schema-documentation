@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [coefficient](../../../coefficient) / [type::Expression](../../type__Expression) / [rank::Scalar](../rank__Scalar) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [coefficient](../../../coefficient.md) / [type::Expression](../../type__Expression.md) / [rank::Scalar](../rank__Scalar.md) /
 
 #element (P0R)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing piecewise constant continuous real, e.g. for a global Lagrange multiplier.
 
-* [family](element__P0R/family "child")
+* [family](element__P0R/family.md "child")
 
     values: R
 
@@ -40,7 +40,7 @@ Options describing piecewise constant continuous real, e.g. for a global Lagrang
     
     - R  = Real (global constant)
 
-* [degree](element__P0R/degree "child")
+* [degree](element__P0R/degree.md "child")
 
     values: 0 0
 

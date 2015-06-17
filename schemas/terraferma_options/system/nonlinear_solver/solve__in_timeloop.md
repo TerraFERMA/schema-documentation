@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [system](../../system) / [nonlinear_solver](../nonlinear_solver) /
+/ [terraferma_options](../../../terraferma_options.md) / [system](../../system.md) / [nonlinear_solver](../nonlinear_solver.md) /
 
 #solve (in_timeloop)
 

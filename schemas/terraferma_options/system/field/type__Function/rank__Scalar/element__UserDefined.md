@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Scalar](../rank__Scalar) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Scalar](../rank__Scalar.md) /
 
 #element (UserDefined)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing a user defined finite element.
 
-* [family](element__UserDefined/family "child")
+* [family](element__UserDefined/family.md "child")
 
     values: CG DG R Quadrature
 
@@ -46,7 +46,7 @@ Options describing a user defined finite element.
     
     - Quadrature
 
-* [degree](element__UserDefined/degree "child")
+* [degree](element__UserDefined/degree.md "child")
 
     type: integer
 
@@ -54,7 +54,7 @@ Options describing a user defined finite element.
 
     Element (or quadrature) degree
 
-* [enrichment](element__UserDefined/enrichment "child")
+* [enrichment](element__UserDefined/enrichment.md "child")
 
     OPTIONAL 
 

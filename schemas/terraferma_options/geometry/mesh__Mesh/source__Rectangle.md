@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [geometry](../../geometry) / [mesh::Mesh](../mesh__Mesh) /
+/ [terraferma_options](../../../terraferma_options.md) / [geometry](../../geometry.md) / [mesh::Mesh](../mesh__Mesh.md) /
 
 #source (Rectangle)
 
@@ -40,7 +40,7 @@ Boundary ids will be automatically assigned as:
 No region ids will be assigned.   
 
 
-* [lower_left](source__Rectangle/lower_left "child")
+* [lower_left](source__Rectangle/lower_left.md "child")
 
     type: floats
 
@@ -53,7 +53,7 @@ No region ids will be assigned.
          x---- 
     
 
-* [upper_right](source__Rectangle/upper_right "child")
+* [upper_right](source__Rectangle/upper_right.md "child")
 
     type: floats
 
@@ -66,7 +66,7 @@ No region ids will be assigned.
          ----- 
     
 
-* [number_cells](source__Rectangle/number_cells "child")
+* [number_cells](source__Rectangle/number_cells.md "child")
 
     type: integers
 
@@ -74,7 +74,7 @@ No region ids will be assigned.
 
     Specify the number of cells in each dimension.
 
-* [diagonal](source__Rectangle/diagonal "child")
+* [diagonal](source__Rectangle/diagonal.md "child")
 
     values: left right right/left left/right crossed
 
@@ -82,7 +82,7 @@ No region ids will be assigned.
 
     Specify the direction in which the diagonal should lie.
 
-* [cell](source__Rectangle/cell "child")
+* [cell](source__Rectangle/cell.md "child")
 
     values: triangle
 

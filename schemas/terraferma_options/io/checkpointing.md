@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [io](../io) /
+/ [terraferma_options](../../terraferma_options.md) / [io](../io.md) /
 
 #checkpointing
 
@@ -31,7 +31,7 @@ OPTIONAL
 Options to enable checkpointing
 
 * CHOICE:
-    * [checkpoint_period](checkpointing/checkpoint_period "child")
+    * [checkpoint_period](checkpointing/checkpoint_period.md "child")
 
         CHOICE 
 
@@ -41,7 +41,7 @@ Options to enable checkpointing
 
         Period in simulation time between checkpoints.
 
-    * [checkpoint_period_in_timesteps](checkpointing/checkpoint_period_in_timesteps "child")
+    * [checkpoint_period_in_timesteps](checkpointing/checkpoint_period_in_timesteps.md "child")
 
         CHOICE 
 

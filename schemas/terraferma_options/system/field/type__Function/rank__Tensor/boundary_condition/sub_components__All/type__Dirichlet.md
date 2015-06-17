@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../terraferma_options) / [system](../../../../../../system) / [field](../../../../../field) / [type::Function](../../../../type__Function) / [rank::Tensor](../../../rank__Tensor) / [boundary_condition](../../boundary_condition) / [sub_components::All](../sub_components__All) /
+/ [terraferma_options](../../../../../../../terraferma_options.md) / [system](../../../../../../system.md) / [field](../../../../../field.md) / [type::Function](../../../../type__Function.md) / [rank::Tensor](../../../rank__Tensor.md) / [boundary_condition](../../boundary_condition.md) / [sub_components::All](../sub_components__All.md) /
 
 #type (Dirichlet)
 
@@ -29,7 +29,7 @@
 The boundary condition type (only strong Dirichlet available).
 
 * CHOICE:
-    * [cpp](type__Dirichlet/cpp "child")
+    * [cpp](type__Dirichlet/cpp.md "child")
 
         CHOICE 
 
@@ -37,7 +37,7 @@ The boundary condition type (only strong Dirichlet available).
 
         A tensor described by a derived dolfin expression using c++ code.
 
-    * [python](type__Dirichlet/python "child")
+    * [python](type__Dirichlet/python.md "child")
 
         CHOICE 
 
@@ -63,7 +63,7 @@ The boundary condition type (only strong Dirichlet available).
         
         The return value must have the same shape as the tensor element.
 
-    * [constant (dim)](type__Dirichlet/constant__dim "child")
+    * [constant (dim)](type__Dirichlet/constant__dim.md "child")
 
         CHOICE 
 
@@ -73,7 +73,7 @@ The boundary condition type (only strong Dirichlet available).
 
         A constant tensor of shape /geometry/dimension x /geometry/dimension
 
-    * [constant (arbitrary)](type__Dirichlet/constant__arbitrary "child")
+    * [constant (arbitrary)](type__Dirichlet/constant__arbitrary.md "child")
 
         CHOICE 
 

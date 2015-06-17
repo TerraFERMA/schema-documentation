@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../terraferma_options) / [system](../../../../../../system) / [coefficient](../../../../../coefficient) / [type::Expression](../../../../type__Expression) / [rank::Scalar](../../../rank__Scalar) / [value::WholeMesh](../../value__WholeMesh) / [internal](../internal) /
+/ [terraferma_options](../../../../../../../terraferma_options.md) / [system](../../../../../../system.md) / [coefficient](../../../../../coefficient.md) / [type::Expression](../../../../type__Expression.md) / [rank::Scalar](../../../rank__Scalar.md) / [value::WholeMesh](../../value__WholeMesh.md) / [internal](../internal.md) /
 
 #algorithm (SemiLagrangian)
 
@@ -28,7 +28,7 @@
 
 A semilagrangian lookup algorithm
 
-* [lookup_function](algorithm__SemiLagrangian/lookup_function "child")
+* [lookup_function](algorithm__SemiLagrangian/lookup_function.md "child")
 
     */system/coefficient/type::Expression/rank::Scalar/value::WholeMesh/internal/algorithm::SemiLagrangian/lookup_function*
 
@@ -36,7 +36,7 @@ A semilagrangian lookup algorithm
     
     Note that the algorithm will always look up the value of the function at the previous timestep.
 
-* [velocity](algorithm__SemiLagrangian/velocity "child")
+* [velocity](algorithm__SemiLagrangian/velocity.md "child")
 
     */system/coefficient/type::Expression/rank::Scalar/value::WholeMesh/internal/algorithm::SemiLagrangian/velocity*
 
@@ -44,7 +44,7 @@ A semilagrangian lookup algorithm
     
     This must have the same dimension as the geometry.
 
-* [outside_value](algorithm__SemiLagrangian/outside_value "child")
+* [outside_value](algorithm__SemiLagrangian/outside_value.md "child")
 
     */system/coefficient/type::Expression/rank::Scalar/value::WholeMesh/internal/algorithm::SemiLagrangian/outside_value*
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [coefficient](../../../coefficient) / [type::Expression](../../type__Expression) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [coefficient](../../../coefficient.md) / [type::Expression](../../type__Expression.md) / [rank::Vector](../rank__Vector.md) /
 
 #element (BDM1)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing first degree discontinuous Raviart-Thomas element for a vector.
 
-* [family](element__BDM1/family "child")
+* [family](element__BDM1/family.md "child")
 
     values: BDM
 
@@ -40,7 +40,7 @@ Options describing first degree discontinuous Raviart-Thomas element for a vecto
     
     - BDM = Brezzi–Douglas–Marini
 
-* [degree](element__BDM1/degree "child")
+* [degree](element__BDM1/degree.md "child")
 
     values: 0 1
 
@@ -48,7 +48,7 @@ Options describing first degree discontinuous Raviart-Thomas element for a vecto
 
     Element degree
 
-* [enrichment](element__BDM1/enrichment "child")
+* [enrichment](element__BDM1/enrichment.md "child")
 
     OPTIONAL 
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [system](../../system) / [field](../field) /
+/ [terraferma_options](../../../terraferma_options.md) / [system](../../system.md) / [field](../field.md) /
 
 #diagnostics
 
@@ -28,7 +28,7 @@
 
 Output options
 
-* [include_in_visualization](diagnostics/include_in_visualization "child")
+* [include_in_visualization](diagnostics/include_in_visualization.md "child")
 
     OPTIONAL 
 
@@ -36,7 +36,7 @@ Output options
 
     Include this field in the visualization output file.
 
-* [include_in_statistics](diagnostics/include_in_statistics "child")
+* [include_in_statistics](diagnostics/include_in_statistics.md "child")
 
     OPTIONAL 
 
@@ -45,7 +45,7 @@ Output options
     Include this field in the statistics output file.
     The minimum and maximum of functions is included.
 
-* [include_in_steady_state](diagnostics/include_in_steady_state "child")
+* [include_in_steady_state](diagnostics/include_in_steady_state.md "child")
 
     OPTIONAL 
 
@@ -53,7 +53,7 @@ Output options
 
     Include this field in the steady state check and output file.
 
-* [include_in_detectors](diagnostics/include_in_detectors "child")
+* [include_in_detectors](diagnostics/include_in_detectors.md "child")
 
     OPTIONAL 
 
@@ -61,7 +61,7 @@ Output options
 
     Include this field in the detectors output file.
 
-* [include_residual_in_visualization](diagnostics/include_residual_in_visualization "child")
+* [include_residual_in_visualization](diagnostics/include_residual_in_visualization.md "child")
 
     OPTIONAL 
 

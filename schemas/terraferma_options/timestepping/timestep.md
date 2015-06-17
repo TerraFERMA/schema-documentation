@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [timestepping](../timestepping) /
+/ [terraferma_options](../../terraferma_options.md) / [timestepping](../timestepping.md) /
 
 #timestep
 
@@ -28,13 +28,13 @@
 
 Options for the timestep
 
-* [coefficient (Timestep)](timestep/coefficient__Timestep "child")
+* [coefficient (Timestep)](timestep/coefficient__Timestep.md "child")
 
     */timestepping/timestep/coefficient::Timestep*
 
     Options describing a coefficient in this system
 
-* [adaptive](timestep/adaptive "child")
+* [adaptive](timestep/adaptive.md "child")
 
     OPTIONAL 
 

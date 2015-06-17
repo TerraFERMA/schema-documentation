@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../../../harness_options) / [simulations](../../../../simulations) / [simulation](../../../simulation) / [dependencies](../../dependencies) / [run](../run) /
+/ [harness_options](../../../../../harness_options.md) / [simulations](../../../../simulations.md) / [simulation](../../../simulation.md) / [dependencies](../../dependencies.md) / [run](../run.md) /
 
 #variables
 
@@ -30,7 +30,7 @@ OPTIONAL
 
 A list of tests to run.  Each test name should be unique.
 
-* [variable](variables/variable "child")
+* [variable](variables/variable.md "child")
 
     MULTIPLE (1+) 
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../../../harness_options) / [simulations](../../simulations) / [simulation](../simulation) /
+/ [harness_options](../../../harness_options.md) / [simulations](../../simulations.md) / [simulation](../simulation.md) /
 
 #required_output
 
@@ -35,7 +35,7 @@ This list will be used to check if the simulation has previously successfully ru
 If this is a dependency of another simulation, this list will also be used as
 required input to the parent simulation.
 
-* [filenames](required_output/filenames "child")
+* [filenames](required_output/filenames.md "child")
 
     MULTIPLE (1+) 
 

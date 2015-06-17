@@ -28,19 +28,19 @@ The root node of the options dictionary for TerraFERMA.
 
 When viewed in diamond, options which are shaded blue are incomplete and require input.  Greyed out options are optional.  Black options are active.
 
-* [geometry](terraferma_options/geometry "child")
+* [geometry](terraferma_options/geometry.md "child")
 
     */geometry*
 
     The parent node for options dealing with the specification of geometry (e.g. the dimension and meshes)
 
-* [io](terraferma_options/io "child")
+* [io](terraferma_options/io.md "child")
 
     */io*
 
     Input/Output options
 
-* [timestepping](terraferma_options/timestepping "child")
+* [timestepping](terraferma_options/timestepping.md "child")
 
     OPTIONAL 
 
@@ -48,7 +48,7 @@ When viewed in diamond, options which are shaded blue are incomplete and require
 
     Options for timestepping if this is a dynamic simulation (leave inactive for steady state simulations)
 
-* [nonlinear_systems](terraferma_options/nonlinear_systems "child")
+* [nonlinear_systems](terraferma_options/nonlinear_systems.md "child")
 
     OPTIONAL 
 
@@ -62,13 +62,13 @@ When viewed in diamond, options which are shaded blue are incomplete and require
     
     Diagnostic systems will only be solved if convergence monitoring is requested.
 
-* [global_parameters](terraferma_options/global_parameters "child")
+* [global_parameters](terraferma_options/global_parameters.md "child")
 
     */global_parameters*
 
     Global parameter options
 
-* [system](terraferma_options/system "child")
+* [system](terraferma_options/system.md "child")
 
     MULTIPLE (1+) 
 

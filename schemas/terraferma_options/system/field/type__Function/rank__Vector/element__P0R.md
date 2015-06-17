@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Vector](../rank__Vector) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Vector](../rank__Vector.md) /
 
 #element (P0R)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing piecewise constant continuous real for a vector, e.g. for a global Lagrange multiplier.
 
-* [family](element__P0R/family "child")
+* [family](element__P0R/family.md "child")
 
     values: R
 
@@ -40,7 +40,7 @@ Options describing piecewise constant continuous real for a vector, e.g. for a g
     
     - R  = Real (global constant)
 
-* [degree](element__P0R/degree "child")
+* [degree](element__P0R/degree.md "child")
 
     values: 0 0
 
@@ -48,7 +48,7 @@ Options describing piecewise constant continuous real for a vector, e.g. for a g
 
     Element degree
 
-* [size](element__P0R/size "child")
+* [size](element__P0R/size.md "child")
 
     OPTIONAL 
 

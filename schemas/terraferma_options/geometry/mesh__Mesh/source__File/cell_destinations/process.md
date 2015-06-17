@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [geometry](../../../../geometry) / [mesh::Mesh](../../../mesh__Mesh) / [source::File](../../source__File) / [cell_destinations](../cell_destinations) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [geometry](../../../../geometry.md) / [mesh::Mesh](../../../mesh__Mesh.md) / [source::File](../../source__File.md) / [cell_destinations](../cell_destinations.md) /
 
 #process
 
@@ -40,7 +40,7 @@ the region_ids for process 0.
 
 Repeated region ids will be assigned to the highest rank process.
 
-* [region_ids](process/region_ids "child")
+* [region_ids](process/region_ids.md "child")
 
     type: integers
 

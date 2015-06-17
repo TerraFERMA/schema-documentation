@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [field](../../../field) / [type::Function](../../type__Function) / [rank::Scalar](../rank__Scalar) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [field](../../../field.md) / [type::Function](../../type__Function.md) / [rank::Scalar](../rank__Scalar.md) /
 
 #zero_point (Point)
 
@@ -33,7 +33,7 @@ Options for the description of a zero point at which field values are zeroed aft
 Unlike reference points, a zero point is a post-processing calculation and so should be used in conjunction 
 with a Lagrange multiplier or the removal of the null space if the solution would be ill conditioned otherwise.
 
-* [coordinates](zero_point__Point/coordinates "child")
+* [coordinates](zero_point__Point/coordinates.md "child")
 
     type: floats
 

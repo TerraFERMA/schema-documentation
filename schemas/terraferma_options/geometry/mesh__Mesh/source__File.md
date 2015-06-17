@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [geometry](../../geometry) / [mesh::Mesh](../mesh__Mesh) /
+/ [terraferma_options](../../../terraferma_options.md) / [geometry](../../geometry.md) / [mesh::Mesh](../mesh__Mesh.md) /
 
 #source (File)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Choose the source of this mesh as an externally generated mesh file.
 
-* [file](source__File/file "child")
+* [file](source__File/file.md "child")
 
     type: string
 
@@ -38,7 +38,7 @@ Choose the source of this mesh as an externally generated mesh file.
 
     Input the filename of a DOLFIN format mesh. 
 
-* [cell](source__File/cell "child")
+* [cell](source__File/cell.md "child")
 
     values: interval triangle tetrahedron
 
@@ -46,7 +46,7 @@ Choose the source of this mesh as an externally generated mesh file.
 
     Choose the type of ufl cell
 
-* [cell_destinations](source__File/cell_destinations "child")
+* [cell_destinations](source__File/cell_destinations.md "child")
 
     OPTIONAL 
 

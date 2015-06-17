@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [harness_options](../harness_options) /
+/ [harness_options](../harness_options.md) /
 
 #tests
 
@@ -30,7 +30,7 @@ OPTIONAL
 
 A list of tests to run.  Each test name should be unique.
 
-* [test](tests/test "child")
+* [test](tests/test.md "child")
 
     MULTIPLE (1+) 
 

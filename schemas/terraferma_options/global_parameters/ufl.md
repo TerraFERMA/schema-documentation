@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../terraferma_options) / [global_parameters](../global_parameters) /
+/ [terraferma_options](../../terraferma_options.md) / [global_parameters](../global_parameters.md) /
 
 #ufl
 

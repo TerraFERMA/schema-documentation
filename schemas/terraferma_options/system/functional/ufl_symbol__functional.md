@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [system](../../system) / [functional](../functional) /
+/ [terraferma_options](../../../terraferma_options.md) / [system](../../system.md) / [functional](../functional.md) /
 
 #ufl_symbol (functional)
 

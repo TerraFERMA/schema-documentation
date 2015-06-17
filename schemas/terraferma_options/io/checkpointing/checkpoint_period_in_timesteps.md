@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [io](../../io) / [checkpointing](../checkpointing) /
+/ [terraferma_options](../../../terraferma_options.md) / [io](../../io.md) / [checkpointing](../checkpointing.md) /
 
 #checkpoint_period_in_timesteps
 

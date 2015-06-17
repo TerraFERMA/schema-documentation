@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [field](../../../../field) / [type::Function](../../../type__Function) / [rank::Scalar](../../rank__Scalar) / [boundary_condition](../boundary_condition) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [field](../../../../field.md) / [type::Function](../../../type__Function.md) / [rank::Scalar](../../rank__Scalar.md) / [boundary_condition](../boundary_condition.md) /
 
 #sub_components (All)
 
@@ -28,7 +28,7 @@
 
 There are no sub components to a scalar so this is just a dummy tree level for consistency with a vector function
 
-* [type (Dirichlet)](sub_components__All/type__Dirichlet "child")
+* [type (Dirichlet)](sub_components__All/type__Dirichlet.md "child")
 
     */system/field/type::Function/rank::Scalar/boundary_condition/sub_components::All/type::Dirichlet*
 

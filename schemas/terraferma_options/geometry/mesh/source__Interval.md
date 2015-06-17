@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [geometry](../../geometry) / [mesh](../mesh) /
+/ [terraferma_options](../../../terraferma_options.md) / [geometry](../../geometry.md) / [mesh](../mesh.md) /
 
 #source (Interval)
 
@@ -37,7 +37,7 @@ Boundary ids will be automatically assigned as:
 No region ids will be assigned.   
 
 
-* [left](source__Interval/left "child")
+* [left](source__Interval/left.md "child")
 
     type: float
 
@@ -45,7 +45,7 @@ No region ids will be assigned.
 
     Location of left boundary.
 
-* [right](source__Interval/right "child")
+* [right](source__Interval/right.md "child")
 
     type: float
 
@@ -53,7 +53,7 @@ No region ids will be assigned.
 
     Location of right boundary.
 
-* [number_cells](source__Interval/number_cells "child")
+* [number_cells](source__Interval/number_cells.md "child")
 
     type: integer
 
@@ -61,7 +61,7 @@ No region ids will be assigned.
 
     Specify the number of cells.
 
-* [cell](source__Interval/cell "child")
+* [cell](source__Interval/cell.md "child")
 
     values: interval
 

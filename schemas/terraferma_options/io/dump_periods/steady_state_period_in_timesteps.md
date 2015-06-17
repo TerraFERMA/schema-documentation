@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [io](../../io) / [dump_periods](../dump_periods) /
+/ [terraferma_options](../../../terraferma_options.md) / [io](../../io.md) / [dump_periods](../dump_periods.md) /
 
 #steady_state_period_in_timesteps
 

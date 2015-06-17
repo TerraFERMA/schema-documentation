@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../terraferma_options) / [system](../../../../../system) / [coefficient](../../../../coefficient) / [type::Expression](../../../type__Expression) / [rank::Tensor](../../rank__Tensor) / [value](../value) /
+/ [terraferma_options](../../../../../../terraferma_options.md) / [system](../../../../../system.md) / [coefficient](../../../../coefficient.md) / [type::Expression](../../../type__Expression.md) / [rank::Tensor](../../rank__Tensor.md) / [value](../value.md) /
 
 #internal
 
@@ -30,7 +30,7 @@ CHOICE
 
 A tensor described by an internal derived dolfin expression.
 
-* [algorithm (SemiLagrangian)](internal/algorithm__SemiLagrangian "child")
+* [algorithm (SemiLagrangian)](internal/algorithm__SemiLagrangian.md "child")
 
     */system/coefficient/type::Expression/rank::Tensor/value/internal/algorithm::SemiLagrangian*
 

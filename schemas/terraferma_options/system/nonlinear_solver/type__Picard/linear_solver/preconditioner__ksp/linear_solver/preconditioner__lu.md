@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../../../terraferma_options) / [system](../../../../../../system) / [nonlinear_solver](../../../../../nonlinear_solver) / [type::Picard](../../../../type__Picard) / [linear_solver](../../../linear_solver) / [preconditioner::ksp](../../preconditioner__ksp) / [linear_solver](../linear_solver) /
+/ [terraferma_options](../../../../../../../terraferma_options.md) / [system](../../../../../../system.md) / [nonlinear_solver](../../../../../nonlinear_solver.md) / [type::Picard](../../../../type__Picard.md) / [linear_solver](../../../linear_solver.md) / [preconditioner::ksp](../../preconditioner__ksp.md) / [linear_solver](../linear_solver.md) /
 
 #preconditioner (lu)
 
@@ -33,7 +33,7 @@ LU direct solver
 This performs a complete, direct solve of the equation and should only be used in combination with preonly as iterative method.
 
 * CHOICE:
-    * [factorization_package (umfpack)](preconditioner__lu/factorization_package__umfpack "child")
+    * [factorization_package (umfpack)](preconditioner__lu/factorization_package__umfpack.md "child")
 
         CHOICE 
 
@@ -43,7 +43,7 @@ This performs a complete, direct solve of the equation and should only be used i
         
         Useful for systems with a near zero pivot.
 
-    * [factorization_package (mumps)](preconditioner__lu/factorization_package__mumps "child")
+    * [factorization_package (mumps)](preconditioner__lu/factorization_package__mumps.md "child")
 
         CHOICE 
 
@@ -53,7 +53,7 @@ This performs a complete, direct solve of the equation and should only be used i
         
         Useful for parallel direct solves (if installed on system).
 
-    * [factorization_package (petsc)](preconditioner__lu/factorization_package__petsc "child")
+    * [factorization_package (petsc)](preconditioner__lu/factorization_package__petsc.md "child")
 
         CHOICE 
 
@@ -61,7 +61,7 @@ This performs a complete, direct solve of the equation and should only be used i
 
         Package to use for the factorization - petsc.
 
-    * [factorization_package](preconditioner__lu/factorization_package "child")
+    * [factorization_package](preconditioner__lu/factorization_package.md "child")
 
         CHOICE 
 

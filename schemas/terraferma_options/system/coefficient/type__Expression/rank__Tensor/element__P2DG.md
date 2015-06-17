@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../../terraferma_options) / [system](../../../../system) / [coefficient](../../../coefficient) / [type::Expression](../../type__Expression) / [rank::Tensor](../rank__Tensor) /
+/ [terraferma_options](../../../../../terraferma_options.md) / [system](../../../../system.md) / [coefficient](../../../coefficient.md) / [type::Expression](../../type__Expression.md) / [rank::Tensor](../rank__Tensor.md) /
 
 #element (P2DG)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing piecewise quadratic discontinuous Lagrange finite element for a tensor.
 
-* [family](element__P2DG/family "child")
+* [family](element__P2DG/family.md "child")
 
     values: DG
 
@@ -40,7 +40,7 @@ Options describing piecewise quadratic discontinuous Lagrange finite element for
     
     - DG = Discontinuous Lagrange (discontinuous Galerkin)
 
-* [degree](element__P2DG/degree "child")
+* [degree](element__P2DG/degree.md "child")
 
     values: 0 2
 
@@ -48,7 +48,7 @@ Options describing piecewise quadratic discontinuous Lagrange finite element for
 
     Element degree
 
-* [shape](element__P2DG/shape "child")
+* [shape](element__P2DG/shape.md "child")
 
     OPTIONAL 
 
@@ -58,7 +58,7 @@ Options describing piecewise quadratic discontinuous Lagrange finite element for
 
     The shape of the tensor.
 
-* [symmetric](element__P2DG/symmetric "child")
+* [symmetric](element__P2DG/symmetric.md "child")
 
     OPTIONAL 
 
@@ -66,7 +66,7 @@ Options describing piecewise quadratic discontinuous Lagrange finite element for
 
     Tensor symmetry.
 
-* [enrichment](element__P2DG/enrichment "child")
+* [enrichment](element__P2DG/enrichment.md "child")
 
     OPTIONAL 
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../../terraferma_options) / [io](../../../io) / [visualization](../../visualization) / [element::P2](../element__P2) /
+/ [terraferma_options](../../../../terraferma_options.md) / [io](../../../io.md) / [visualization](../../visualization.md) / [element::P2](../element__P2.md) /
 
 #degree
 

@@ -20,7 +20,7 @@
 
 [documentation home](Documentation)
 
-/ [terraferma_options](../../../terraferma_options) / [io](../../io) / [visualization](../visualization) /
+/ [terraferma_options](../../../terraferma_options.md) / [io](../../io.md) / [visualization](../visualization.md) /
 
 #element (P1)
 
@@ -30,7 +30,7 @@ CHOICE
 
 Options describing piecewise linear continuous Lagrange finite element.
 
-* [family](element__P1/family "child")
+* [family](element__P1/family.md "child")
 
     values: CG
 
@@ -40,7 +40,7 @@ Options describing piecewise linear continuous Lagrange finite element.
     
     - CG = Lagrange (continuous Galerkin)
 
-* [degree](element__P1/degree "child")
+* [degree](element__P1/degree.md "child")
 
     values: 0 1
 
