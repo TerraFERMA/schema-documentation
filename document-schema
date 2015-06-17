@@ -49,7 +49,7 @@ schemafile=$(basename $1)
 cd $schemadir
 cp /usr/share/spud/spud_base.rng .
 cp $filedir/schema-doc.xsl .
-saxonb-xslt -ext:on -xsl:schema-doc.xsl -s:$schemafile docurl=Documentation issueurl=https://github.com/terraferma/terraferma/issues basedir=$outputdir
+saxonb-xslt -ext:on -xsl:schema-doc.xsl -s:$schemafile docurl=https://github.com/terraferma/terraferma/wiki/Documentation issueurl=https://github.com/terraferma/terraferma/issues basedir=$outputdir
 rm spud_base.rng
 rm schema-doc.xsl
 cd - >& /dev/null
