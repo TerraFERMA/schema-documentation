@@ -18,7 +18,7 @@
 [copyright]: # (You should have received a copy of the GNU Lesser General Public License)
 [copyright]: # (along with TerraFERMA. If not, see <http://www.gnu.org/licenses/>.)
 
-[documentation home](Documentation)
+[documentation home](https://github.com/terraferma/terraferma/wiki/Documentation)
 
 / [terraferma_options](../../../terraferma_options.md) / [io](../../io.md) / [dump_periods](../dump_periods.md) /
 

@@ -18,7 +18,7 @@
 [copyright]: # (You should have received a copy of the GNU Lesser General Public License)
 [copyright]: # (along with TerraFERMA. If not, see <http://www.gnu.org/licenses/>.)
 
-[documentation home](Documentation)
+[documentation home](https://github.com/terraferma/terraferma/wiki/Documentation)
 
 / [terraferma_options](../../../../../../../../terraferma_options.md) / [system](../../../../../../../system.md) / [coefficient](../../../../../../coefficient.md) / [type::Function](../../../../../type__Function.md) / [rank::Scalar](../../../../rank__Scalar.md) / [element::P2DG](../../../element__P2DG.md) / [enrichment](../../enrichment.md) / [element::B3](../element__B3.md) /
 

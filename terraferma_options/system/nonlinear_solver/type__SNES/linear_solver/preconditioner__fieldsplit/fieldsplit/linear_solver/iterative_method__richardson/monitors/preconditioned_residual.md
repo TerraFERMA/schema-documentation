@@ -18,7 +18,7 @@
 [copyright]: # (You should have received a copy of the GNU Lesser General Public License)
 [copyright]: # (along with TerraFERMA. If not, see <http://www.gnu.org/licenses/>.)
 
-[documentation home](Documentation)
+[documentation home](https://github.com/terraferma/terraferma/wiki/Documentation)
 
 / [terraferma_options](../../../../../../../../../../terraferma_options.md) / [system](../../../../../../../../../system.md) / [nonlinear_solver](../../../../../../../../nonlinear_solver.md) / [type::SNES](../../../../../../../type__SNES.md) / [linear_solver](../../../../../../linear_solver.md) / [preconditioner::fieldsplit](../../../../../preconditioner__fieldsplit.md) / [fieldsplit](../../../../fieldsplit.md) / [linear_solver](../../../linear_solver.md) / [iterative_method::richardson](../../iterative_method__richardson.md) / [monitors](../monitors.md) /
 
