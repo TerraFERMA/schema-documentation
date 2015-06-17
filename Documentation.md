@@ -7,5 +7,5 @@
 
 # Options
 
-Prototype schema documentation is provided [here](schemas/terraferma_options).
+Prototype schema documentation is provided [here](./schemas/terraferma_options).
 
