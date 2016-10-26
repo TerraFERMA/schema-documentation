@@ -42,7 +42,7 @@ Options describing piecewise constant continuous real for a vector, e.g. for a g
 
 * [degree](element__P0R/degree.md "child")
 
-    values: 0 0
+    values: 0
 
     */system/coefficient/type::Function/rank::Vector/element::P0R/degree*
 

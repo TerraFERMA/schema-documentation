@@ -24,13 +24,18 @@
 
 #initial_condition
 
-MULTIPLE (1+) CHOICE 
+MULTIPLE (0+) CHOICE 
 
 attributes: name (string) 
 
 */system/field/type::Function/rank::Scalar/initial_condition*
 
 Options for the description of the initial condition over a subset of the whole domain
+
+If unspecified the initial value will be set to 0.
+
+NOTE: this initial condition will be interpolated onto the dofs.  Some elements do not support this so you should instead
+solve the system at the start of the simulation to set the initial condition.
 
 * [region_ids](initial_condition/region_ids.md "child")
 

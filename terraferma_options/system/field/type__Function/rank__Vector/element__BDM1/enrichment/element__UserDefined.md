@@ -28,9 +28,7 @@ CHOICE
 
 */system/field/type::Function/rank::Vector/element::BDM1/enrichment/element::UserDefined*
 
-NO DOCUMENTATION
-
-Please raise an issue at: [https://github.com/terraferma/terraferma/issues](https://github.com/terraferma/terraferma/issues "project url").
+Options describing a user defined finite element enrichment.
 
 * [family](element__UserDefined/family.md "child")
 

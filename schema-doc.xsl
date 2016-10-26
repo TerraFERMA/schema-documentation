@@ -99,7 +99,7 @@ are willing to copy, paste and modify this stylesheet.-->
     <!--If this element has data to be set then determine what the value type it wants.  This can either come from spud base definitions (excluding the comment, which is a special case) or be included directly beneath the element as a child data node.-->
     <xsl:variable name="type" select="document($spudfiles)/descendant::r:define[@name=current()/child::r:ref/@name and @name!='comment']/descendant::r:data[not(ancestor::r:attribute)]/@type | child::r:data[@type]/@type"/>
     <!--Some elements don't have a type to set because they provide a hard-coded list of options.  Grab this, based on the list of element names provided in the spud base language, if available.-->
-    <xsl:variable name="values" select="child::r:element[@name=document($spudfiles)/descendant::r:element/@name]/descendant::r:value" />
+    <xsl:variable name="values" select="child::r:element[@name=document($spudfiles)/descendant::r:element/@name]/descendant::r:value[not(ancestor::r:attribute)]" />
     <!--If there are any attributes that have data to be set (determined based on there being a type attribute) then grab these.-->
     <xsl:variable name="attributes" select="child::r:attribute[child::r:data/@type]"/>
 

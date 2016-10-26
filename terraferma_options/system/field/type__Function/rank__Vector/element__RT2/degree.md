@@ -24,7 +24,7 @@
 
 #degree
 
-values: 0 2
+values: 2
 
 */system/field/type::Function/rank::Vector/element::RT2/degree*
 

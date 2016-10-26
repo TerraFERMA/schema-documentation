@@ -29,6 +29,14 @@
 The boundary condition type (only strong Dirichlet available).
 
 * CHOICE:
+    * [internal](type__Dirichlet/internal.md "child")
+
+        CHOICE 
+
+        */system/field/type::Function/rank::Tensor/boundary_condition/sub_components/type::Dirichlet/internal*
+
+        A scalar described by an internal derived dolfin expression.
+
     * [cpp](type__Dirichlet/cpp.md "child")
 
         CHOICE 

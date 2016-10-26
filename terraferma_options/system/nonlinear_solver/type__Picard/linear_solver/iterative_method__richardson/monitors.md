@@ -56,7 +56,7 @@ the solve. Some of those may really slow down your computation!
 
     Draws a graph over the convergence of the preconditioned residual
     during the solve. This option only works for systems where PETSc
-    has been linked with the X library.
+    has been linked with the X library and with PETSc <= 3.4.
 
 * [test_null_space](monitors/test_null_space.md "child")
 

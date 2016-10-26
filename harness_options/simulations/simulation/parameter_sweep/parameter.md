@@ -18,7 +18,7 @@
 [copyright]: # (You should have received a copy of the GNU Lesser General Public License)
 [copyright]: # (along with TerraFERMA. If not, see <http://www.gnu.org/licenses/>.)
 
-[documentation home](Documentation)
+[documentation home](https://github.com/terraferma/terraferma/wiki/Documentation)
 
 / [harness_options](../../../../harness_options.md) / [simulations](../../../simulations.md) / [simulation](../../simulation.md) / [parameter_sweep](../parameter_sweep.md) /
 
@@ -64,6 +64,10 @@ python code describing how the parameter should be updated.
     The values of all the parameters for this simulation will be available to this code using 
     the names given to the parameters above.  They will be formatted as strings and should be converted 
     appropriately within the code.
+    
+    Additionally, the full path to the input file is available as input_filename.
+    
+    For more advanced usage the Run or Simulation class object is available as _self.
 
 * [process_scale](parameter/process_scale.md "child")
 

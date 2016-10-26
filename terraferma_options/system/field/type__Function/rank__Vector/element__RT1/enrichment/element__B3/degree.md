@@ -24,7 +24,7 @@
 
 #degree
 
-values: 0 3
+values: 3
 
 */system/field/type::Function/rank::Vector/element::RT1/enrichment/element::B3/degree*
 

@@ -24,7 +24,7 @@
 
 #degree
 
-values: 0 1
+values: 1
 
 */system/field/type::Function/rank::Vector/element::BDM1/degree*
 

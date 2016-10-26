@@ -24,7 +24,7 @@
 
 #initial_condition (WholeMesh)
 
-MULTIPLE (1+) CHOICE 
+MULTIPLE (0+) CHOICE 
 
 */system/field/type::Function/rank::Tensor/initial_condition::WholeMesh*
 

@@ -30,7 +30,7 @@ The parent node for options dealing with the specification of geometry (e.g. the
 
 * [dimension](geometry/dimension.md "child")
 
-    values: 0 1 2 3
+    values: 1 2 3
 
     */geometry/dimension*
 

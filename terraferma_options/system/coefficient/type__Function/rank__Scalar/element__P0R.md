@@ -42,7 +42,7 @@ Options describing piecewise constant continuous real, e.g. for a global Lagrang
 
 * [degree](element__P0R/degree.md "child")
 
-    values: 0 0
+    values: 0
 
     */system/coefficient/type::Function/rank::Scalar/element::P0R/degree*
 

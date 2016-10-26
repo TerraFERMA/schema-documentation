@@ -98,21 +98,31 @@ The rank of the field (scalar, rank 0).
 * CHOICE:
     * [initial_condition (WholeMesh)](rank__Scalar/initial_condition__WholeMesh.md "child")
 
-        MULTIPLE (1+) CHOICE 
+        MULTIPLE (0+) CHOICE 
 
         */system/field/type::Function/rank::Scalar/initial_condition::WholeMesh*
 
         Options for the description of the initial condition over the whole domain
+        
+        If unspecified the initial value will be set to 0.
+        
+        NOTE: this initial condition will be interpolated onto the dofs.  Some elements do not support this so you should instead
+        solve the system at the start of the simulation to set the initial condition.
 
     * [initial_condition](rank__Scalar/initial_condition.md "child")
 
-        MULTIPLE (1+) CHOICE 
+        MULTIPLE (0+) CHOICE 
 
         attributes: name (string) 
 
         */system/field/type::Function/rank::Scalar/initial_condition*
 
         Options for the description of the initial condition over a subset of the whole domain
+        
+        If unspecified the initial value will be set to 0.
+        
+        NOTE: this initial condition will be interpolated onto the dofs.  Some elements do not support this so you should instead
+        solve the system at the start of the simulation to set the initial condition.
 
 * [boundary_condition](rank__Scalar/boundary_condition.md "child")
 

@@ -98,7 +98,7 @@ The rank of the field (tensor, rank 2).
 * CHOICE:
     * [initial_condition (WholeMesh)](rank__Tensor/initial_condition__WholeMesh.md "child")
 
-        MULTIPLE (1+) CHOICE 
+        MULTIPLE (0+) CHOICE 
 
         */system/field/type::Function/rank::Tensor/initial_condition::WholeMesh*
 
@@ -106,7 +106,7 @@ The rank of the field (tensor, rank 2).
 
     * [initial_condition](rank__Tensor/initial_condition.md "child")
 
-        MULTIPLE (1+) CHOICE 
+        MULTIPLE (0+) CHOICE 
 
         attributes: name (string) 
 

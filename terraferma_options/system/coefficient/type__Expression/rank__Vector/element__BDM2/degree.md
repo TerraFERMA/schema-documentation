@@ -24,7 +24,7 @@
 
 #degree
 
-values: 0 2
+values: 2
 
 */system/coefficient/type::Expression/rank::Vector/element::BDM2/degree*
 

@@ -24,7 +24,7 @@
 
 #family
 
-values: CG DG RT DRT BDM R Quadrature
+values: CG DG RT DRT BDM N1curl N2curl R Quadrature
 
 */system/coefficient/type::Expression/rank::Vector/element::UserDefined/family*
 
@@ -39,6 +39,10 @@ Element family:
 - DRT = Discontinuous Raviart-Thomas
 
 - BDM = Brezzi–Douglas–Marini
+
+- N1curl = Nedelec 1st kind H(curl)
+
+- N2curl = Nedelec 2nd kind H(curl)
 
 - R  = Real (global constant)
 

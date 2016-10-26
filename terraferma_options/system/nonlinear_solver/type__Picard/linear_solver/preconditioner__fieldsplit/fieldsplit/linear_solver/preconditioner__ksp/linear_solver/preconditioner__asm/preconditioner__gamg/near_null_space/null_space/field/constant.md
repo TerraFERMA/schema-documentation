@@ -26,7 +26,7 @@
 
 CHOICE 
 
-values: 0 1.0
+values: 1.0
 
 */system/nonlinear_solver/type::Picard/linear_solver/preconditioner::fieldsplit/fieldsplit/linear_solver/preconditioner::ksp/linear_solver/preconditioner::asm/preconditioner::gamg/near_null_space/null_space/field/constant*
 

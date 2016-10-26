@@ -42,7 +42,7 @@ Options describing piecewise linear continuous Lagrange finite element.
 
 * [degree](element__P1/degree.md "child")
 
-    values: 0 1
+    values: 1
 
     */io/visualization/element::P1/degree*
 

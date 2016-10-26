@@ -24,7 +24,7 @@
 
 #dimension
 
-values: 0 1 2 3
+values: 1 2 3
 
 */geometry/dimension*
 

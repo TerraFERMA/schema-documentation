@@ -28,7 +28,7 @@ CHOICE
 
 */system/field/type::Function/rank::Scalar/element::P2DG/enrichment/element::B3*
 
-Options describing a
+Options describing cubic bubble element.
 
 * [family](element__B3/family.md "child")
 
@@ -42,7 +42,7 @@ Options describing a
 
 * [degree](element__B3/degree.md "child")
 
-    values: 0 3
+    values: 3
 
     */system/field/type::Function/rank::Scalar/element::P2DG/enrichment/element::B3/degree*
 

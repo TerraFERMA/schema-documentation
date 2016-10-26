@@ -24,7 +24,7 @@
 
 #degree
 
-values: 0 1
+values: 1
 
 */system/coefficient/type::Expression/rank::Scalar/element::P1/degree*
 

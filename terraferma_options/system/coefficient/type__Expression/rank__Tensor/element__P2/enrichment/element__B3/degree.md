@@ -24,7 +24,7 @@
 
 #degree
 
-values: 0 3
+values: 3
 
 */system/coefficient/type::Expression/rank::Tensor/element::P2/enrichment/element::B3/degree*
 

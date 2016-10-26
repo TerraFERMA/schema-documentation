@@ -24,7 +24,7 @@
 
 #initial_condition
 
-MULTIPLE (1+) CHOICE 
+MULTIPLE (0+) CHOICE 
 
 attributes: name (string) 
 

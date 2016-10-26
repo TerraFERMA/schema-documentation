@@ -24,7 +24,7 @@
 
 #degree
 
-values: 0 2
+values: 2
 
 */system/coefficient/type::Function/rank::Tensor/element::P2/degree*
 

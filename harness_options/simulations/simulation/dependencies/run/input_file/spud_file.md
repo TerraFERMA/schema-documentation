@@ -18,7 +18,7 @@
 [copyright]: # (You should have received a copy of the GNU Lesser General Public License)
 [copyright]: # (along with TerraFERMA. If not, see <http://www.gnu.org/licenses/>.)
 
-[documentation home](Documentation)
+[documentation home](https://github.com/terraferma/terraferma/wiki/Documentation)
 
 / [harness_options](../../../../../../harness_options.md) / [simulations](../../../../../simulations.md) / [simulation](../../../../simulation.md) / [dependencies](../../../dependencies.md) / [run](../../run.md) / [input_file](../input_file.md) /
 

@@ -24,7 +24,7 @@
 
 #degree
 
-values: 0 1
+values: 1
 
 */io/visualization/element::P1DG/degree*
 

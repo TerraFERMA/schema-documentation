@@ -24,7 +24,7 @@
 
 #degree
 
-values: 0 0
+values: 0
 
 */system/coefficient/type::Function/rank::Vector/element::P0R/degree*
 

@@ -127,6 +127,38 @@ The rank of the coefficient (vector, rank 1).
 
         Options describing second degree discontinuous Raviart-Thomas element for a vector.
 
+    * [element (N1curl1)](rank__Vector/element__N1curl1.md "child")
+
+        CHOICE 
+
+        */system/coefficient/type::Expression/rank::Vector/element::N1curl1*
+
+        Options describing first degree Nedelec 1st kind H(curl) element for a vector.
+
+    * [element (N1curl2)](rank__Vector/element__N1curl2.md "child")
+
+        CHOICE 
+
+        */system/coefficient/type::Expression/rank::Vector/element::N1curl2*
+
+        Options describing second degree Nedelec 1st kind H(curl) element for a vector.
+
+    * [element (N2curl1)](rank__Vector/element__N2curl1.md "child")
+
+        CHOICE 
+
+        */system/coefficient/type::Expression/rank::Vector/element::N2curl1*
+
+        Options describing first degree Nedelec 2nd kind H(curl) element for a vector.
+
+    * [element (N2curl2)](rank__Vector/element__N2curl2.md "child")
+
+        CHOICE 
+
+        */system/coefficient/type::Expression/rank::Vector/element::N2curl2*
+
+        Options describing second degree Nedelec 2nd kind H(curl) element for a vector.
+
     * [element (P0R)](rank__Vector/element__P0R.md "child")
 
         CHOICE 

@@ -24,11 +24,16 @@
 
 #initial_condition (WholeMesh)
 
-MULTIPLE (1+) CHOICE 
+MULTIPLE (0+) CHOICE 
 
 */system/field/type::Function/rank::Scalar/initial_condition::WholeMesh*
 
 Options for the description of the initial condition over the whole domain
+
+If unspecified the initial value will be set to 0.
+
+NOTE: this initial condition will be interpolated onto the dofs.  Some elements do not support this so you should instead
+solve the system at the start of the simulation to set the initial condition.
 
 * CHOICE:
     * [file](initial_condition__WholeMesh/file.md "child")

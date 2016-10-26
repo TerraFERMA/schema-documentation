@@ -42,7 +42,7 @@ Options describing piecewise quadratic discontinuous Lagrange finite element.
 
 * [degree](element__P2DG/degree.md "child")
 
-    values: 0 2
+    values: 2
 
     */io/visualization/element::P2DG/degree*
 

@@ -73,7 +73,7 @@ Field to include in this index set.
 
         CHOICE 
 
-        values: 0 1.0
+        values: 1.0
 
         */system/nonlinear_solver/type::Picard/linear_solver/preconditioner::ksp/linear_solver/preconditioner::asm/preconditioner::ml/near_null_space/null_space/field/constant*
 

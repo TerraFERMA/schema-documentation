@@ -24,7 +24,7 @@
 
 #degree
 
-values: 0 0
+values: 0
 
 */system/field/type::Function/rank::Vector/element::P0/degree*
 
